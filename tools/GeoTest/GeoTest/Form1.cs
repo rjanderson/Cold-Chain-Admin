@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Xml;
 
 
 namespace GeoTest {
@@ -19,9 +20,10 @@ namespace GeoTest {
         private void OnFileOpenClick(object sender, EventArgs e) {
             var fileContent = string.Empty;
             var filePath = string.Empty;
+            var xmlDoc = new XmlDocument();
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog()) {
-                openFileDialog.InitialDirectory = "c:\\";
+  //              openFileDialog.InitialDirectory = "c:\\";
                 openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
@@ -32,14 +34,20 @@ namespace GeoTest {
 
                     //Read the contents of the file into a stream
                     var fileStream = openFileDialog.OpenFile();
-
-                    using (StreamReader reader = new StreamReader(fileStream)) {
-                        fileContent = reader.ReadToEnd();
+                    try {
+                        xmlDoc.Load(fileStream);
                     }
+                    catch (Exception) { };
+
+                    
                 }
             }
 
-            MessageBox.Show(fileContent, "File Content at path: " + filePath, MessageBoxButtons.OK);
+            MessageBox.Show(xmlDoc.ToString(), "File Content at path: " + filePath, MessageBoxButtons.OK);
+        }
+
+        private void OnExitClick(object sender, EventArgs e) {
+            Application.Exit();
         }
     }
 }
