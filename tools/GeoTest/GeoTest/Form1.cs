@@ -17,6 +17,8 @@ namespace GeoTest {
             InitializeComponent();
         }
 
+        public XmlDocument xmlDocument; 
+
         private void OnFileOpenClick(object sender, EventArgs e) {
             var fileContent = string.Empty;
             var filePath = string.Empty;
@@ -39,11 +41,12 @@ namespace GeoTest {
                     }
                     catch (Exception) { };
 
-                    
+                    this.xmlDocument = xmlDoc;
+                    this.textBox1.Text = GeoUtils.XmlString(this.xmlDocument);
                 }
             }
 
-            MessageBox.Show(xmlDoc.ToString(), "File Content at path: " + filePath, MessageBoxButtons.OK);
+ //           MessageBox.Show(xmlDoc.ToString(), "File Content at path: " + filePath, MessageBoxButtons.OK);
         }
 
         private void OnExitClick(object sender, EventArgs e) {
