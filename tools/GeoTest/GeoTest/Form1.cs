@@ -18,6 +18,8 @@ namespace GeoTest {
         }
 
         public XmlDocument xmlDocument; 
+        public string[] filterStrings = {"Snippet", "Style"};
+
 
         private void OnFileOpenClick(object sender, EventArgs e) {
             var fileContent = string.Empty;
@@ -51,6 +53,36 @@ namespace GeoTest {
 
         private void OnExitClick(object sender, EventArgs e) {
             Application.Exit();
+        }
+
+        private void OnSaveClick(object sender, EventArgs e) {
+
+            
+
+             
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog()) {
+
+                saveFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                saveFileDialog.FilterIndex = 2;
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK) {
+                    Stream fileStream;
+                    if ((fileStream = saveFileDialog.OpenFile()) != null) {
+
+                        if (this.xmlDocument != null)
+                            this.xmlDocument.Save(fileStream);
+
+                        fileStream.Close();
+                    }
+                }
+            }
+            
+        }
+
+        private void OnFilterClick(object sender, EventArgs e) {
+            if (this.xmlDocument != null)
+                this.xmlDocument = GeoUtils.FilterNodes(this.xmlDocument, this.filterStrings);
         }
     }
 }

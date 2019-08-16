@@ -35,6 +35,11 @@ namespace GeoTest {
 
         }
 
+        public static XmlDocument FilterNodes(XmlDocument doc, string[] strings) {
+
+            return doc;
+        }
+
     }
 
     

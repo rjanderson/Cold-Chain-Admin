@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="test">
+    <name>test1</name>
+    <Snippet>
+    </Snippet>
+    <Style id="PolyStyle00">
+      <LabelStyle>
+        <color>00000000</color>
+        <scale>0.000000</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>ff6e6e6e</color>
+        <width>0.400000</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ff5ea3a6</color>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Folder id="FeatureLayer0">
+      <name>pak_admbnda_adm1_ocha_pco_gaul_20181218</name>
+      <Snippet>
+      </Snippet>
+      <Placemark id="ID_00000">
+        <name>Balochistan</name>
+        <Snippet>
+        </Snippet>
+        <styleUrl>#PolyStyle00</styleUrl>
+        <MultiGeometry>
+          <Polygon>
+            <extrude>0</extrude>
+            <altitudeMode>clampToGround</altitudeMode>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates> 69.87862900000005,31.96019800000005,0 69.87983200000008,31.97885100000008,0 69.86418800000007,31.98426600000005,0 69.87381500000004,31.94635900000003,0 69.87862900000005,31.96019800000005,0</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
