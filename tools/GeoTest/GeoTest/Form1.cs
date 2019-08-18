@@ -82,7 +82,7 @@ namespace GeoTest {
 
         private void OnFilterClick(object sender, EventArgs e) {
             if (this.xmlDocument != null)
-                this.xmlDocument = GeoUtils.FilterNodes(this.xmlDocument, this.filterStrings);
+                GeoUtils.FilterNodes(this.xmlDocument, this.filterStrings);
         }
     }
 }

@@ -35,22 +35,20 @@ namespace GeoTest {
 
         }
 
-        public static XmlDocument FilterNodes(XmlDocument doc, string[] strings) {
-            XmlDocument newDoc = new XmlDocument();
+        public static void FilterNodes(XmlDocument doc, string[] strings) {
 
             XmlNode node = doc.FirstChild;
             while (node != null) {
-                XmlNode newNode = NodeCopy(node);
-                newDoc.AppendChild(node);
+                XmlNode nextNode = node.NextSibling;
+                FilterNode(node);
 
-                node = node.NextSibling;
+                node = nextNode;
             }
 
-            return doc;
         }
 
-        public static XmlNode NodeCopy(XmlNode node) {
-            return node.Clone();
+        public static void FilterNode(XmlNode node) {
+ 
         }
 
     }
