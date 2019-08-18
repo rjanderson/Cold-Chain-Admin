@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.IO;
+using System.Windows.Forms;
+
 
 namespace GeoTest {
     class GeoUtils {
@@ -49,6 +52,29 @@ namespace GeoTest {
 
         public static void FilterNode(XmlNode node) {
  
+        }
+
+        public static int CountNodes(XmlDocument doc, string str) {
+            XmlElement root = doc.DocumentElement;
+
+            return CountNodes(root, str);
+        }
+
+        public static int CountNodes(XmlNode element, string str) {
+       
+
+            int count = 0;
+            if (String.Equals(element.Name, str))
+                count = 1;
+
+
+            if (element.HasChildNodes) {
+                for (int i = 0; i < element.ChildNodes.Count; i++) {
+                    count += CountNodes(element.ChildNodes[i], str);
+                }
+            }
+
+            return count;
         }
 
     }

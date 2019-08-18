@@ -84,5 +84,15 @@ namespace GeoTest {
             if (this.xmlDocument != null)
                 GeoUtils.FilterNodes(this.xmlDocument, this.filterStrings);
         }
+
+        private void OnCountClick(object sender, EventArgs e) {
+            int count = 0;
+
+            if (this.xmlDocument != null)
+                count = GeoUtils.CountNodes(this.xmlDocument, "Snippet");
+
+            MessageBox.Show("Count: " + count);
+
+        }
     }
 }
