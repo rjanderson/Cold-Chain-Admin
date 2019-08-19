@@ -38,20 +38,32 @@ namespace GeoTest {
 
         }
 
-        public static void FilterNodes(XmlDocument doc, string[] strings) {
+        public static void FilterNodes(XmlDocument doc, string[]  strings) {
 
-            XmlNode node = doc.FirstChild;
-            while (node != null) {
-                XmlNode nextNode = node.NextSibling;
-                FilterNode(node);
-
-                node = nextNode;
-            }
-
+            XmlElement root = doc.DocumentElement;
+            // Note that this will not filter the root node if it matches the string
+            foreach (var str in strings)
+                FilterNodes(root, str);
         }
 
-        public static void FilterNode(XmlNode node) {
- 
+        public static void FilterNodes(XmlNode element, string str) {
+                
+            if (element.HasChildNodes) {
+                int count = element.ChildNodes.Count;
+                int i = 0;
+
+                while (i < count) {
+                    XmlNode childNode = element.ChildNodes[i];
+                    if (String.Equals(childNode.Name, str)) {
+                        element.RemoveChild(childNode);
+                        count--;
+                    } else {
+                        FilterNodes(childNode, str);
+                        i++;
+                    }
+                }
+            }
+
         }
 
         public static int CountNodes(XmlDocument doc, string str) {

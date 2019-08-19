@@ -18,7 +18,7 @@ namespace GeoTest {
         }
 
         public XmlDocument xmlDocument; 
-        public string[] filterStrings = {"Snippet", "Style"};
+        public string[] filterStrings = {"Snippet", "color", "extrude"};
 
 
         private void OnFileOpenClick(object sender, EventArgs e) {
@@ -82,7 +82,7 @@ namespace GeoTest {
 
         private void OnFilterClick(object sender, EventArgs e) {
             if (this.xmlDocument != null)
-                GeoUtils.FilterNodes(this.xmlDocument, this.filterStrings);
+                GeoUtils.FilterNodes(this.xmlDocument, filterStrings);
         }
 
         private void OnCountClick(object sender, EventArgs e) {
