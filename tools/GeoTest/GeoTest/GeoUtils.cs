@@ -13,11 +13,7 @@ namespace GeoTest {
         public static String XmlString(XmlDocument doc) {
             StringBuilder sb = new StringBuilder();
 
-            XmlNode header = doc.FirstChild;
-
-            sb.Append(header.InnerText +"\r\n\r\n");
-
-            XmlNode root = header.NextSibling;
+            XmlNode root = doc.DocumentElement;
 
             Traverse(root, sb, 0);
 
