@@ -20,7 +20,7 @@ namespace GeoTest {
         public XmlDocument xmlDocument;
         public string[] textDocument;
 
-        public string[] filterStrings = {"Snippet", "color", "extrude"};
+        public string[] filterStrings = {"Snippet", "color", "extrude","Style"};
         int MaxLines = 300;
 
 

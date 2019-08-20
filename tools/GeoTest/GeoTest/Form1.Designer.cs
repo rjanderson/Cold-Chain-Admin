@@ -32,14 +32,14 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.kmlFileLabel = new System.Windows.Forms.Label();
-            this.textFileLabel = new System.Windows.Forms.Label();
             this.countToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.filterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.processToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.step1CDATAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.step2ExtractTablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.kmlFileLabel = new System.Windows.Forms.Label();
+            this.textFileLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,40 +70,40 @@
             // openKmlToolStripMenuItem
             // 
             this.openKmlToolStripMenuItem.Name = "openKmlToolStripMenuItem";
-            this.openKmlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openKmlToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.openKmlToolStripMenuItem.Text = "Open KML";
             this.openKmlToolStripMenuItem.Click += new System.EventHandler(this.OnOpenKmlClick);
             // 
             // openTextToolStripMenuItem
             // 
             this.openTextToolStripMenuItem.Name = "openTextToolStripMenuItem";
-            this.openTextToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openTextToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.openTextToolStripMenuItem.Text = "Open Text ";
             this.openTextToolStripMenuItem.Click += new System.EventHandler(this.OnOpenTextClick);
             // 
             // saveToolKmlStripMenuItem
             // 
             this.saveToolKmlStripMenuItem.Name = "saveToolKmlStripMenuItem";
-            this.saveToolKmlStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolKmlStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.saveToolKmlStripMenuItem.Text = "Save KML";
             this.saveToolKmlStripMenuItem.Click += new System.EventHandler(this.OnSaveKmlClick);
             // 
             // saveTextToolStripMenuItem
             // 
             this.saveTextToolStripMenuItem.Name = "saveTextToolStripMenuItem";
-            this.saveTextToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveTextToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.saveTextToolStripMenuItem.Text = "Save Text";
             this.saveTextToolStripMenuItem.Click += new System.EventHandler(this.OnSaveTextClick);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(127, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExitClick);
             // 
@@ -114,8 +114,45 @@
             this.filterToolStripMenuItem1,
             this.processToolStripMenuItem1});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
+            // 
+            // countToolStripMenuItem1
+            // 
+            this.countToolStripMenuItem1.Name = "countToolStripMenuItem1";
+            this.countToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.countToolStripMenuItem1.Text = "Count";
+            this.countToolStripMenuItem1.Click += new System.EventHandler(this.OnCountClick);
+            // 
+            // filterToolStripMenuItem1
+            // 
+            this.filterToolStripMenuItem1.Name = "filterToolStripMenuItem1";
+            this.filterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.filterToolStripMenuItem1.Text = "Filter";
+            this.filterToolStripMenuItem1.Click += new System.EventHandler(this.OnFilterClick);
+            // 
+            // processToolStripMenuItem1
+            // 
+            this.processToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.step1CDATAToolStripMenuItem,
+            this.step2ExtractTablesToolStripMenuItem});
+            this.processToolStripMenuItem1.Name = "processToolStripMenuItem1";
+            this.processToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.processToolStripMenuItem1.Text = "Process";
+            // 
+            // step1CDATAToolStripMenuItem
+            // 
+            this.step1CDATAToolStripMenuItem.Name = "step1CDATAToolStripMenuItem";
+            this.step1CDATAToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.step1CDATAToolStripMenuItem.Text = "Step 1: CDATA";
+            this.step1CDATAToolStripMenuItem.Click += new System.EventHandler(this.OnStepOneClick);
+            // 
+            // step2ExtractTablesToolStripMenuItem
+            // 
+            this.step2ExtractTablesToolStripMenuItem.Name = "step2ExtractTablesToolStripMenuItem";
+            this.step2ExtractTablesToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.step2ExtractTablesToolStripMenuItem.Text = "Step 2: Extract Tables";
+            this.step2ExtractTablesToolStripMenuItem.Click += new System.EventHandler(this.OnStepTwoClick);
             // 
             // textBox1
             // 
@@ -143,41 +180,6 @@
             this.textFileLabel.Size = new System.Drawing.Size(50, 13);
             this.textFileLabel.TabIndex = 3;
             this.textFileLabel.Text = "Text File:";
-            // 
-            // countToolStripMenuItem1
-            // 
-            this.countToolStripMenuItem1.Name = "countToolStripMenuItem1";
-            this.countToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.countToolStripMenuItem1.Text = "Count";
-            // 
-            // filterToolStripMenuItem1
-            // 
-            this.filterToolStripMenuItem1.Name = "filterToolStripMenuItem1";
-            this.filterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.filterToolStripMenuItem1.Text = "Filter";
-            // 
-            // processToolStripMenuItem1
-            // 
-            this.processToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.step1CDATAToolStripMenuItem,
-            this.step2ExtractTablesToolStripMenuItem});
-            this.processToolStripMenuItem1.Name = "processToolStripMenuItem1";
-            this.processToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.processToolStripMenuItem1.Text = "Process";
-            // 
-            // step1CDATAToolStripMenuItem
-            // 
-            this.step1CDATAToolStripMenuItem.Name = "step1CDATAToolStripMenuItem";
-            this.step1CDATAToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.step1CDATAToolStripMenuItem.Text = "Step 1: CDATA";
-            this.step1CDATAToolStripMenuItem.Click += new System.EventHandler(this.OnStepOneClick);
-            // 
-            // step2ExtractTablesToolStripMenuItem
-            // 
-            this.step2ExtractTablesToolStripMenuItem.Name = "step2ExtractTablesToolStripMenuItem";
-            this.step2ExtractTablesToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.step2ExtractTablesToolStripMenuItem.Text = "Step 2: Extract Tables";
-            this.step2ExtractTablesToolStripMenuItem.Click += new System.EventHandler(this.OnStepTwoClick);
             // 
             // Form1
             // 

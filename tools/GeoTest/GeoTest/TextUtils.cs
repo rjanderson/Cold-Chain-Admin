@@ -53,7 +53,7 @@ namespace GeoTest {
 
             int i = 0;
             while (i < lines.Length){
-                if (lines[i].StartsWith("<table")) {
+                if (lines[i].Contains("<table")) {
                     i = ProcessTable(lines, i, newLines);
                 }
                 else {
@@ -70,7 +70,7 @@ namespace GeoTest {
         static int ProcessTable(string[] lines, int index, List<string> newLines) {
             int i = index + 1;
             newLines.Add("<AdminRegion>");
-            while (!lines[i].StartsWith("<table")) {
+            while (!lines[i].Contains("<table")) {
                 string data = ExtractItem(lines[i]);
                 if (data != null) {
                     newLines.Add("<RegionName>" + data + "</RegionName>");
@@ -78,10 +78,14 @@ namespace GeoTest {
                 i++;
             }
             i++;
-            while (!lines[i].StartsWith("</table>"))
+            AdminBlock adminBlock = new AdminBlock();
+            while (!lines[i].Contains("</table>")) {
+                adminBlock.Process(lines[i]);
                 i++;
+            }
+            newLines.AddRange(adminBlock.ToKml());
             i++;
-            while (!lines[i].StartsWith("</table>"))
+            while (!lines[i].Contains("</table>"))
                 i++;
             newLines.Add("</AdminRegion>");
             return i + 1;
@@ -89,10 +93,99 @@ namespace GeoTest {
 
         }
 
-        static string ExtractItem(string line) {
-            if (line.StartsWith("<td>") && line.EndsWith("</td>"))
-                return line.Substring(4, line.Length - 9);
+        public static string ExtractItem(string line) {
+            int index = line.IndexOf("<td>");
+            if (index > -1 && line.EndsWith("</td>"))
+                return line.Substring(index + 4, line.Length - index - 9);
             return null;
+        }
+
+        class AdminBlock {
+            enum state {initial, n1, c1, n2, c2, n3, c3 };
+
+            state State = state.initial;
+
+            string name3;
+            string code3;
+            string name2;
+            string code2;
+            string name1;
+            string code1;
+
+            public List<string> ToKml() {
+                List<string> result = new List<string>();
+                
+ 
+                if (name1 != null) {
+                    result.Add("<Level1>");
+                    result.Add("<Name>" + name1 + "</Name>");
+                    result.Add("<Code>" + code1 + "</Code>");
+                    result.Add("</Level1>");
+                }
+                if (name2 != null) {
+                    result.Add("<Level2>");
+                    result.Add("<Name>" + name2+ "</Name>");
+                    result.Add("<Code>" + code2 + "</Code>");
+                    result.Add("</Level2>");
+                } 
+                if (name3 != null) {
+                    result.Add("<Level3>");
+                    result.Add("<Name>" + name3 + "</Name>");
+                    result.Add("<Code>" + code3 + "</Code>");
+                    result.Add("</Level3>");
+                }
+                return result;
+            }
+
+            public void Process(string line) {
+                string str = TextUtils.ExtractItem(line);
+                if (str == null)
+                    return;
+
+                switch (State) {
+                    case state.initial:
+                        if (str.Equals("admin1Name_en"))
+                            State = state.n1;
+                        else if (str.Equals("admin1Pcode"))
+                            State = state.c1;
+                        else if (str.Equals("admin2Name_en"))
+                            State = state.n2;
+                        else if (str.Equals("admin2Pcode"))
+                            State = state.c2;
+                        else if (str.Equals("admin3Name_en"))
+                            State = state.n3;
+                        else if (str.Equals("admin3Pcode"))
+                            State = state.c3;
+                        break;
+                    case state.n1:
+                        name1 = str;
+                        State = state.initial;
+                        break;
+                    case state.c1:
+                        code1 = str;
+                        State = state.initial;
+                        break;
+                    case state.n2:
+                        name2 = str;
+                        State = state.initial;
+                        break;
+                    case state.c2:
+                        code2 = str;
+                        State = state.initial;
+                        break;
+                    case state.n3:
+                        name3 = str;
+                        State = state.initial;
+                        break;
+                    case state.c3:
+                        code3 = str;
+                        State = state.initial;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
         }
     }
 }
