@@ -21,7 +21,7 @@ namespace GeoTest {
         public string[] textDocument;
 
         public string[] filterStrings = {"Snippet", "color", "extrude"};
-        int MaxLines = 50;
+        int MaxLines = 300;
 
 
         private void OnOpenKmlClick(object sender, EventArgs e) {
@@ -50,6 +50,8 @@ namespace GeoTest {
 
                     this.xmlDocument = xmlDoc;
                     this.textBox1.Text = GeoUtils.XmlString(this.xmlDocument);
+
+                    this.kmlFileLabel.Text = "KML File: " + TextUtils.TruncateString(filePath, 50);
                 }
             }
 
@@ -127,6 +129,8 @@ namespace GeoTest {
 
                     DisplayTextFile(MaxLines);
 
+                    this.textFileLabel.Text = "Text File: " + TextUtils.TruncateString(filePath, 50);
+
                     
                 }
             }
@@ -152,6 +156,10 @@ namespace GeoTest {
                 return;
 
             this.textDocument = TextUtils.RemoveEmptyLines(this.textDocument);
+            this.textDocument = TextUtils.RemoveSubstring(this.textDocument,"<![CDATA[");
+            this.textDocument = TextUtils.RemoveSubstring(this.textDocument, "]]>");
+            this.textDocument = TextUtils.RemoveLine(this.textDocument, "<META");
+            this.textDocument = TextUtils.RemoveLine(this.textDocument, "<meta");
             DisplayTextFile(MaxLines);
 
         }
@@ -166,6 +174,14 @@ namespace GeoTest {
 
             this.textBox1.Text = sb.ToString();
 
+        }
+
+        private void OnStepTwoClick(object sender, EventArgs e) {
+            if (this.textDocument == null)
+                return;
+
+            this.textDocument = TextUtils.ExtractTables(this.textDocument);
+            DisplayTextFile(MaxLines);
         }
     }
 }

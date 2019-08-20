@@ -77,7 +77,7 @@
    <Folder id="FeatureLayer0">
     <name>pak_admbnda_adm3_ocha_pco_gaul_20181218</name>
     <Snippet></Snippet>
-    <description><![CDATA[Level 3 (Tehsils/Taluka) of Pakistan (Country wide coverage)]]></description>
+    <description>"Level 3 (Tehsils/Taluka) of Pakistan (Country wide coverage)"</description>
     <Placemark id="ID_00000">
       <name>Abbottabad</name>
       <Snippet></Snippet>
