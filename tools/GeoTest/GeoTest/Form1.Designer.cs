@@ -40,6 +40,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.kmlFileLabel = new System.Windows.Forms.Label();
             this.textFileLabel = new System.Windows.Forms.Label();
+            this.extractAdminDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAdminTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +63,7 @@
             this.openTextToolStripMenuItem,
             this.saveToolKmlStripMenuItem,
             this.saveTextToolStripMenuItem,
+            this.saveAdminTableToolStripMenuItem,
             this.toolStripSeparator2,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -112,9 +115,10 @@
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.countToolStripMenuItem1,
             this.filterToolStripMenuItem1,
-            this.processToolStripMenuItem1});
+            this.processToolStripMenuItem1,
+            this.extractAdminDataToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // countToolStripMenuItem1
@@ -181,6 +185,20 @@
             this.textFileLabel.TabIndex = 3;
             this.textFileLabel.Text = "Text File:";
             // 
+            // extractAdminDataToolStripMenuItem
+            // 
+            this.extractAdminDataToolStripMenuItem.Name = "extractAdminDataToolStripMenuItem";
+            this.extractAdminDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.extractAdminDataToolStripMenuItem.Text = "Extract Admin Data";
+            this.extractAdminDataToolStripMenuItem.Click += new System.EventHandler(this.OnExtractClick);
+            // 
+            // saveAdminTableToolStripMenuItem
+            // 
+            this.saveAdminTableToolStripMenuItem.Name = "saveAdminTableToolStripMenuItem";
+            this.saveAdminTableToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAdminTableToolStripMenuItem.Text = "Save Admin Table";
+            this.saveAdminTableToolStripMenuItem.Click += new System.EventHandler(this.OnSaveAdminClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,6 +237,8 @@
         private System.Windows.Forms.ToolStripMenuItem processToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem step1CDATAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem step2ExtractTablesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem extractAdminDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveAdminTableToolStripMenuItem;
     }
 }
 

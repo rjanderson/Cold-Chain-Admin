@@ -85,6 +85,49 @@ namespace GeoTest {
             return count;
         }
 
+        public static string[] ExtractAdminTable(XmlDocument doc) {
+            XmlElement root = doc.DocumentElement;
+
+            List<string> lineList = new List<string>();
+            XmlNodeList nodeList = doc.GetElementsByTagName("AdminRegion");
+            foreach (XmlElement node in nodeList) {
+                lineList.Add(GetAdminData(node));
+            }
+
+            return lineList.ToArray();
+        }
+
+        static string GetAdminData(XmlElement node) {
+            string rowString = "";
+
+            XmlNodeList nodeList = node.GetElementsByTagName("RegionName");
+            if (nodeList.Count > 0)
+                rowString = nodeList[0].InnerText + ", ";
+            else
+                rowString = ",";
+
+            string[] outerList = { "Level1", "Level2", "Level3" };
+            string[] innerList = { "Name", "Code"};
+
+            foreach (string str1 in outerList) {
+                XmlNodeList nodeList1 = node.GetElementsByTagName(str1);
+                if (nodeList1.Count > 0) {
+                    foreach (string str2 in innerList) {
+                        XmlNodeList nodeList2 = ((XmlElement) nodeList1[0]).GetElementsByTagName(str2);
+                        if (nodeList2.Count > 0)
+                            rowString += nodeList2[0].InnerText + ", ";
+                        else
+                            rowString += ", ";
+                    }
+                }
+                else
+                    rowString += ", , ";
+
+            }
+
+            return rowString;
+        }
+
     }
 
     

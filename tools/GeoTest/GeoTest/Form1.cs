@@ -19,6 +19,7 @@ namespace GeoTest {
 
         public XmlDocument xmlDocument;
         public string[] textDocument;
+        public string[] adminDocument;
 
         public string[] filterStrings = {"Snippet", "color", "extrude","Style"};
         int MaxLines = 300;
@@ -127,7 +128,7 @@ namespace GeoTest {
                         MessageBox.Show(exception.Message);
                     };
 
-                    DisplayTextFile(MaxLines);
+                    DisplayTextFile(MaxLines, this.textDocument);
 
                     this.textFileLabel.Text = "Text File: " + TextUtils.TruncateString(filePath, 50);
 
@@ -160,20 +161,20 @@ namespace GeoTest {
             this.textDocument = TextUtils.RemoveSubstring(this.textDocument, "]]>");
             this.textDocument = TextUtils.RemoveLine(this.textDocument, "<META");
             this.textDocument = TextUtils.RemoveLine(this.textDocument, "<meta");
-            DisplayTextFile(MaxLines);
+            DisplayTextFile(MaxLines, this.textDocument);
 
         }
 
-        private void DisplayTextFile(int maxLines) {
+
+        private void DisplayTextFile(int maxLines, string[] lines) {
             StringBuilder sb = new StringBuilder();
 
-            int max = (this.textDocument.Length < maxLines) ? this.textDocument.Length : maxLines;
+            int max = (lines.Length < maxLines) ? lines.Length : maxLines;
 
             for (int i = 0; i < max; i++)
-                sb.Append(this.textDocument[i] + "\r\n");
+                sb.Append(lines[i] + "\r\n");
 
             this.textBox1.Text = sb.ToString();
-
         }
 
         private void OnStepTwoClick(object sender, EventArgs e) {
@@ -181,7 +182,30 @@ namespace GeoTest {
                 return;
 
             this.textDocument = TextUtils.ExtractTables(this.textDocument);
-            DisplayTextFile(MaxLines);
+            DisplayTextFile(MaxLines, this.textDocument);
+        }
+
+        private void OnExtractClick(object sender, EventArgs e) {
+            if (this.xmlDocument == null)
+                return;
+
+            this.adminDocument = GeoUtils.ExtractAdminTable(this.xmlDocument);
+            DisplayTextFile(MaxLines, this.adminDocument);
+        }
+
+        private void OnSaveAdminClick(object sender, EventArgs e) {
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog()) {
+
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+                saveFileDialog.FilterIndex = 1;
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK) {
+                    string filePath = saveFileDialog.FileName;
+                    System.IO.File.WriteAllLines(filePath, this.adminDocument);
+
+                }
+            }
         }
     }
 }

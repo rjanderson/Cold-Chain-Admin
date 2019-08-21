@@ -4,7 +4,7 @@
     <name>pak_admbnda_adm1_ocha_pco_gaul_20181218</name>
     <Folder id="FeatureLayer0">
       <name>pak_admbnda_adm1_ocha_pco_gaul_20181218</name>
-      <description>Level 1 (Provinces) of Pakistan (Country wide coverage)</description>
+      <description>"Level 1 (Provinces) of Pakistan (Country wide coverage)"</description>
       <Placemark id="ID_00000">
         <name>Balochistan</name>
         <description>
