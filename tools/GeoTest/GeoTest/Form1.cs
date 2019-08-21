@@ -21,7 +21,7 @@ namespace GeoTest {
         public string[] textDocument;
         public string[] adminDocument;
 
-        public string[] filterStrings = {"Snippet", "color", "extrude","Style"};
+        public string[] filterStrings = {"Snippet", "color", "extrude","Style", "altitudeMode", "head", "styleUrl"};
         int MaxLines = 300;
 
 
@@ -206,6 +206,15 @@ namespace GeoTest {
 
                 }
             }
+        }
+
+        private void OnUpdateCoordinatesClick(object sender, EventArgs e) {
+            if (this.xmlDocument == null)
+                return;
+
+            this.xmlDocument = GeoUtils.UpdateRegionBoundaries(this.xmlDocument);
+            
+
         }
     }
 }

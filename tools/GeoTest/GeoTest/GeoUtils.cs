@@ -86,9 +86,11 @@ namespace GeoTest {
         }
 
         public static string[] ExtractAdminTable(XmlDocument doc) {
-            XmlElement root = doc.DocumentElement;
 
             List<string> lineList = new List<string>();
+            string headerString = "Region Name,  Level 1 Name,  Level 1 Code, Level 2 Name, Level 2 Code, Level 3 Name, Level 3 Code,";
+            lineList.Add(headerString);
+
             XmlNodeList nodeList = doc.GetElementsByTagName("AdminRegion");
             foreach (XmlElement node in nodeList) {
                 lineList.Add(GetAdminData(node));
@@ -126,6 +128,41 @@ namespace GeoTest {
             }
 
             return rowString;
+        }
+
+        public static XmlDocument UpdateRegionBoundaries(XmlDocument doc) {
+            XmlDocument newDoc = (XmlDocument)doc.Clone();
+
+            XmlNodeList nodeList = newDoc.GetElementsByTagName("coordinates");
+            foreach (XmlElement node in nodeList) {
+                node.InnerText = UpdateBoundary(node.InnerText);
+            }
+
+            return newDoc;
+        }
+
+        static string UpdateBoundary(string boundaryString) {
+            char[] delimiters = { ' ', ',' };
+            StringBuilder sb = new StringBuilder();
+
+            string[] separate = boundaryString.Split(delimiters, System.StringSplitOptions.RemoveEmptyEntries);
+
+            for (int i = 0; i < separate.Length; i += 3) {
+                try {
+                    decimal longitude = decimal.Parse(separate[i]);
+                    decimal latitude = decimal.Parse(separate[i + 1]);
+                    decimal altitude = decimal.Parse(separate[i + 2]);
+
+                    string coordString = " " + longitude.ToString("F4") + ","+ latitude.ToString("F4") + ","+ altitude.ToString();  
+                    sb.Append(coordString);
+                }
+                catch (FormatException) {
+                    MessageBox.Show("Formatting error in boundary string");
+                    return "Format Error";
+
+                }
+            }
+            return sb.ToString();
         }
 
     }

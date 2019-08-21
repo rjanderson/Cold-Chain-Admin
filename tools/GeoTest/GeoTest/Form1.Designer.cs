@@ -42,6 +42,7 @@
             this.textFileLabel = new System.Windows.Forms.Label();
             this.extractAdminDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAdminTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateCoordinatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -116,7 +117,8 @@
             this.countToolStripMenuItem1,
             this.filterToolStripMenuItem1,
             this.processToolStripMenuItem1,
-            this.extractAdminDataToolStripMenuItem});
+            this.extractAdminDataToolStripMenuItem,
+            this.updateCoordinatesToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
@@ -199,6 +201,13 @@
             this.saveAdminTableToolStripMenuItem.Text = "Save Admin Table";
             this.saveAdminTableToolStripMenuItem.Click += new System.EventHandler(this.OnSaveAdminClick);
             // 
+            // updateCoordinatesToolStripMenuItem
+            // 
+            this.updateCoordinatesToolStripMenuItem.Name = "updateCoordinatesToolStripMenuItem";
+            this.updateCoordinatesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.updateCoordinatesToolStripMenuItem.Text = "Update Coordinates";
+            this.updateCoordinatesToolStripMenuItem.Click += new System.EventHandler(this.OnUpdateCoordinatesClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,6 +248,7 @@
         private System.Windows.Forms.ToolStripMenuItem step2ExtractTablesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractAdminDataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAdminTableToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updateCoordinatesToolStripMenuItem;
     }
 }
 
