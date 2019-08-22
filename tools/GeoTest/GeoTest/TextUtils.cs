@@ -114,8 +114,9 @@ namespace GeoTest {
 
             public List<string> ToKml() {
                 List<string> result = new List<string>();
-                
- 
+                result.Add("<SimpleData name=\"NAME_0\" >" + "Pakistan" + "</SimpleData>");
+                result.Add("<SimpleData name=\"CODE_0\" >" + "PK" + "</SimpleData>");
+
                 if (name1 != null) {
                     result.Add("<SimpleData name=\"NAME_1\" >"+ name1 + "</SimpleData>");
                     result.Add("<SimpleData name=\"CODE_1\" >" + code1 + "</SimpleData>");

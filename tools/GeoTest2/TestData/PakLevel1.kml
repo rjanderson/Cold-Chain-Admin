@@ -14,6 +14,8 @@
               <ExtendedData>
                 <SchemeData>
                   <RegionName>Balochistan</RegionName>
+                  <SimpleData name="NAME_0">Pakistan</SimpleData>
+                  <SimpleData name="CODE_0">PK</SimpleData>
                   <SimpleData name="NAME_1">Balochistan</SimpleData>
                   <SimpleData name="CODE_1">PK7</SimpleData>
                 </SchemeData>
@@ -40,6 +42,8 @@
               <ExtendedData>
                 <SchemeData>
                   <RegionName>Federal Capital Territory</RegionName>
+                  <SimpleData name="NAME_0">Pakistan</SimpleData>
+                  <SimpleData name="CODE_0">PK</SimpleData>
                   <SimpleData name="NAME_1">Federal Capital Territory</SimpleData>
                   <SimpleData name="CODE_1">PK5</SimpleData>
                 </SchemeData>
@@ -66,6 +70,8 @@
               <ExtendedData>
                 <SchemeData>
                   <RegionName>Khyber Pakhtunkhwa</RegionName>
+                  <SimpleData name="NAME_0">Pakistan</SimpleData>
+                  <SimpleData name="CODE_0">PK</SimpleData>
                   <SimpleData name="NAME_1">Khyber Pakhtunkhwa</SimpleData>
                   <SimpleData name="CODE_1">PK2</SimpleData>
                 </SchemeData>
@@ -92,6 +98,8 @@
               <ExtendedData>
                 <SchemeData>
                   <RegionName>Punjab</RegionName>
+                  <SimpleData name="NAME_0">Pakistan</SimpleData>
+                  <SimpleData name="CODE_0">PK</SimpleData>
                   <SimpleData name="NAME_1">Punjab</SimpleData>
                   <SimpleData name="CODE_1">PK6</SimpleData>
                 </SchemeData>
@@ -132,6 +140,8 @@
               <ExtendedData>
                 <SchemeData>
                   <RegionName>Sindh</RegionName>
+                  <SimpleData name="NAME_0">Pakistan</SimpleData>
+                  <SimpleData name="CODE_0">PK</SimpleData>
                   <SimpleData name="NAME_1">Sindh</SimpleData>
                   <SimpleData name="CODE_1">PK8</SimpleData>
                 </SchemeData>
