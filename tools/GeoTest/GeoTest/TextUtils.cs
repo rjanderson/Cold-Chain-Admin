@@ -69,7 +69,7 @@ namespace GeoTest {
 
         static int ProcessTable(string[] lines, int index, List<string> newLines) {
             int i = index + 1;
-            newLines.Add("<AdminRegion>");
+            newLines.Add("<ExtendedData><SchemeData>");
             while (!lines[i].Contains("<table")) {
                 string data = ExtractItem(lines[i]);
                 if (data != null) {
@@ -87,7 +87,7 @@ namespace GeoTest {
             i++;
             while (!lines[i].Contains("</table>"))
                 i++;
-            newLines.Add("</AdminRegion>");
+            newLines.Add("</SchemeData></ExtendedData>");
             return i + 1;
 
 
@@ -117,22 +117,16 @@ namespace GeoTest {
                 
  
                 if (name1 != null) {
-                    result.Add("<Level1>");
-                    result.Add("<Name>" + name1 + "</Name>");
-                    result.Add("<Code>" + code1 + "</Code>");
-                    result.Add("</Level1>");
+                    result.Add("<SimpleData name=\"NAME_1\" >"+ name1 + "</SimpleData>");
+                    result.Add("<SimpleData name=\"CODE_1\" >" + code1 + "</SimpleData>");
                 }
                 if (name2 != null) {
-                    result.Add("<Level2>");
-                    result.Add("<Name>" + name2+ "</Name>");
-                    result.Add("<Code>" + code2 + "</Code>");
-                    result.Add("</Level2>");
+                    result.Add("<SimpleData name=\"NAME_2\" >" + name2 + "</SimpleData>");
+                    result.Add("<SimpleData name=\"CODE_2\" >" + code2 + "</SimpleData>");
                 } 
                 if (name3 != null) {
-                    result.Add("<Level3>");
-                    result.Add("<Name>" + name3 + "</Name>");
-                    result.Add("<Code>" + code3 + "</Code>");
-                    result.Add("</Level3>");
+                    result.Add("<SimpleData name=\"NAME_3\" >" + name3 + "</SimpleData>");
+                    result.Add("<SimpleData name=\"CODE_3\" >" + code3 + "</SimpleData>");
                 }
                 return result;
             }

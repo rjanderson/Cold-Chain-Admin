@@ -153,7 +153,7 @@ namespace GeoTest {
                     decimal latitude = decimal.Parse(separate[i + 1]);
                     decimal altitude = decimal.Parse(separate[i + 2]);
 
-                    string coordString = " " + longitude.ToString("F4") + ","+ latitude.ToString("F4") + ","+ altitude.ToString();  
+                    string coordString = " " + longitude.ToString("F4") + "," + latitude.ToString("F4");  
                     sb.Append(coordString);
                 }
                 catch (FormatException) {
