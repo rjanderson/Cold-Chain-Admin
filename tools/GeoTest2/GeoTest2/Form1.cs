@@ -17,6 +17,7 @@ namespace GeoTest2 {
         }
 
         public XmlDocument xmlDocument;
+        public RegionSet regions;
 
         private void OnExitClick(object sender, EventArgs e) {
             Application.Exit();
@@ -26,6 +27,7 @@ namespace GeoTest2 {
             var fileContent = string.Empty;
             var filePath = string.Empty;
             var xmlDoc = new XmlDocument();
+            RegionSet regions; ;
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog()) {
 
@@ -45,14 +47,27 @@ namespace GeoTest2 {
                         MessageBox.Show(exception.Message);
                     };
 
-                    this.xmlDocument = xmlDoc;
-                    this.textBox1.Text = Utilities.XmlString(this.xmlDocument);
+                    
+                    regions = new RegionSet(xmlDoc);
+                    DisplayTextFile(50, regions.Names);
+                        
                     this.toolStripFileLabel.Text = "KML File: " + Utilities.TruncateString(filePath, 80);
+                    this.xmlDocument = xmlDoc;
                 }
             }
-
-
         }
+
+        private void DisplayTextFile(int maxLines, string[] lines) {
+            StringBuilder sb = new StringBuilder();
+
+            int max = (lines.Length < maxLines) ? lines.Length : maxLines;
+
+            for (int i = 0; i < max; i++)
+                sb.Append(lines[i] + "\r\n");
+
+            this.textBox1.Text = sb.ToString();
+        }
+
 
         private void OnSaveKmlClick(object sender, EventArgs e) {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog()) {

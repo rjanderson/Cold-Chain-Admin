@@ -32,6 +32,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripFileLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -60,26 +61,26 @@
             // openKMLToolStripMenuItem
             // 
             this.openKMLToolStripMenuItem.Name = "openKMLToolStripMenuItem";
-            this.openKMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openKMLToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.openKMLToolStripMenuItem.Text = "Open KML";
             this.openKMLToolStripMenuItem.Click += new System.EventHandler(this.OnOpenKmlClick);
             // 
             // saveKMLToolStripMenuItem
             // 
             this.saveKMLToolStripMenuItem.Name = "saveKMLToolStripMenuItem";
-            this.saveKMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveKMLToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.saveKMLToolStripMenuItem.Text = "Save KML";
             this.saveKMLToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKmlClick);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(127, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExitClick);
             // 
@@ -107,11 +108,19 @@
             this.textBox1.Size = new System.Drawing.Size(430, 206);
             this.textBox1.TabIndex = 2;
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(12, 252);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(430, 346);
+            this.treeView1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 655);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -138,6 +147,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripFileLabel;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
 
