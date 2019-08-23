@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Windows.Forms;
 
 namespace GeoTest2 {
     public class RegionSet : List<Region> {
@@ -16,7 +17,7 @@ namespace GeoTest2 {
 
             foreach (XmlElement element in nodeList) {
                 Region region = new Region(element);
-                this.Add(region);
+                InsertFromEnd(region);
             }
 
         }
@@ -32,6 +33,28 @@ namespace GeoTest2 {
             }
 
 
+        }
+
+        public void InsertFromEnd(Region region) {
+            this.Add(region);
+            int i = this.Count - 1;
+            while (i > 0 && this[i].Before(this[i - 1])){
+                Region temp = this[i - 1];
+                this[i - 1] = this[i];
+                this[i] = temp;
+                i--;
+            }
+        }
+
+        public void LoadTreeView(TreeView treeView) {
+            treeView.BeginUpdate();
+            treeView.Nodes.Clear();
+
+            foreach (Region region in this) {
+                region.AddToTreeView(treeView);
+            }
+
+            treeView.EndUpdate();
         }
     }
 }

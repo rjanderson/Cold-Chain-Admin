@@ -49,6 +49,8 @@ namespace GeoTest2 {
 
                     
                     regions = new RegionSet(xmlDoc);
+                    regions.LoadTreeView(this.treeView1);
+
                     DisplayTextFile(50, regions.Names);
                         
                     this.toolStripFileLabel.Text = "KML File: " + Utilities.TruncateString(filePath, 80);
