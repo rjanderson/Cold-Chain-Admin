@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Drawing;
 
 namespace GeoTest2 {
     class Utilities {
@@ -28,6 +29,19 @@ namespace GeoTest2 {
 
         public static string TruncateString(string str, int maxLen) {
             return (str.Length <= maxLen) ? str : "..." + str.Substring(str.Length - maxLen);
+        }
+
+        public static PointF CenterPoint(RectangleF rect) {
+            return new PointF(rect.Left + rect.Width / 2, rect.Top + rect.Height / 2);
+        }
+
+        public static RectangleF MergeRectangles(RectangleF rect1, RectangleF rect2) {
+            float minX = Math.Min(rect1.Left, rect2.Left);
+            float minY = Math.Min(rect1.Top, rect2.Top);
+            float maxX = Math.Max(rect1.Left + rect1.Width, rect2.Left + rect2.Width);
+            float maxY = Math.Max(rect1.Top + rect1.Height, rect2.Top + rect2.Height);
+
+            return new RectangleF(minX, minY, maxX - minX, maxY - minY);
         }
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 
 namespace GeoTest2 {
     public class Region {
@@ -113,8 +114,15 @@ namespace GeoTest2 {
             
         }
 
-        public void Display(Graphics g) {
-            boundary.Display(g);
+        public void Display(Graphics g, PointF scale, PointF translate) {
+            boundary.Display(g, scale, translate);
         }
+
+        public RectangleF Bounds
+        {
+            get { return boundary.Bounds; }
+        }
+
+  
     }
 }

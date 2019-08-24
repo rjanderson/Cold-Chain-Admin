@@ -6,20 +6,32 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+
 
 namespace GeoTest2 {
     public class RegionSet : List<Region> {
+        RectangleF bounds;
+        public RectangleF Bounds {
+            get { return bounds; }
+        }
 
-
+       
 
         public RegionSet(XmlDocument xmlDocument) {
 
             XmlNodeList nodeList = xmlDocument.GetElementsByTagName("Placemark");
+            List<Region> regions = new List<Region>();
 
             foreach (XmlElement element in nodeList) {
                 Region region = new Region(element);
                 InsertFromEnd(region);
+                regions.Add(region);
             }
+
+            bounds = regions[0].Bounds;
+            for (int i = 1; i < regions.Count; i++)
+                bounds = Utilities.MergeRectangles(bounds, regions[i].Bounds);
 
         }
 
@@ -59,14 +71,12 @@ namespace GeoTest2 {
             treeView.EndUpdate();
         }
 
-        public void Display(Graphics g) {
+        public void Display(Graphics g, PointF scale, PointF translate) {
             g.Clear(Color.Cornsilk);
 
             foreach (Region region in this) {
-                region.Display(g);
+                region.Display(g, scale, translate);
             }
- 
-
         }
     }
 }

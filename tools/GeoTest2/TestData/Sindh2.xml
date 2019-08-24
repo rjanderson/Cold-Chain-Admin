@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+  <Document id="pak_admbnda_adm1_ocha_pco_gaul_20181218">
+    <name>pak_admbnda_adm1_ocha_pco_gaul_20181218</name>
+    <Folder id="FeatureLayer0">
+      <name>pak_admbnda_adm1_ocha_pco_gaul_20181218</name>
+      <description>Level 1 (Provinces) of Pakistan (Country wide coverage)</description>
+      <Placemark id="ID_00004">
+        <name>Sindh</name>
+        <description>
+          <html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+            <head />
+            <body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+              <ExtendedData>
+                <SchemeData>
+                  <RegionName>Sindh</RegionName>
+                  <SimpleData name="NAME_0">Pakistan</SimpleData>
+                  <SimpleData name="CODE_0">PK</SimpleData>
+                  <SimpleData name="NAME_1">Sindh</SimpleData>
+                  <SimpleData name="CODE_1">PK8</SimpleData>
+                </SchemeData>
+              </ExtendedData>
+            </body>
+          </html>
+        </description>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates> 67.3653,24.4294 69.3607,24.4341 69.3599,26.4344 67.3529,26.43</coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
