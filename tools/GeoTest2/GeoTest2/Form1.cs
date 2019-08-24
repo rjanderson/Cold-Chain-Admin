@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Xml;
 
+
 namespace GeoTest2 {
     public partial class Form1 : Form {
         public Form1() {
@@ -27,7 +28,7 @@ namespace GeoTest2 {
             var fileContent = string.Empty;
             var filePath = string.Empty;
             var xmlDoc = new XmlDocument();
-            RegionSet regions; ;
+            RegionSet regions; 
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog()) {
 
@@ -49,12 +50,15 @@ namespace GeoTest2 {
 
                     
                     regions = new RegionSet(xmlDoc);
+                    this.treeView1.Nodes.Clear();
                     regions.LoadTreeView(this.treeView1);
 
                     DisplayTextFile(50, regions.Names);
                         
                     this.toolStripFileLabel.Text = "KML File: " + Utilities.TruncateString(filePath, 80);
                     this.xmlDocument = xmlDoc;
+                    this.regions = regions;
+                    this.mapPanel.Invalidate();
                 }
             }
         }
@@ -89,6 +93,21 @@ namespace GeoTest2 {
                     }
                 }
             }
+        }
+
+        private void OnClearTreeViewClick(object sender, EventArgs e) {
+            this.treeView1.BeginUpdate();
+            this.treeView1.Nodes.Clear();
+            this.treeView1.EndUpdate();
+        }
+
+        private void OnSelectedItemChanged(object sender, TreeViewEventArgs e) {
+            MessageBox.Show(((TreeViewEventArgs) e).ToString());
+        }
+
+        private void OnMapPanelPaint(object sender, PaintEventArgs e) {
+            if (this.regions != null)
+                regions.Display(e.Graphics);
         }
     }
 }

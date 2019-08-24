@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace GeoTest2 {
     public class RegionSet : List<Region> {
@@ -48,13 +49,24 @@ namespace GeoTest2 {
 
         public void LoadTreeView(TreeView treeView) {
             treeView.BeginUpdate();
-            treeView.Nodes.Clear();
+
+            treeView.CheckBoxes = true;
 
             foreach (Region region in this) {
                 region.AddToTreeView(treeView);
             }
 
             treeView.EndUpdate();
+        }
+
+        public void Display(Graphics g) {
+            g.Clear(Color.Cornsilk);
+
+            foreach (Region region in this) {
+                region.Display(g);
+            }
+ 
+
         }
     }
 }

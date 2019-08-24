@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace GeoTest2 {
     public class Region {
@@ -44,6 +45,14 @@ namespace GeoTest2 {
                  
             }
 
+            XmlNodeList polyList = element.GetElementsByTagName("coordinates");
+            boundary = new Boundary();
+            foreach (XmlElement coordNode in polyList) {
+                Polygon poly = new Polygon(coordNode.InnerText);
+                boundary.Add(poly);
+            }
+
+
         }
 
         public override string ToString() {
@@ -80,13 +89,32 @@ namespace GeoTest2 {
                 return;
 
             string name = adminNames[d];
-            if (tnc.Count == 0 || !(tnc[tnc.Count - 1].Text.Equals(name))) {
-                TreeNode node = new TreeNode(name);
-                tnc.Add(node);
-                TreeViewHelper(d + 1, node.Nodes);
-            } else {
-                TreeViewHelper(d + 1, tnc[tnc.Count - 1].Nodes);
+            int pos = tnc.Count - 1;
+            bool match = false;
+            while (pos >= 0) {
+                int res = tnc[pos].Text.CompareTo(name);
+                if (res < 0) {
+                    match = false;
+                    break;
+                }
+                if (res == 0) {
+                    match = true;
+                    break;
+                }
+                pos--;
             }
+            if (match) {
+                TreeViewHelper(d + 1, tnc[pos].Nodes);
+            } else {
+                TreeNode node = new TreeNode(name);
+                tnc.Insert(pos + 1, node);
+                TreeViewHelper(d + 1, node.Nodes);
+            }
+            
+        }
+
+        public void Display(Graphics g) {
+            boundary.Display(g);
         }
     }
 }

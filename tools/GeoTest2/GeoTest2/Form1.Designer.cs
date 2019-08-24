@@ -33,6 +33,9 @@
             this.toolStripFileLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.clearTreeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.mapPanel = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -52,6 +55,8 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openKMLToolStripMenuItem,
             this.saveKMLToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.clearTreeViewToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -61,26 +66,26 @@
             // openKMLToolStripMenuItem
             // 
             this.openKMLToolStripMenuItem.Name = "openKMLToolStripMenuItem";
-            this.openKMLToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.openKMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openKMLToolStripMenuItem.Text = "Open KML";
             this.openKMLToolStripMenuItem.Click += new System.EventHandler(this.OnOpenKmlClick);
             // 
             // saveKMLToolStripMenuItem
             // 
             this.saveKMLToolStripMenuItem.Name = "saveKMLToolStripMenuItem";
-            this.saveKMLToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.saveKMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveKMLToolStripMenuItem.Text = "Save KML";
             this.saveKMLToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKmlClick);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(127, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExitClick);
             // 
@@ -114,12 +119,35 @@
             this.treeView1.Name = "treeView1";
             this.treeView1.Size = new System.Drawing.Size(430, 346);
             this.treeView1.TabIndex = 3;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.OnSelectedItemChanged);
+            // 
+            // clearTreeViewToolStripMenuItem
+            // 
+            this.clearTreeViewToolStripMenuItem.Name = "clearTreeViewToolStripMenuItem";
+            this.clearTreeViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clearTreeViewToolStripMenuItem.Text = "Clear TreeView";
+            this.clearTreeViewToolStripMenuItem.Click += new System.EventHandler(this.OnClearTreeViewClick);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            // 
+            // mapPanel
+            // 
+            this.mapPanel.BackColor = System.Drawing.Color.Cornsilk;
+            this.mapPanel.Location = new System.Drawing.Point(459, 27);
+            this.mapPanel.Name = "mapPanel";
+            this.mapPanel.Size = new System.Drawing.Size(601, 571);
+            this.mapPanel.TabIndex = 4;
+            this.mapPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.OnMapPanelPaint);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 655);
+            this.Controls.Add(this.mapPanel);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip1);
@@ -148,6 +176,9 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripFileLabel;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem clearTreeViewToolStripMenuItem;
+        private System.Windows.Forms.Panel mapPanel;
     }
 }
 
