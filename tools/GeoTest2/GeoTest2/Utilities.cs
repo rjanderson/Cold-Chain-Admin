@@ -43,5 +43,11 @@ namespace GeoTest2 {
 
             return new RectangleF(minX, minY, maxX - minX, maxY - minY);
         }
+
+        public static float DistF(PointF p1, PointF p2) {
+            float dx = p1.X - p2.X;
+            float dy = p1.Y - p2.Y;
+            return (float) Math.Sqrt(dx * dx + dy * dy);
+        }
     }
 }

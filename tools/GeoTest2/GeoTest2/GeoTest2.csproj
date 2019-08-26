@@ -57,6 +57,7 @@
     <Compile Include="Region.cs" />
     <Compile Include="RegionSet.cs" />
     <Compile Include="Utilities.cs" />
+    <Compile Include="XmlUtilities.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -159,6 +159,31 @@ namespace GeoTest2 {
    //             graphics.FillRectangle(new SolidBrush(Color.Blue), 100, 100, 300, 200);
             }
         }
+
+        private void OnRegionInfoClick(object sender, EventArgs e) {
+            if (this.regions != null) {
+                DisplayTextFile(100, regions.RegionInfo);
+
+            }
+        }
+
+        private void OnCompressClick(object sender, EventArgs e) {
+            if (this.xmlDocument != null) {
+                XmlDocument xmlDoc = XmlUtilities.CompressBoundaries(this.xmlDocument);
+
+                this.regions = new RegionSet(xmlDoc);
+                this.treeView1.Nodes.Clear();
+                this.regions.LoadTreeView(this.treeView1);
+
+                DisplayTextFile(50, this.regions.Names);
+
+               
+                this.xmlDocument = xmlDoc;
+
+                this.mapPanel.Invalidate();
+
+            }
+        }
     }
 }
 

@@ -114,6 +114,10 @@ namespace GeoTest2 {
             
         }
 
+        public string RegionInfo() {
+            return boundary.RegionInfo();
+        }
+
         public void Display(Graphics g, PointF scale, PointF translate) {
             boundary.Display(g, scale, translate);
         }

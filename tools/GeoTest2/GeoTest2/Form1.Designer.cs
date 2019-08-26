@@ -37,6 +37,8 @@
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.mapPanel = new System.Windows.Forms.Panel();
             this.displayButton = new System.Windows.Forms.Button();
+            this.regionInfoButton = new System.Windows.Forms.Button();
+            this.compressButton = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -153,11 +155,33 @@
             this.displayButton.UseVisualStyleBackColor = true;
             this.displayButton.Click += new System.EventHandler(this.OnDisplayButtonClick);
             // 
+            // regionInfoButton
+            // 
+            this.regionInfoButton.Location = new System.Drawing.Point(102, 27);
+            this.regionInfoButton.Name = "regionInfoButton";
+            this.regionInfoButton.Size = new System.Drawing.Size(75, 23);
+            this.regionInfoButton.TabIndex = 6;
+            this.regionInfoButton.Text = "Region Info";
+            this.regionInfoButton.UseVisualStyleBackColor = true;
+            this.regionInfoButton.Click += new System.EventHandler(this.OnRegionInfoClick);
+            // 
+            // compressButton
+            // 
+            this.compressButton.Location = new System.Drawing.Point(196, 27);
+            this.compressButton.Name = "compressButton";
+            this.compressButton.Size = new System.Drawing.Size(75, 23);
+            this.compressButton.TabIndex = 7;
+            this.compressButton.Text = "Compress";
+            this.compressButton.UseVisualStyleBackColor = true;
+            this.compressButton.Click += new System.EventHandler(this.OnCompressClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 655);
+            this.Controls.Add(this.compressButton);
+            this.Controls.Add(this.regionInfoButton);
             this.Controls.Add(this.displayButton);
             this.Controls.Add(this.mapPanel);
             this.Controls.Add(this.treeView1);
@@ -192,6 +216,8 @@
         private System.Windows.Forms.ToolStripMenuItem clearTreeViewToolStripMenuItem;
         private System.Windows.Forms.Panel mapPanel;
         private System.Windows.Forms.Button displayButton;
+        private System.Windows.Forms.Button regionInfoButton;
+        private System.Windows.Forms.Button compressButton;
     }
 }
 

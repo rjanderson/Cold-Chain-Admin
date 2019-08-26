@@ -48,6 +48,19 @@ namespace GeoTest2 {
 
         }
 
+        public string[] RegionInfo {
+            get {
+                string[] names = new string[this.Count];
+
+                for (int i = 0; i < this.Count; i++)
+                    names[i] = this[i].ToString() + " | " + this[i].RegionInfo();
+
+                return names;
+            }
+
+
+        }
+
         public void InsertFromEnd(Region region) {
             this.Add(region);
             int i = this.Count - 1;

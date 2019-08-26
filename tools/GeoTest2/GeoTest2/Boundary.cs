@@ -35,6 +35,13 @@ namespace GeoTest2 {
             foreach (Polygon poly in polygons)
                 poly.Display(g, scale, translate);
         }
+
+        public string RegionInfo() {
+            string info =  "[" + polygons.Count + "{";
+            foreach (Polygon poly in polygons)
+                info += poly.RegionInfo() + ",";
+            return info.Substring(0, info.Length - 1) + "}]";
+        }
     }
 
     public class Polygon : List<PointF> {
@@ -55,6 +62,23 @@ namespace GeoTest2 {
                 catch (FormatException) {
                     MessageBox.Show("Formatting error in boundary string");
                 }
+            }
+        }
+
+        public string RegionInfo() {
+            string str = "(" + this.Count + "," + (Distance / this.Count).ToString("0.0000") + ")";
+            return str;
+        }
+
+        public float Distance {
+            get {
+                float d = 0.0F;
+                for (int i = 0; i < this.Count - 1; i++)
+                    d += Utilities.DistF(this[i], this[i + 1]);
+                d += Utilities.DistF(this[this.Count - 1], this[0]);
+
+                return d;
+
             }
         }
 
@@ -93,22 +117,19 @@ namespace GeoTest2 {
             Pen pen = new Pen(Color.Red);
 
             PointF[] points = ToPointArray();
-            for (int i = 0; i < points.Length; i++) {
-                PointF p = points[i];
-                points[i] = new PointF(scale.X * p.X + translate.X, scale.Y * p.Y + translate.Y);
 
+            if (points.Length > 1) {
+                for (int i = 0; i < points.Length; i++) {
+                    PointF p = points[i];
+                    points[i] = new PointF(scale.X * p.X + translate.X, scale.Y * p.Y + translate.Y);
+
+                }
+                g.DrawPolygon(pen, points);
             }
-            g.DrawPolygon(pen, points);
-
-             
-
-   //         for (int i = 0; i < this.Count - 1; i++) {
-   //             g.DrawLine(pen, points[i], points[i+1]);
-   //         }
-   //         g.DrawLine(pen, points[this.Count - 1], points[0]);
-
 
         }
+
+  
     }
 
 
