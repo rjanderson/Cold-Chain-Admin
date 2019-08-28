@@ -21,31 +21,60 @@ namespace GeoTest2 {
         public RegionSet(XmlDocument xmlDocument) {
 
             XmlNodeList nodeList = xmlDocument.GetElementsByTagName("Placemark");
-            List<Region> regions = new List<Region>();
+ //           List<Region> regions = new List<Region>();
 
             foreach (XmlElement element in nodeList) {
                 Region region = new Region(element);
                 InsertFromEnd(region);
-                regions.Add(region);
+ //               regions.Add(region);
             }
 
-            bounds = regions[0].Bounds;
-            for (int i = 1; i < regions.Count; i++)
-                bounds = Utilities.MergeRectangles(bounds, regions[i].Bounds);
+            bounds = this[0].Bounds;
+            for (int i = 1; i < this.Count; i++)
+                bounds = Utilities.MergeRectangles(bounds, this[i].Bounds);
 
         }
 
-        public string[] Names {
-            get {
-                string[] names = new string[this.Count];
-
+        public string[] Names() {
+                 string[] names = new string[this.Count];
                 for (int i = 0; i < this.Count; i++)
-                    names[i] = this[i].ToString();
+                    names[i] = this[i].ToString();           
 
                 return names;
+        }
+
+        public int Levels {
+            get {
+                int levels = 0;
+
+                for (int i = 0; i < this.Count; i++)
+                    levels = Math.Max(levels, this[i].Levels);
+               
+                return levels;
             }
+        }
 
+        public string CsvHeader {
+            get {
+                string str = "";
 
+                int levels = Levels;
+                for (int i = 0; i <= levels; i++)
+                    str += "Admin Level " + i + ",";
+
+                return str;
+            }
+        }
+
+        public string[] AdminCsvFile() {
+            string[] names = Names();
+            string[] csvRows = new string[names.Length + 1];
+
+            csvRows[0] = CsvHeader;
+            for (int i = 0; i < names.Length; i++)
+                csvRows[i + 1] = names[i];
+
+            return csvRows;
         }
 
         public string[] RegionInfo {

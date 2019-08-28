@@ -54,7 +54,7 @@ namespace GeoTest2 {
                     this.treeView1.Nodes.Clear();
                     regions.LoadTreeView(this.treeView1);
 
-                    DisplayTextFile(50, regions.Names);
+                    DisplayTextFile(50, regions.Names()); 
                         
                     this.toolStripFileLabel.Text = "KML File: " + Utilities.TruncateString(filePath, 80);
                     this.xmlDocument = xmlDoc;
@@ -162,7 +162,7 @@ namespace GeoTest2 {
 
         private void OnRegionInfoClick(object sender, EventArgs e) {
             if (this.regions != null) {
-                DisplayTextFile(100, regions.RegionInfo);
+                DisplayTextFile(2000, regions.RegionInfo);
 
             }
         }
@@ -175,7 +175,7 @@ namespace GeoTest2 {
                 this.treeView1.Nodes.Clear();
                 this.regions.LoadTreeView(this.treeView1);
 
-                DisplayTextFile(50, this.regions.Names);
+                DisplayTextFile(50, this.regions.Names());
 
                
                 this.xmlDocument = xmlDoc;
@@ -184,6 +184,25 @@ namespace GeoTest2 {
 
             }
         }
+
+        private void OnExportAdminClick(object sender, EventArgs e) {
+
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog()) {
+
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+                saveFileDialog.FilterIndex = 1;
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK  && this.regions != null) {
+                    string filePath = saveFileDialog.FileName;
+                    string[] adminFile = this.regions.AdminCsvFile();
+                    System.IO.File.WriteAllLines(filePath, adminFile);
+
+                }
+            }
+        }
+         
     }
 }
 

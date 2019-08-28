@@ -66,7 +66,7 @@ namespace GeoTest2 {
         }
 
         public string RegionInfo() {
-            string str = "(" + this.Count + "," + (Distance / this.Count).ToString("0.0000") + ")";
+            string str = "(" + this.Count + ", " + (Distance / this.Count).ToString("0.0000") + ")";
             return str;
         }
 

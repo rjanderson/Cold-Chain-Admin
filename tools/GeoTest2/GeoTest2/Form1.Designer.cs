@@ -39,6 +39,7 @@
             this.displayButton = new System.Windows.Forms.Button();
             this.regionInfoButton = new System.Windows.Forms.Button();
             this.compressButton = new System.Windows.Forms.Button();
+            this.exportAdminLevelsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openKMLToolStripMenuItem,
             this.saveKMLToolStripMenuItem,
+            this.exportAdminLevelsToolStripMenuItem,
             this.toolStripSeparator2,
             this.clearTreeViewToolStripMenuItem,
             this.toolStripSeparator1,
@@ -69,38 +71,38 @@
             // openKMLToolStripMenuItem
             // 
             this.openKMLToolStripMenuItem.Name = "openKMLToolStripMenuItem";
-            this.openKMLToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.openKMLToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.openKMLToolStripMenuItem.Text = "Open KML";
             this.openKMLToolStripMenuItem.Click += new System.EventHandler(this.OnOpenKmlClick);
             // 
             // saveKMLToolStripMenuItem
             // 
             this.saveKMLToolStripMenuItem.Name = "saveKMLToolStripMenuItem";
-            this.saveKMLToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.saveKMLToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.saveKMLToolStripMenuItem.Text = "Save KML";
             this.saveKMLToolStripMenuItem.Click += new System.EventHandler(this.OnSaveKmlClick);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(147, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
             // 
             // clearTreeViewToolStripMenuItem
             // 
             this.clearTreeViewToolStripMenuItem.Name = "clearTreeViewToolStripMenuItem";
-            this.clearTreeViewToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.clearTreeViewToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.clearTreeViewToolStripMenuItem.Text = "Clear TreeView";
             this.clearTreeViewToolStripMenuItem.Click += new System.EventHandler(this.OnClearTreeViewClick);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(147, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(178, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExitClick);
             // 
@@ -175,6 +177,13 @@
             this.compressButton.UseVisualStyleBackColor = true;
             this.compressButton.Click += new System.EventHandler(this.OnCompressClick);
             // 
+            // exportAdminLevelsToolStripMenuItem
+            // 
+            this.exportAdminLevelsToolStripMenuItem.Name = "exportAdminLevelsToolStripMenuItem";
+            this.exportAdminLevelsToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.exportAdminLevelsToolStripMenuItem.Text = "Export Admin Levels";
+            this.exportAdminLevelsToolStripMenuItem.Click += new System.EventHandler(this.OnExportAdminClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,6 +227,7 @@
         private System.Windows.Forms.Button displayButton;
         private System.Windows.Forms.Button regionInfoButton;
         private System.Windows.Forms.Button compressButton;
+        private System.Windows.Forms.ToolStripMenuItem exportAdminLevelsToolStripMenuItem;
     }
 }
 
