@@ -62,7 +62,7 @@ namespace GeoTest2 {
             for (int i = 0; i <= levels; i++) {
                 result += adminNames[i];
                 if (i < levels)
-                    result += ", ";
+                    result += ",";
             }
             return result;
         }
