@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using CsvHelper;
+using System.Data;
 
 
 namespace GeoTest3 {
@@ -22,6 +25,7 @@ namespace GeoTest3 {
 
         public void Load(string filePath) {
             textDocument = System.IO.File.ReadAllLines(filePath);
+
             rows = textDocument.Length - 1;
 
             char[] delimiters = { ',' };
@@ -38,14 +42,13 @@ namespace GeoTest3 {
                 for (int i = 0; i < cols; i++) {
                     try {
                         columns[i].Assign(j, rowData[i]);
-                    }
-                    catch (Exception exception) {
+                    } catch (Exception exception) {
                         MessageBox.Show(exception.Message + "i " + i + " j " + j);
                     };
                 }
             }
-        }
 
+        }
         public string[] TextDocument {
             get { return textDocument; }
         }
