@@ -41,6 +41,7 @@
             this.oldTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.csvReaderTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -70,6 +71,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadDistrictsToolStripMenuItem,
             this.loadCSVToolStripMenuItem,
+            this.csvReaderTestToolStripMenuItem,
             this.saveCSVToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
@@ -80,33 +82,33 @@
             // loadDistrictsToolStripMenuItem
             // 
             this.loadDistrictsToolStripMenuItem.Name = "loadDistrictsToolStripMenuItem";
-            this.loadDistrictsToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.loadDistrictsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadDistrictsToolStripMenuItem.Text = "Load Districts";
             this.loadDistrictsToolStripMenuItem.Click += new System.EventHandler(this.OnDistrictLoad);
             // 
             // loadCSVToolStripMenuItem
             // 
             this.loadCSVToolStripMenuItem.Name = "loadCSVToolStripMenuItem";
-            this.loadCSVToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.loadCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadCSVToolStripMenuItem.Text = "Load CSV";
             this.loadCSVToolStripMenuItem.Click += new System.EventHandler(this.OnLoadCsv);
             // 
             // saveCSVToolStripMenuItem
             // 
             this.saveCSVToolStripMenuItem.Name = "saveCSVToolStripMenuItem";
-            this.saveCSVToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.saveCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveCSVToolStripMenuItem.Text = "Save CSV";
             this.saveCSVToolStripMenuItem.Click += new System.EventHandler(this.OnSaveCsv);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(142, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExit);
             // 
@@ -188,6 +190,13 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "New Text";
             // 
+            // csvReaderTestToolStripMenuItem
+            // 
+            this.csvReaderTestToolStripMenuItem.Name = "csvReaderTestToolStripMenuItem";
+            this.csvReaderTestToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.csvReaderTestToolStripMenuItem.Text = "CsvReader Test";
+            this.csvReaderTestToolStripMenuItem.Click += new System.EventHandler(this.OnCsvReaderClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,6 +241,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem saveCSVToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem csvReaderTestToolStripMenuItem;
     }
 }
 

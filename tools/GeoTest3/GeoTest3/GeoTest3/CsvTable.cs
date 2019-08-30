@@ -14,39 +14,64 @@ namespace GeoTest3 {
         string[] textDocument;
         string[] headers;
         string filePath;
-        int cols;
+        int columns;
         int rows;
 
-        public CsvColumn[] columns; 
+        public CsvColumn[] dataColumns; 
 
         public CsvTable() {
 
         }
 
         public void Load(string filePath) {
-            textDocument = System.IO.File.ReadAllLines(filePath);
+           
 
-            rows = textDocument.Length - 1;
+            List<IDictionary<string, object>> dataRecords;
 
-            char[] delimiters = { ',' };
-            headers = textDocument[0].Split(delimiters);
-            cols = headers.Length;
+            using (var reader = new StreamReader(filePath))
+            using (var csvReader = new CsvReader(reader)) {
+                dataRecords = csvReader.GetRecords<dynamic>()
+                       .Select(x => (IDictionary<string, object>)x)
+                       .ToList();
+            }
 
-            columns = new CsvColumn[cols];
+            var record0 = dataRecords[0];
+            int cols = record0.Count;
+            this.headers = new string[cols];
 
-            for (int i = 0; i < cols; i++)
-                columns[i] = new CsvColumn(rows, headers[i]);
+            int i = 0;
+            foreach (var property in record0.Keys) {
+                this.headers[i] = property;
+                i++;
+            }
 
-            for (int j = 0; j < rows; j++) {
-                string[] rowData = textDocument[j + 1].Split(delimiters);
-                for (int i = 0; i < cols; i++) {
-                    try {
-                        columns[i].Assign(j, rowData[i]);
-                    } catch (Exception exception) {
-                        MessageBox.Show(exception.Message + "i " + i + " j " + j);
-                    };
+            List<string>[] cLists = new List<string>[cols];
+            for (i = 0; i < cols; i++)
+                cLists[i] = new List<string>();
+
+            foreach (var record in dataRecords) {
+                for (i = 0; i < cols; i++) {
+                    string str = (string)record[this.headers[i]];
+                    cLists[i].Add(Utilities.CleanString(str));
                 }
             }
+
+            this.columns = cols;
+            this.rows = cLists[0].Count;
+
+            this.dataColumns = new CsvColumn[cols];
+            for (i = 0; i < cols; i++)
+                this.dataColumns[i] = new CsvColumn(cLists[i], this.headers[i]);
+
+            createTextDocument();
+
+        }
+
+        private void createTextDocument() {
+            this.textDocument = new string[this.rows + 1];
+            this.textDocument[0] = headerString();
+            for (int i = 0; i < this.rows; i++)
+                this.textDocument[i + 1] = this.rowString(i);
 
         }
         public string[] TextDocument {
@@ -57,8 +82,8 @@ namespace GeoTest3 {
             get { return headers; }
         }
 
-        public int Cols {
-            get { return cols; }
+        public int Columns {
+            get { return columns; }
         }
 
         public int Rows {
@@ -71,14 +96,14 @@ namespace GeoTest3 {
         }
 
         public int LookupColumn(string str) {
-            for (int i = 0; i < cols; i++)
+            for (int i = 0; i < this.columns; i++)
                 if (headers[i].Equals(str))
                     return i;
             return -1;
         }
 
         public void Substitute(string newText, string oldText, int col) {
-            columns[col].Substitute(newText, oldText );
+            dataColumns[col].Substitute(newText, oldText );
 
         }
 
@@ -96,17 +121,23 @@ namespace GeoTest3 {
         private string headerString() {
             string rowString = "";
 
-            foreach (string str in headers)
-                rowString += str + ",";
+            for (int i = 0; i < this.columns; i++) {
+                rowString += this.headers[i];
+                if (i < this.columns - 1)
+                    rowString += ",";
+            }
+
 
             return rowString;
         }
 
         private string rowString(int row) {
             string str = "";
-            for (int i = 0; i < cols; i++)
-                str += columns[i].StringAt(row) + ",";
-
+            for (int i = 0; i < this.columns; i++) {  
+                str += this.dataColumns[i].StringAt(row);
+                if (i < this.columns - 1)
+                    str += ",";
+            }
             return str;
 
         }
@@ -116,9 +147,9 @@ namespace GeoTest3 {
         string[] sData;
         string header;
 
-        public CsvColumn(int rows, string header) {
+        public CsvColumn(List<string> data, string header) {
             this.header = header;
-            sData = new string[rows];            
+            sData = data.ToArray();            
         }
 
         public void Assign(int row, string str) {

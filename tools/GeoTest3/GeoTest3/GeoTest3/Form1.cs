@@ -25,7 +25,7 @@ namespace GeoTest3 {
         private void OnDistrictLoad(object sender, EventArgs e) {
             this.districts = LoadCsvTable();
             int col = districts.LookupColumn("Admin 1");
-            string[] unique = districts.columns[col].UniqueElements();
+            string[] unique = districts.dataColumns[col].UniqueElements();
             DisplayTextFile(unique, this.textBox1, 100);
             
             this.toolStripFileLabel1.Text = "Admin File: " + Utilities.TruncateString(this.districts.FilePath, 70);
@@ -78,7 +78,7 @@ namespace GeoTest3 {
         private void OnLoadCsv(object sender, EventArgs e) {
             this.csvTable1 = LoadCsvTable();
             int col = csvTable1.LookupColumn("Admin 1");
-            string[] unique = csvTable1.columns[col].UniqueElements();
+            string[] unique = csvTable1.dataColumns[col].UniqueElements();
             DisplayTextFile(unique, this.textBox2, 100);
             this.toolStripFileLabel2.Text = "CSV File: " + Utilities.TruncateString(this.csvTable1.FilePath, 70);
         }
@@ -93,7 +93,7 @@ namespace GeoTest3 {
             int col = this.csvTable1.LookupColumn("Admin 1");
             this.csvTable1.Substitute(newText, oldText, col);
 
-            string[] unique = csvTable1.columns[col].UniqueElements();
+            string[] unique = csvTable1.dataColumns[col].UniqueElements();
             DisplayTextFile(unique, this.textBox2, 100);
         }
 
@@ -110,6 +110,12 @@ namespace GeoTest3 {
                     System.IO.File.WriteAllLines(filePath, csvFile);
                 }
             }
+        }
+
+        private void OnCsvReaderClick(object sender, EventArgs e) {
+            this.csvTable1 = LoadCsvTable();
+            DisplayTextFile(this.csvTable1.TextDocument, this.textBox2, 100);
+            this.toolStripFileLabel2.Text = "CSV File: " + Utilities.TruncateString(this.csvTable1.FilePath, 70);
         }
     }
 }
