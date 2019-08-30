@@ -122,7 +122,7 @@ namespace GeoTest3 {
             string rowString = "";
 
             for (int i = 0; i < this.columns; i++) {
-                rowString += this.headers[i];
+                rowString += Utilities.QuoteIfNeeded(this.headers[i]);
                 if (i < this.columns - 1)
                     rowString += ",";
             }
@@ -134,7 +134,7 @@ namespace GeoTest3 {
         private string rowString(int row) {
             string str = "";
             for (int i = 0; i < this.columns; i++) {  
-                str += this.dataColumns[i].StringAt(row);
+                str += Utilities.QuoteIfNeeded(this.dataColumns[i].StringAt(row));
                 if (i < this.columns - 1)
                     str += ",";
             }

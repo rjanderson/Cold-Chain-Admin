@@ -1,58 +1,58 @@
-ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,Health Facility Code,Type
-1,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Shah Muhammad,322073,BHU�
-2,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Bagra,322003,BHU�
-3,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Gudwalian,322011,BHU�
-4,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Koklian Piran,322022,BHU�
-5,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Bandi Sher Khan,322002,BHU�
-6,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Ghumawan,322012,BHU�
-7,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Barkot,322004,BHU�
-8,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Halli,322042,RHC�
-9,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Beer,322005,BHU�
-10,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kakotri,322020,BHU�
-11,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Muslimabad,322033,BHU�
-12,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CH Kotla,322040,CD�
-13,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Khoi Narra,322021,BHU�
-14,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Dheenda,322009,BHU�
-15,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Dingi,322010,BHU�
-16,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Central Jail,322043,UD�
-17,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Hattar,322014,BHU�
-18,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Nullah,322032,BHU�
-19,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Jattipind,322015,BHU�
-20,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kalinger,322017,BHU�
-21,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD KTS No4,322048,CD�
-22,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD KTS No3,322077,CD�
-23,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Khanpur,322060,RHC�
-24,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Kotnajibullah,322061,RHC�
-25,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Kot Najibullah,322072,CD�
-26,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kariplian,322019,BHU�
-27,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Luder Mang,322025,BHU�
-28,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Chaintry,322026,BHU�
-29,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Mankarai,322027,BHU�
-30,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Pharraray,322046,CD�
-31,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Dartian,322007,BHU�
-32,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Najafpur,322031,BHU�
-33,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Mirpur,322029,BHU�
-34,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kangra Colony,322018,BHU�
-35,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Panian,322034,BHU�
-36,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Jab,322016,BHU�
-37,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Sarai Salah,322036,BHU�
-38,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Sarai Naimat Khan,322062,RHC�
-39,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Sikandrpur,322037,BHU�
-40,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Mang,322030,BHU�
-41,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,Civil Hospital KTS,322055,CH�
-42,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Tofkian,322038,BHU�
-43,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Brug,322006,BHU�
-44,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Gali Amazai,322013,BHU�
-45,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Bait Gali,322079,BHU�
-46,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Kaneerri,322084,BHU�
-47,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,RHC Ghazi,322059,RHC�
-48,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,CD Ghazi Hamlet,322041,CD�
-49,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Amgah,322001,BHU�
-50,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Kotehra,322023,BHU�
-51,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Kundi,322024,BHU�
-52,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Salamkhand,322035,BHU�
-53,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,RHC Nara Amazai,322085,RHC�
-54,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,RHC Sirikot,322063,RHC�
+UID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,Health Facility Code,Health Facility Type
+1,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Shah Muhammad,322073,BHU 
+2,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Bagra,322003,BHU 
+3,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Gudwalian,322011,BHU 
+4,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Koklian Piran,322022,BHU 
+5,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Bandi Sher Khan,322002,BHU 
+6,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Ghumawan,322012,BHU 
+7,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Barkot,322004,BHU 
+8,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Halli,322042,RHC 
+9,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Beer,322005,BHU 
+10,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kakotri,322020,BHU 
+11,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Muslimabad,322033,BHU 
+12,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CH Kotla,322040,CD 
+13,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Khoi Narra,322021,BHU 
+14,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Dheenda,322009,BHU 
+15,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Dingi,322010,BHU 
+16,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Central Jail,322043,UD 
+17,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Hattar,322014,BHU 
+18,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Nullah,322032,BHU 
+19,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Jattipind,322015,BHU 
+20,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kalinger,322017,BHU 
+21,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD KTS No4,322048,CD 
+22,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD KTS No3,322077,CD 
+23,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Khanpur,322060,RHC 
+24,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Kotnajibullah,322061,RHC 
+25,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Kot Najibullah,322072,CD 
+26,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kariplian,322019,BHU 
+27,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Luder Mang,322025,BHU 
+28,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Chaintry,322026,BHU 
+29,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Mankarai,322027,BHU 
+30,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Pharraray,322046,CD 
+31,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Dartian,322007,BHU 
+32,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Najafpur,322031,BHU 
+33,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Mirpur,322029,BHU 
+34,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Kangra Colony,322018,BHU 
+35,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Panian,322034,BHU 
+36,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Jab,322016,BHU 
+37,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Sarai Salah,322036,BHU 
+38,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,RHC Sarai Naimat Khan,322062,RHC 
+39,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Sikandrpur,322037,BHU 
+40,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Mang,322030,BHU 
+41,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,Civil Hospital KTS,322055,CH 
+42,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,BHU Tofkian,322038,BHU 
+43,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Brug,322006,BHU 
+44,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Gali Amazai,322013,BHU 
+45,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Bait Gali,322079,BHU 
+46,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Kaneerri,322084,BHU 
+47,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,RHC Ghazi,322059,RHC 
+48,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,CD Ghazi Hamlet,322041,CD 
+49,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Amgah,322001,BHU 
+50,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Kotehra,322023,BHU 
+51,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Kundi,322024,BHU 
+52,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,BHU Salamkhand,322035,BHU 
+53,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,RHC Nara Amazai,322085,RHC 
+54,Khyber Pakhtunkhwa,3,Haripur,322,Ghazi,322002,RHC Sirikot,322063,RHC 
 322,Balochistan,4,Jaffarabad,432,Soh Bat Pur,432004,Meher Ali,432065,CD
 321,Balochistan,4,Jaffarabad,432,Soh Bat Pur,432004,Abdul Rasheed khoso,432064,CD
 320,Balochistan,4,Jaffarabad,432,Soh Bat Pur,432004,Abdul Raouf,432063,CD
@@ -141,9 +141,9 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 333,Balochistan,4,Jaffarabad,432,Soh Bat Pur,432004,Rasool Bux Khoso,432085,MCH
 334,Balochistan,4,Jaffarabad,432,Soh Bat Pur,432004,Hafiz Ahmed Jarwar,432087,Health Auxillary
 335,Balochistan,4,Jaffarabad,432,Soh Bat Pur,432004,Sikander Jarwar,432088,Health Auxillary
-8447,Punjab,1,Mianwali,830,Mianwali,2, THAMAYWALI,183033,BHU�
-8446,Punjab,1,Mianwali,830,Mianwali,2, KALARI,183021,BHU�
-8445,Punjab,1,Mianwali,830,Mianwali,2, CHAKRALA,183065,RHC�
+8447,Punjab,1,Mianwali,830,Mianwali,2, THAMAYWALI,183033,BHU 
+8446,Punjab,1,Mianwali,830,Mianwali,2, KALARI,183021,BHU 
+8445,Punjab,1,Mianwali,830,Mianwali,2, CHAKRALA,183065,RHC 
 836,Punjab,1,Bhakkar,181,Mankera,18103,Haiderabad,181031,BHU
 835,Punjab,1,Bhakkar,181,Mankera,18103,Mahni,181033,BHU
 834,Punjab,1,Bhakkar,181,Mankera,18103,Goharwala,181029,BHU
@@ -154,10 +154,10 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 829,Punjab,1,Bhakkar,181,Mankera,18103,Chak # 67 / ML,181027,BHU
 828,Punjab,1,Bhakkar,181,Mankera,18103,THQH Mankera,181059,THQ
 12628,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,RHC Sarqala,342003,RHC 
-8443,Punjab,1,Mianwali,830,Mianwali,2, MARI INDUS,183024,BHU�
+8443,Punjab,1,Mianwali,830,Mianwali,2, MARI INDUS,183024,BHU 
 12629,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,BHU Bangirai,342017,BHU 
-8441,Punjab,1,Mianwali,830,Mianwali,2, DAUD KHEL,183066,RHC�
-8442,Punjab,1,Mianwali,830,Mianwali,2, PAKI SHAH MARDAN,183029,BHU�
+8441,Punjab,1,Mianwali,830,Mianwali,2, DAUD KHEL,183066,RHC 
+8442,Punjab,1,Mianwali,830,Mianwali,2, PAKI SHAH MARDAN,183029,BHU 
 12633,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,CD Amnawar,342028,CD 
 12610,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,BHU Dokada,342008,BHU 
 12611,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,BHU Nanser,342015,BHU 
@@ -175,21 +175,21 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 811,Punjab,1,Bhakkar,181,Daryakhan,18104,Kohawar Kalan,181009,BHU
 810,Punjab,1,Bhakkar,181,Daryakhan,18104,Dullewala,181065,RHC
 809,Punjab,1,Bhakkar,181,Daryakhan,18104,THQH Daryakhan,181120,THQ
-8435,Punjab,1,Mianwali,830,Mianwali,2,HUSSAIN WALA,183104,BHU�
+8435,Punjab,1,Mianwali,830,Mianwali,2,HUSSAIN WALA,183104,BHU 
 12617,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,RHC Jowar,342038,RHC 
-8434,Punjab,1,Mianwali,830,Mianwali,2, MIANWALI,183055,DHQ�
+8434,Punjab,1,Mianwali,830,Mianwali,2, MIANWALI,183055,DHQ 
 12618,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,Leprosy Clinic Salarzi  Jowar,342048,Leprosy Clinic 
 12616,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,Leprosy Clinic Pirbaba,342035,Leprosy Clinic 
-8432,Punjab,1,Mianwali,830,IssaKheel,1, GANDA,183121,BHU�
-8429,Punjab,1,Mianwali,830,IssaKheel,1, HOSPITAL KALABAGH,183053,THQ�
-8430,Punjab,1,Mianwali,830,IssaKheel,1,TABBISAR,183063,RHC�
-8427,Punjab,1,Mianwali,830,IssaKheel,1, VANJAREE,183097,BHU�
-8428,Punjab,1,Mianwali,830,IssaKheel,1, CHAPPRI,183120,BHU�
+8432,Punjab,1,Mianwali,830,IssaKheel,1, GANDA,183121,BHU 
+8429,Punjab,1,Mianwali,830,IssaKheel,1, HOSPITAL KALABAGH,183053,THQ 
+8430,Punjab,1,Mianwali,830,IssaKheel,1,TABBISAR,183063,RHC 
+8427,Punjab,1,Mianwali,830,IssaKheel,1, VANJAREE,183097,BHU 
+8428,Punjab,1,Mianwali,830,IssaKheel,1, CHAPPRI,183120,BHU 
 12608,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,BHU Nawakalay,342006,BHU 
-8425,Punjab,1,Mianwali,830,IssaKheel,1, TRAG,183064,RHC�
+8425,Punjab,1,Mianwali,830,IssaKheel,1, TRAG,183064,RHC 
 12609,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,BHU Toorwarsak,342007,BHU 
-8423,Punjab,1,Mianwali,830,IssaKheel,1, MITHA KHATTAK,183006,BHU�
-8424,Punjab,1,Mianwali,830,IssaKheel,1,SULTAN KHEL,183075,BHU�
+8423,Punjab,1,Mianwali,830,IssaKheel,1, MITHA KHATTAK,183006,BHU 
+8424,Punjab,1,Mianwali,830,IssaKheel,1,SULTAN KHEL,183075,BHU 
 793,Punjab,1,Bhakkar,181,Bhakkar,18101,Khansar,181008,BHU
 792,Punjab,1,Bhakkar,181,Bhakkar,18101,Sarai Muhajir,181017,BHU
 791,Punjab,1,Bhakkar,181,Bhakkar,18101,Notak,181014,BHU
@@ -218,10 +218,10 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 851,Punjab,1,Bhakkar,181,Kallurkot,18102,Noora Sharif,181025,BHU
 852,Punjab,1,Bhakkar,181,Kallurkot,18102,Shehadan,181087,BHU
 853,Punjab,1,Bhakkar,181,Kallurkot,18102,Chak # 63/DB,181021,BHU
-8422,Punjab,1,Mianwali,830,IssaKheel,1,KALLUR SHARIF,183003,BHU�
-8421,Punjab,1,Mianwali,830,IssaKheel,1, MASEET WALA,183122,BHU�
-8420,Punjab,1,Mianwali,830,IssaKheel,1, KUNDAL,183004,BHU�
-8419,Punjab,1,Mianwali,830,IssaKheel,1, HOSPITAL ISA KHEL,183054,THQ�
+8422,Punjab,1,Mianwali,830,IssaKheel,1,KALLUR SHARIF,183003,BHU 
+8421,Punjab,1,Mianwali,830,IssaKheel,1, MASEET WALA,183122,BHU 
+8420,Punjab,1,Mianwali,830,IssaKheel,1, KUNDAL,183004,BHU 
+8419,Punjab,1,Mianwali,830,IssaKheel,1, HOSPITAL ISA KHEL,183054,THQ 
 8418,Punjab,1,Bhakkar,181,Mankera,18101,Katchi Shahani,181007,BHU
 8417,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,CD Rehana,322047,CD
 8416,Punjab,1,Bhakkar,181,Daryakhan,18104,Punjgrain,181016,BHU
@@ -804,49 +804,49 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 12204,Sindh,2,Thatta,217,Thatta,21709,Baradabad,217055,CD
 12203,Sindh,2,Thatta,217,Thatta,21709,Tando Hafiz Shah,217054,BHU
 12202,Sindh,2,Thatta,217,Thatta,21709,Jhimpir,217053,BHU
-1508,Khyber Pakhtunkhwa,3,Swabi,52,SwabiJalbai,352002,BHU
-1509,Khyber Pakhtunkhwa,3,Swabi,52,SwabiMangol Chai,352006,BHU
-1510,Khyber Pakhtunkhwa,3,Swabi,52,SwabiMarghuz,352008,RHC
-1511,Khyber Pakhtunkhwa,3,Swabi,52,SwabiQadra,352009,BHU
-1512,Khyber Pakhtunkhwa,3,Swabi,52,SwabiShah Mansoor,352010,BHU
-1513,Khyber Pakhtunkhwa,3,Swabi,52,SwabiTarakai,352011,BHU
-1514,Khyber Pakhtunkhwa,3,Swabi,52,SwabiBachai,352013,BHU
-1515,Khyber Pakhtunkhwa,3,Swabi,52,SwabiBahadar Abad,352014,BHU
-1516,Khyber Pakhtunkhwa,3,Swabi,52,SwabiBaja,352015,BHU
-1517,Khyber Pakhtunkhwa,3,Swabi,52,SwabiGandaf,352019,BHU
-1518,Khyber Pakhtunkhwa,3,Swabi,52,SwabiGani Chatra,352020,BHU
-1519,Khyber Pakhtunkhwa,3,Swabi,52,SwabiIsmaila,352021,BHU
-1520,Khyber Pakhtunkhwa,3,Swabi,52,SwabiJanda,352022,BHU
-1521,Khyber Pakhtunkhwa,3,Swabi,52,Swabikalabat,352024,BHU
-1522,Khyber Pakhtunkhwa,3,Swabi,52,SwabiMian Killi,352025,BHU
-1523,Khyber Pakhtunkhwa,3,Swabi,52,SwabiManai,352026,BHU
-1524,Khyber Pakhtunkhwa,3,Swabi,52,Swabisheikh Jana,352029,BHU
-1525,Khyber Pakhtunkhwa,3,Swabi,52,SwabiZaida,352030,BHU
-1526,Khyber Pakhtunkhwa,3,Swabi,52,SwabiZaroobi,352031,BHU
-1527,Khyber Pakhtunkhwa,3,Swabi,52,SwabiAdina,352032,BHU
-1528,Khyber Pakhtunkhwa,3,Swabi,52,SwabiBetakara,352033,BHU
-1529,Khyber Pakhtunkhwa,3,Swabi,52,SwabiKotta,352035,BHU
-1530,Khyber Pakhtunkhwa,3,Swabi,52,SwabiCheck Noda,352036,BHU
-1531,Khyber Pakhtunkhwa,3,Swabi,52,SwabiPunjpir,352037,BHU
-1532,Khyber Pakhtunkhwa,3,Swabi,52,SwabiSalim Khan,352038,BHU
-1533,Khyber Pakhtunkhwa,3,Swabi,52,SwabiShewa,352039,BHU
-1534,Khyber Pakhtunkhwa,3,Swabi,52,SwabiTand Kohi,352040,BHU
-1535,Khyber Pakhtunkhwa,3,Swabi,52,SwabiUtla,352050,CD
-1536,Khyber Pakhtunkhwa,3,Swabi,52,SwabiKallu Khan,352055,CH
-1537,Khyber Pakhtunkhwa,3,Swabi,52,SwabiDHQ Hospital,352064,DHQ
-1538,Khyber Pakhtunkhwa,3,Swabi,52,SwabiGabassni,352069,BHU
-1539,Khyber Pakhtunkhwa,3,Swabi,52,SwabiPehur Hemlet,352048,CD
-1540,Khyber Pakhtunkhwa,3,Swabi,52,TopiCD Bada,352044,CD
-1541,Khyber Pakhtunkhwa,3,Swabi,52,TopiChH Topi,352056,CH
-1542,Khyber Pakhtunkhwa,3,Swabi,52,RazarDagai,352001,BHU
-1543,Khyber Pakhtunkhwa,3,Swabi,52,RazarSadri Jadid,352027,BHU
+1508,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Jalbai,352002,BHU
+1509,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Mangol Chai,352006,BHU
+1510,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Marghuz,352008,RHC
+1511,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Qadra,352009,BHU
+1512,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Shah Mansoor,352010,BHU
+1513,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Tarakai,352011,BHU
+1514,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Bachai,352013,BHU
+1515,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Bahadar Abad,352014,BHU
+1516,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Baja,352015,BHU
+1517,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Gandaf,352019,BHU
+1518,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Gani Chatra,352020,BHU
+1519,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Ismaila,352021,BHU
+1520,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Janda,352022,BHU
+1521,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,kalabat,352024,BHU
+1522,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Mian Killi,352025,BHU
+1523,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Manai,352026,BHU
+1524,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,sheikh Jana,352029,BHU
+1525,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Zaida,352030,BHU
+1526,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Zaroobi,352031,BHU
+1527,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Adina,352032,BHU
+1528,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Betakara,352033,BHU
+1529,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Kotta,352035,BHU
+1530,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Check Noda,352036,BHU
+1531,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Punjpir,352037,BHU
+1532,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Salim Khan,352038,BHU
+1533,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Shewa,352039,BHU
+1534,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Tand Kohi,352040,BHU
+1535,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Utla,352050,CD
+1536,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Kallu Khan,352055,CH
+1537,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,DHQ Hospital,352064,DHQ
+1538,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Gabassni,352069,BHU
+1539,Khyber Pakhtunkhwa,3,Swabi,52,Swabi,,Pehur Hemlet,352048,CD
+1540,Khyber Pakhtunkhwa,3,Swabi,52,Topi,,CD Bada,352044,CD
+1541,Khyber Pakhtunkhwa,3,Swabi,52,Topi,,ChH Topi,352056,CH
+1542,Khyber Pakhtunkhwa,3,Swabi,52,Razar,,Dagai,352001,BHU
+1543,Khyber Pakhtunkhwa,3,Swabi,52,Razar,,Sadri Jadid,352027,BHU
 4985,Balochistan,4,DERA BUGTI,451,PHELLAWAGH,4510002,BHU KILLI GUL MUHAMMAD,451006,
 4984,Balochistan,4,DERA BUGTI,451,PHELLAWAGH,4510002,BHU KILLI BASHKAN,451005,
 8366,Balochistan,4,DERA BUGTI,451,PHELLAWAGH,4510002,BHU KHAND GARANI KILLI GOURAN,451062,
-8367,Gilgit-Baltistan,6,Astore,60,Astore,0,CH Eidgah Astore,606040,CH
-8450,Punjab,1,Mianwali,830,Mianwali,2,GHUNDI,183019,BHU�
+8367,Gilgit-Balistan,6,Astore,60,Astore,0,CH Eidgah Astore,606040,CH
+8450,Punjab,1,Mianwali,830,Mianwali,2,GHUNDI,183019,BHU 
 12634,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,BHU Cheena,342029,BHU 
-8449,Punjab,1,Mianwali,830,Mianwali,2,PAI KHEL,183028,BHU�
+8449,Punjab,1,Mianwali,830,Mianwali,2,PAI KHEL,183028,BHU 
 10174,Khyber Pakhtunkhwa,8,Mohmand,802,Ekkaghund,802001,BHU Michni,802002,BHU
 4978,Balochistan,4,DERA BUGTI,451,DERA BUGTI,4510001,BHU KILLI SHAIQ KHAN PITOKH,451049,
 4977,Balochistan,4,DERA BUGTI,451,DERA BUGTI,4510001,BHU KILLI PIARA KHAN,451061,
@@ -981,12 +981,12 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 4848,Balochistan,4,BARKHAN,461,BARKHAN,46101,BHU KILLI TAMNI,461004,
 4847,Balochistan,4,BARKHAN,461,BARKHAN,46101,BHU EASHNI,461002,
 4846,Balochistan,4,BARKHAN,461,BARKHAN,46101,BHU CHAPPAR,461020,
-12299,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Bakhshali �,351013,BHU
-12298,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,CD Babuzai �,351052,CD
-12297,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Babuzai �,351002,BHU
-12296,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Charbanda �,351005,BHU
-12295,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Babaini �,351107,BHU
-12294,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Alo �,351035,BHU
+12299,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Bakhshali  ,351013,BHU
+12298,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,CD Babuzai  ,351052,CD
+12297,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Babuzai  ,351002,BHU
+12296,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Charbanda  ,351005,BHU
+12295,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Babaini  ,351107,BHU
+12294,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Alo  ,351035,BHU
 12293,Sindh,2,Umerkot,254,Umerkot,25404,Hurabad,254802,CD
 12292,Sindh,2,Umerkot,254,Umerkot,25404,New Chhor,254801,MTD
 12291,Sindh,2,Umerkot,254,Umerkot,25404,Faqir Ameen Mangrio,254979,RHC
@@ -1205,35 +1205,35 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 4612,Balochistan,4,Kech,417,Buleda,0,CD Koshk,423047,CD
 4610,Balochistan,4,Kech,417,Buleda,0,BHU Tehdaim,423098,BHU
 4611,Balochistan,4,Kech,417,Buleda,0,BHU Tehthanignitqn,423027,BHU
-4609,Balochistan,4,Kech,4170,BHU Durbly,42007,BHU
-12328,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Kohi Bermol �,351020,Hosp
-12327,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Sheikh Yousaf �,351032,Hosp
-12326,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Khazana Dheri �,351018,Hosp
-12325,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Baizo Kharki �,351036,Hosp
-12324,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,Type-D Hospital Katlang �,351089,Hosp
-12323,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Kati Garhi �,351017,BHU
-12322,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Kata Khat �,351040,BHU
-12321,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Qasim �,351029,BHU
-12320,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Jamal Garhi �,351015,BHU
-12319,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Jalala �,351038,BHU
-12318,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Hathian �,351037,BHU
-12317,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Gumbat �,351088,RHC
-12316,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Gujrat �,351057,CD
-12315,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Gujar Garhi �,351012,BHU
-12314,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Bago Banda �,351004,BHU
-12304,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Chargulli �,351006,BHU
-12305,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,SHC Khair Abad �,351093,SHC
-12300,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Shahbaz Garhi �,351090,RHC
-12301,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Rustam �,351030,BHU
-12302,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Aman Kot �,351001,BHU
-12313,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Ghala Dher �,351016,BHU
-12312,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Garhyala �,351014,BHU
-12310,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Garhi Daulatzai �,351011,BHU
-12311,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Garhi Ismailzai �,351010,BHU
-12309,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Kodinaka �,351019,BHU
-12306,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,THQ Takht Bhai �,351092,THQ
-12308,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Fathma �,351009,BHU
-12307,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Dheri Lekpani �,351008,BHU
+4609,Balochistan,4,Kech,417,,0,BHU Durbly,42007,BHU
+12328,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Kohi Bermol  ,351020,Hosp
+12327,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Sheikh Yousaf  ,351032,Hosp
+12326,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Khazana Dheri  ,351018,Hosp
+12325,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Baizo Kharki  ,351036,Hosp
+12324,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,Type-D Hospital Katlang  ,351089,Hosp
+12323,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Kati Garhi  ,351017,BHU
+12322,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Kata Khat  ,351040,BHU
+12321,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Qasim  ,351029,BHU
+12320,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Jamal Garhi  ,351015,BHU
+12319,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Jalala  ,351038,BHU
+12318,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Hathian  ,351037,BHU
+12317,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Gumbat  ,351088,RHC
+12316,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Gujrat  ,351057,CD
+12315,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Gujar Garhi  ,351012,BHU
+12314,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Bago Banda  ,351004,BHU
+12304,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Chargulli  ,351006,BHU
+12305,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,SHC Khair Abad  ,351093,SHC
+12300,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Shahbaz Garhi  ,351090,RHC
+12301,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Rustam  ,351030,BHU
+12302,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Aman Kot  ,351001,BHU
+12313,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Ghala Dher  ,351016,BHU
+12312,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Garhyala  ,351014,BHU
+12310,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Garhi Daulatzai  ,351011,BHU
+12311,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Garhi Ismailzai  ,351010,BHU
+12309,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Kodinaka  ,351019,BHU
+12306,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,THQ Takht Bhai  ,351092,THQ
+12308,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Fathma  ,351009,BHU
+12307,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Dheri Lekpani  ,351008,BHU
 10733,Balochistan,4,Gwadr,421,Gwadar,42101,BHU Chikalmati,421004,BHU 
 4567,Balochistan,4,Washuk,4121,Washuk,42101,Sorgazo,412037,CD
 4568,Balochistan,4,Washuk,4121,Washuk,42101,Qumber,412074,CD
@@ -1314,7 +1314,7 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 4492,Balochistan,4,Sibi,4531,Lehri,453001,Bakhtyar abad,453010,BHU
 4490,Balochistan,4,Quetta,443,Quetta,443001,PANJPAI,443159,MCH
 4491,Balochistan,4,Quetta,443,Quetta,443001,MOHAMMAD KHAIL,443512,BHU
-12303,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Chack Mardan �,351007,BHU
+12303,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Chack Mardan  ,351007,BHU
 4489,Balochistan,4,Quetta,443,Quetta,443001,UMARABAD,443158,BHU
 4488,Balochistan,4,Quetta,443,Quetta,443001,PANJPAI,443157,RHC
 4487,Balochistan,4,Quetta,443,Quetta,443001,NASRAN,443156,BHU
@@ -1822,7 +1822,7 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 3985,Balochistan,4,Jhal Magsi,433,Jhal Magsi,43302,Panjuk,433018,BHU
 3984,Balochistan,4,Jhal Magsi,433,Gandawah,43301,Mir Pur,433031,CD
 3983,Balochistan,4,Jhal Magsi,433,Gandawah,43301,Chowri Ghullam Hussain,433024,CD
-8368,Gilgit-Baltistan,6,Astore,60,Astore,0,CH Bunji,606041,CH
+8368,Gilgit-Balistan,6,Astore,60,Astore,0,CH Bunji,606041,CH
 3981,Balochistan,4,Jhal Magsi,433,Gandawah,43301,Ahmad Pur,436008,RHC
 3980,Balochistan,4,Jhal Magsi,433,Gandawah,43301,konara,436007,CD
 3979,Balochistan,4,Jhal Magsi,433,Gandawah,43301,Kotra,433029,CD
@@ -2044,115 +2044,115 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 5122,Punjab,1,Layyah,122,Karoor,12203,chak no 300,122081,BHU
 5123,Punjab,1,Layyah,122,Karoor,12203,Nawan kot,122004,BHU
 12620,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,BHU Koga,342011,BHU 
-5125,Punjab,1,Mianwali,830,IssaKheel,1, ISA-KHEL,183057,MCH�
+5125,Punjab,1,Mianwali,830,IssaKheel,1, ISA-KHEL,183057,MCH 
 12623,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,BHU Malka,342014,BHU 
 12591,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CHC Wazir Muhammad killi ghundi,803019,CHC
 12592,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,THQ Hospital Dogra Picket Bara,803001,THQ
 12593,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CD Milward,803002,CD
 12594,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CD Fort Salop,803003,CD
 12595,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CD Uchalagada,803004,CD
-5132,Punjab,1,Mianwali,830,IssaKheel,1, KAMARMASHANI,183068,RHC�
+5132,Punjab,1,Mianwali,830,IssaKheel,1, KAMARMASHANI,183068,RHC 
 12596,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CD Tangai,803005,CD
 12597,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CHC Habibullah Killi,803006,CHC
-5136,Punjab,1,Mianwali,830,IssaKheel,1,KALABAGH,183058,MCH�
+5136,Punjab,1,Mianwali,830,IssaKheel,1,KALABAGH,183058,MCH 
 12601,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,BHU Abdullah jan Killi,803024,BHU
-5138,Punjab,1,Mianwali,830,IssaKheel,1, JALAL PUR,183072,BHU�
-5140,Punjab,1,Mianwali,830,IssaKheel,1, DISPENSARY KHUDAZAI,183136,RD�
-5141,Punjab,1,Mianwali,830,IssaKheel,1, TOLA BHANGI KHEL,183076,BHU�
+5138,Punjab,1,Mianwali,830,IssaKheel,1, JALAL PUR,183072,BHU 
+5140,Punjab,1,Mianwali,830,IssaKheel,1, DISPENSARY KHUDAZAI,183136,RD 
+5141,Punjab,1,Mianwali,830,IssaKheel,1, TOLA BHANGI KHEL,183076,BHU 
 12621,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,BHU Korya,342012,BHU 
 12619,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,TB Clinic,342049,TB Clinic 
-5144,Punjab,1,Mianwali,830,Mianwali,2, WATTA KHEL,183135,RD�
-5145,Punjab,1,Mianwali,830,Mianwali,2, AHMED KHAN WALA,183008,BHU�
-5146,Punjab,1,Mianwali,830,Mianwali,2, SHAHBAZ KHEL,183132,RD�
-5147,Punjab,1,Mianwali,830,Mianwali,2,ROKHRI,183030,BHU�
-5148,Punjab,1,Mianwali,830,Mianwali,2, DILLAYWALI,183017,BHU�
-5149,Punjab,1,Mianwali,830,Mianwali,2, KHAN MOHAMMAD WALA,183105,MCH�
-5150,Punjab,1,Mianwali,830,Mianwali,2, MUHAMMAD YAR WALA,183038,RD�
-5151,Punjab,1,Mianwali,830,Mianwali,2, MOCHH,183070,RHC�
-5152,Punjab,1,Mianwali,830,Mianwali,2,THATHI,183015,BHU�
+5144,Punjab,1,Mianwali,830,Mianwali,2, WATTA KHEL,183135,RD 
+5145,Punjab,1,Mianwali,830,Mianwali,2, AHMED KHAN WALA,183008,BHU 
+5146,Punjab,1,Mianwali,830,Mianwali,2, SHAHBAZ KHEL,183132,RD 
+5147,Punjab,1,Mianwali,830,Mianwali,2,ROKHRI,183030,BHU 
+5148,Punjab,1,Mianwali,830,Mianwali,2, DILLAYWALI,183017,BHU 
+5149,Punjab,1,Mianwali,830,Mianwali,2, KHAN MOHAMMAD WALA,183105,MCH 
+5150,Punjab,1,Mianwali,830,Mianwali,2, MUHAMMAD YAR WALA,183038,RD 
+5151,Punjab,1,Mianwali,830,Mianwali,2, MOCHH,183070,RHC 
+5152,Punjab,1,Mianwali,830,Mianwali,2,THATHI,183015,BHU 
 12604,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,BHU Toda China,803027,BHU
 12605,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,BHU Sara China,803028,BHU
 12606,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,BHU Elai,342004,BHU 
-5156,Punjab,1,Mianwali,830,Mianwali,2, SORA,183134,RD�
-5157,Punjab,1,Mianwali,830,Mianwali,2,BANI AFGHAN,183010,BHU�
+5156,Punjab,1,Mianwali,830,Mianwali,2, SORA,183134,RD 
+5157,Punjab,1,Mianwali,830,Mianwali,2,BANI AFGHAN,183010,BHU 
 12602,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,BHU Janbaz Killi,803025,BHU
 12603,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,BHU Ajab Talab,803026,BHU
-5161,Punjab,1,Mianwali,830,Mianwali,2, DHOK AYYUB,183016,BHU�
-5162,Punjab,1,Mianwali,830,Mianwali,2,DHURNAKA,183131,RD�
+5161,Punjab,1,Mianwali,830,Mianwali,2, DHOK AYYUB,183016,BHU 
+5162,Punjab,1,Mianwali,830,Mianwali,2,DHURNAKA,183131,RD 
 12640,Khyber Pakhtunkhwa,3,Buner,42,thothalai,4205,CD Chinglai,342026,CD 
 12636,Khyber Pakhtunkhwa,3,Buner,42,Chagharzai ,4204,BHU Battara ,342001,BHU 
-5165,Punjab,1,Mianwali,830,Mianwali,2, SWANCE,183138,CD�
-5166,Punjab,1,Mianwali,830,Mianwali,2,BORI KHEL,183011,BHU�
+5165,Punjab,1,Mianwali,830,Mianwali,2, SWANCE,183138,CD 
+5166,Punjab,1,Mianwali,830,Mianwali,2,BORI KHEL,183011,BHU 
 12632,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,CD Budal,342020,CD 
 12624,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,CD Amazi,342023,CD 
 12625,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,CD Khanano Dherai,342024,CD 
-5170,Punjab,1,Mianwali,830,Mianwali,2, GULMERI,183020,BHU�
+5170,Punjab,1,Mianwali,830,Mianwali,2, GULMERI,183020,BHU 
 12598,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CHC Younas Killi,803009,CHC
 12599,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,CHC Kotki Tirah,803010,CHC
 12600,Khyber Pakhtunkhwa,8,Khyber Agency,803,Bara,803003,BHU Kala Khel,803023,BHU
-5174,Punjab,1,Mianwali,830,Mianwali,2, MUSA KHEL,183025,BHU�
-5175,Punjab,1,Mianwali,830,Mianwali,2, MIANWALI,183060,MCH�
-5176,Punjab,1,Mianwali,830,Mianwali,2, WAN BACHRAN,183071,RHC�
-5177,Punjab,1,Mianwali,830,Mianwali,2, DHER UMAID ALI SHAH,183133,RD�
-5178,Punjab,1,Mianwali,830,Piplan,99, PIPLAN,183052,THQ�
-5179,Punjab,1,Mianwali,830,Piplan,99,CTR PIPLAN,183062,MCH�
-5180,Punjab,1,Mianwali,830,Piplan,99,PIPLAN,183128,CD�
+5174,Punjab,1,Mianwali,830,Mianwali,2, MUSA KHEL,183025,BHU 
+5175,Punjab,1,Mianwali,830,Mianwali,2, MIANWALI,183060,MCH 
+5176,Punjab,1,Mianwali,830,Mianwali,2, WAN BACHRAN,183071,RHC 
+5177,Punjab,1,Mianwali,830,Mianwali,2, DHER UMAID ALI SHAH,183133,RD 
+5178,Punjab,1,Mianwali,830,Piplan,99, PIPLAN,183052,THQ 
+5179,Punjab,1,Mianwali,830,Piplan,99,CTR PIPLAN,183062,MCH 
+5180,Punjab,1,Mianwali,830,Piplan,99,PIPLAN,183128,CD 
 12635,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,Leprosy Clinic Tangora,342034,Leprosy Clinic 
-5182,Punjab,1,Mianwali,830,Piplan,99, CHAK NO3-4ML,183041,GRD�
+5182,Punjab,1,Mianwali,830,Piplan,99, CHAK NO3-4ML,183041,GRD 
 12639,Khyber Pakhtunkhwa,3,Buner,42,thothalai,4205,BHU Bagh,342016,BHU 
-5184,Punjab,1,Mianwali,830,Piplan,99, KUNDIAN,183069,RHC�
-5185,Punjab,1,Mianwali,830,Piplan,99, CHAK NO5DB,183037,GRD�
+5184,Punjab,1,Mianwali,830,Piplan,99, KUNDIAN,183069,RHC 
+5185,Punjab,1,Mianwali,830,Piplan,99, CHAK NO5DB,183037,GRD 
 12637,Khyber Pakhtunkhwa,3,Buner,42,Chagharzai ,4204,BHU pandair,342002,BHU 
-5187,Punjab,1,Mianwali,830,Piplan,99, HERNOLI,183130,CD�
+5187,Punjab,1,Mianwali,830,Piplan,99, HERNOLI,183130,CD 
 12641,Khyber Pakhtunkhwa,3,Buner,42,thothalai,4205,CD Ghazikot,342027,CD 
-5189,Punjab,1,Mianwali,830,Piplan,99, CHAK NO 4DB,183012,BHU�
-5191,Punjab,1,Mianwali,830,Piplan,99,CHAK NO19DB,183040,GRD�
-5192,Punjab,1,Mianwali,830,Piplan,99,CHAK NO 5-6ML,183013,BHU�
+5189,Punjab,1,Mianwali,830,Piplan,99, CHAK NO 4DB,183012,BHU 
+5191,Punjab,1,Mianwali,830,Piplan,99,CHAK NO19DB,183040,GRD 
+5192,Punjab,1,Mianwali,830,Piplan,99,CHAK NO 5-6ML,183013,BHU 
 12607,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,BHU Gokand,342005,BHU 
-5194,Punjab,1,Mianwali,830,Piplan,99,CHAK NO16ML,183039,GRD�
-5195,Punjab,1,Mianwali,830,Piplan,99,CHAK NO 18ML,183129,CD�
+5194,Punjab,1,Mianwali,830,Piplan,99,CHAK NO16ML,183039,GRD 
+5195,Punjab,1,Mianwali,830,Piplan,99,CHAK NO 18ML,183129,CD 
 12622,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,BHU Langow,342013,BHU 
-5197,Punjab,1,Rajanpur,124,Rajanpur,12401,HOSPITAL,124041,DHQ�
-5198,Punjab,1,Rajanpur,124,Rajanpur,12401, KOTLA EASON,124016,BHU�
-5199,Punjab,1,Rajanpur,124,Rajanpur,12401,THARI,124023,BHU�
-5200,Punjab,1,Rajanpur,124,Rajanpur,12401,FAZIL PUR,124048,RHC�
-5201,Punjab,1,Rajanpur,124,Rajanpur,12401, KOT MITTHAN,124049,RHC�
-5202,Punjab,1,Rajanpur,124,Rajanpur,12401, FATEH PUR,124012,BHU�
-5203,Punjab,1,Rajanpur,124,Rajanpur,12401, HAZRAT WALA,124013,BHU�
-5204,Punjab,1,Rajanpur,124,Rajanpur,12401, JAHANPUR,124014,BHU�
-5205,Punjab,1,Rajanpur,124,Rajanpur,12401, KOTLA NASIR,124017,BHU�
-5206,Punjab,1,Rajanpur,124,Rajanpur,12401, MURGHAI,124019,BHU�
-5207,Punjab,1,Rajanpur,124,Rajanpur,12401, NOOR PUR,124020,BHU�
-5208,Punjab,1,Rajanpur,124,Rajanpur,12401, SAHAN WALA,124021,BHU�
-5209,Punjab,1,Rajanpur,124,Rajanpur,12401, WANG,124078,BHU�
-5210,Punjab,1,Rajanpur,124,Rajanpur,12401, SHIKAR PUR,124022,BHU�
-5211,Punjab,1,Rajanpur,124,Rojhan,12402,BANGALA ICHA,124024,RHC�
-5212,Punjab,1,Rajanpur,124,Rojhan,12402, KOTLA HASSAN SHAH,124025,BHU�
-5213,Punjab,1,Rajanpur,124,Rojhan,12402, MIRAN PUR,124026,BHU�
-5214,Punjab,1,Rajanpur,124,Rojhan,12402, SHAH WALI,124027,BHU�
-5215,Punjab,1,Rajanpur,124,Rojhan,12402, SOON MIANI,124028,BHU�
-5216,Punjab,1,Rajanpur,124,Rojhan,12402, UMER KOT,124029,BHU�
-5217,Punjab,1,Rajanpur,124,Rojhan,12402,ROJHAN,124042,THQ�
-5218,Punjab,1,Rajanpur,124,Rajanpur,12401, KOT SUBZAL,124015,BHU�
-5219,Punjab,1,Rajanpur,124,Rojhan,12402,UZMAN,124050,BHU�
-5220,Punjab,1,Rajanpur,124,Jampur,12403,DARAGAL,124077,BHU�
-5221,Punjab,1,Rajanpur,124,Jampur,12403,BUKHARA,124001,BHU�
-5222,Punjab,1,Rajanpur,124,Jampur,12403, BURREY WALA,124002,BHU�
-5223,Punjab,1,Rajanpur,124,Jampur,12403, HAJI PUR,124004,BHU�
-5224,Punjab,1,Rajanpur,124,Jampur,12403, MOHAMMAD PUR,124047,RHC�
-5225,Punjab,1,Rajanpur,124,Jampur,12403, KOT TAHIR,124006,BHU�
-5226,Punjab,1,Rajanpur,124,Jampur,12403, KOTLA DIWAN,124007,BHU�
-5227,Punjab,1,Rajanpur,124,Jampur,12403, KOTLA MUGHLAN,124008,BHU�
-5228,Punjab,1,Rajanpur,124,Jampur,12403, SALEEM ABAD,124009,BHU�
-5229,Punjab,1,Rajanpur,124,Jampur,12403, TATAR WALA,124010,BHU�
-5230,Punjab,1,Rajanpur,124,Jampur,12403, Tibi Lundan,124011,BHU�
-5231,Punjab,1,Rajanpur,124,Jampur,12403, HARRAND,124046,RHC�
-5232,Punjab,1,Rajanpur,124,Jampur,12403, DAJAL,124045,RHC�
-5233,Punjab,1,Rajanpur,124,Jampur,12403, DRIGRI,124003,BHU�
-5234,Punjab,1,Rajanpur,124,Jampur,12403, ISLAM PUR,124005,BHU�
-5235,Punjab,1,Rajanpur,124,Jampur,12403, JAMPUR,124039,THQ�
-5236,Punjab,1,Rajanpur,124,Jampur,12403, TAL SHUMALI,124076,BHU�
-5237,Punjab,1,Rajanpur,124,Jampur,12403, MARI,124018,BHU�
+5197,Punjab,1,Rajanpur,124,Rajanpur,12401,HOSPITAL,124041,DHQ 
+5198,Punjab,1,Rajanpur,124,Rajanpur,12401, KOTLA EASON,124016,BHU 
+5199,Punjab,1,Rajanpur,124,Rajanpur,12401,THARI,124023,BHU 
+5200,Punjab,1,Rajanpur,124,Rajanpur,12401,FAZIL PUR,124048,RHC 
+5201,Punjab,1,Rajanpur,124,Rajanpur,12401, KOT MITTHAN,124049,RHC 
+5202,Punjab,1,Rajanpur,124,Rajanpur,12401, FATEH PUR,124012,BHU 
+5203,Punjab,1,Rajanpur,124,Rajanpur,12401, HAZRAT WALA,124013,BHU 
+5204,Punjab,1,Rajanpur,124,Rajanpur,12401, JAHANPUR,124014,BHU 
+5205,Punjab,1,Rajanpur,124,Rajanpur,12401, KOTLA NASIR,124017,BHU 
+5206,Punjab,1,Rajanpur,124,Rajanpur,12401, MURGHAI,124019,BHU 
+5207,Punjab,1,Rajanpur,124,Rajanpur,12401, NOOR PUR,124020,BHU 
+5208,Punjab,1,Rajanpur,124,Rajanpur,12401, SAHAN WALA,124021,BHU 
+5209,Punjab,1,Rajanpur,124,Rajanpur,12401, WANG,124078,BHU 
+5210,Punjab,1,Rajanpur,124,Rajanpur,12401, SHIKAR PUR,124022,BHU 
+5211,Punjab,1,Rajanpur,124,Rojhan,12402,BANGALA ICHA,124024,RHC 
+5212,Punjab,1,Rajanpur,124,Rojhan,12402, KOTLA HASSAN SHAH,124025,BHU 
+5213,Punjab,1,Rajanpur,124,Rojhan,12402, MIRAN PUR,124026,BHU 
+5214,Punjab,1,Rajanpur,124,Rojhan,12402, SHAH WALI,124027,BHU 
+5215,Punjab,1,Rajanpur,124,Rojhan,12402, SOON MIANI,124028,BHU 
+5216,Punjab,1,Rajanpur,124,Rojhan,12402, UMER KOT,124029,BHU 
+5217,Punjab,1,Rajanpur,124,Rojhan,12402,ROJHAN,124042,THQ 
+5218,Punjab,1,Rajanpur,124,Rajanpur,12401, KOT SUBZAL,124015,BHU 
+5219,Punjab,1,Rajanpur,124,Rojhan,12402,UZMAN,124050,BHU 
+5220,Punjab,1,Rajanpur,124,Jampur,12403,DARAGAL,124077,BHU 
+5221,Punjab,1,Rajanpur,124,Jampur,12403,BUKHARA,124001,BHU 
+5222,Punjab,1,Rajanpur,124,Jampur,12403, BURREY WALA,124002,BHU 
+5223,Punjab,1,Rajanpur,124,Jampur,12403, HAJI PUR,124004,BHU 
+5224,Punjab,1,Rajanpur,124,Jampur,12403, MOHAMMAD PUR,124047,RHC 
+5225,Punjab,1,Rajanpur,124,Jampur,12403, KOT TAHIR,124006,BHU 
+5226,Punjab,1,Rajanpur,124,Jampur,12403, KOTLA DIWAN,124007,BHU 
+5227,Punjab,1,Rajanpur,124,Jampur,12403, KOTLA MUGHLAN,124008,BHU 
+5228,Punjab,1,Rajanpur,124,Jampur,12403, SALEEM ABAD,124009,BHU 
+5229,Punjab,1,Rajanpur,124,Jampur,12403, TATAR WALA,124010,BHU 
+5230,Punjab,1,Rajanpur,124,Jampur,12403, Tibi Lundan,124011,BHU 
+5231,Punjab,1,Rajanpur,124,Jampur,12403, HARRAND,124046,RHC 
+5232,Punjab,1,Rajanpur,124,Jampur,12403, DAJAL,124045,RHC 
+5233,Punjab,1,Rajanpur,124,Jampur,12403, DRIGRI,124003,BHU 
+5234,Punjab,1,Rajanpur,124,Jampur,12403, ISLAM PUR,124005,BHU 
+5235,Punjab,1,Rajanpur,124,Jampur,12403, JAMPUR,124039,THQ 
+5236,Punjab,1,Rajanpur,124,Jampur,12403, TAL SHUMALI,124076,BHU 
+5237,Punjab,1,Rajanpur,124,Jampur,12403, MARI,124018,BHU 
 5238,Punjab,1,Rahim Yar khan,113,LIAQATPUR,11302,BHU UNRAN,113022,BHU
 5239,Punjab,1,Rahim Yar khan,113,LIAQATPUR,11302,BHU ALLAH JIWAYA LAR ,113023,BHU
 5240,Punjab,1,Rahim Yar khan,113,LIAQATPUR,11302,BHU ARIF BALOUCH,113024,BHU
@@ -2289,70 +2289,70 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 5371,Punjab,1,Rahim Yar khan,113,RAHIM YAR KHAN,11305,RHC KOT SAMABA KOT SAMABA,113204,RHC 
 5372,Punjab,1,Rahim Yar khan,113,RAHIM YAR KHAN,11305,RHC MIAN WALI QURESHIAN MIAN WALI QURESHEIAN,113205,RHC 
 5373,Punjab,1,Rahim Yar khan,113,RAHIM YAR KHAN,11305,RHC RAJAN PUR KALAN RAJAN PUR KALAN,113206,RHC 
-5374,Punjab,1,D G Khan,121,TEHSIL DGK,12101, SHAHDAN LUND,121080,RHC�
-5375,Punjab,1,D G Khan,121,TEHSIL DGK,12101,KALA,121010,BHU�
-5376,Punjab,1,D G Khan,121,TEHSIL DGK,12101,CHAK NOW ABAD,121122,BHU�
-5377,Punjab,1,D G Khan,121,TEHSIL DGK,12101,SHAH SADAR DIN,121079,RHC�
-5378,Punjab,1,D G Khan,121,TEHSIL DGK,12101,KOT MUBARIK,121014,BHU�
-5379,Punjab,1,D G Khan,121,TEHSIL DGK,12101, PIR ADIL,121022,BHU�
-5380,Punjab,1,D G Khan,121,TEHSIL DGK,12101, YAROO,121030,BHU�
-5381,Punjab,1,D G Khan,121,TEHSIL DGK,12101, CHABRI ZARIN,121005,BHU�
-5382,Punjab,1,D G Khan,121,TEHSIL DGK,12101, KOT HAIBAT,121013,BHU�
-5383,Punjab,1,D G Khan,121,TEHSIL DGK,12101,SARWAR WALI,121078,RHC�
-5384,Punjab,1,D G Khan,121,TEHSIL DGK,12101,HAJI GHAZI GHARBI,121008,BHU�
-5385,Punjab,1,D G Khan,121,TEHSIL DGK,12101, SAMINA,121025,BHU�
-5386,Punjab,1,D G Khan,121,TEHSIL DGK,12101,KHAKHI,121011,BHU�
-5387,Punjab,1,D G Khan,121,TEHSIL DGK,12101,WADOOR,121029,BHU�
-5388,Punjab,1,D G Khan,121,TEHSIL DGK,12101, GADAI ,121131,BHU�
-5389,Punjab,1,D G Khan,121,TEHSIL DGK,12101, LOHAR WALA,121016,BHU�
-5390,Punjab,1,D G Khan,121,TEHSIL DGK,12101,AALI WALA,121001,BHU�
-5391,Punjab,1,D G Khan,121,TEHSIL DGK,12101, Ghousabad,121019,BHU�
-5392,Punjab,1,D G Khan,121,TEHSIL DGK,12101, BAIT BAIT WALA,121138,BHU�
-5393,Punjab,1,D G Khan,121,TEHSIL DGK,12101, KOT CHUTTA,121076,RHC�
-5394,Punjab,1,D G Khan,121,TEHSIL DGK,12101, MEMOORI,121020,BHU�
-5395,Punjab,1,D G Khan,121,TEHSIL DGK,12101, SAKHI SARWAR,121053,CH�
-5396,Punjab,1,D G Khan,121,TEHSIL DGK,12101,BASTI JAM,121003,BHU�
-5397,Punjab,1,D G Khan,121,TEHSIL DGK,12101, JHOK UTRA,121009,BHU�
-5398,Punjab,1,D G Khan,121,TEHSIL DGK,12101, ARA JAFAR,121123,BHU�
-5399,Punjab,1,D G Khan,121,TEHSIL DGK,12101, MANA AHMADANI,121018,BHU�
-5400,Punjab,1,D G Khan,121,TEHSIL DGK,12101,SHEROO,121026,BHU�
-5401,Punjab,1,D G Khan,121,TEHSIL DGK,12101, KHANPUR,121012,BHU�
-5402,Punjab,1,D G Khan,121,TEHSIL DGK,12101, THATHA GABOOLAN,121028,BHU�
-5403,Punjab,1,D G Khan,121,TEHSIL DGK,12101, CHOTI ZARIN,121075,RHC�
-5404,Punjab,1,D G Khan,121,TEHSIL DGK,12101, NAWAN SHAHR,121021,BHU�
-5405,Punjab,1,D G Khan,121,TEHSIL DGK,12101, TALPUR,121027,BHU�
-5406,Punjab,1,D G Khan,121,TEHSIL DGK,12101, BAKHAR WAH,121002,BHU�
-5407,Punjab,1,D G Khan,121,TEHSIL DGK,12101, CHOTI BALA,121006,BHU�
-5408,Punjab,1,D G Khan,121,TEHSIL DGK,12101, MAIN PHEROO,121017,BHU�
-5409,Punjab,1,D G Khan,121,TEHSIL DGK,12101, QADIRABAD,121077,RHC�
-5410,Punjab,1,D G Khan,121,TEHSIL DGK,12101,HOSPITAL DG KHAN,121068,DHQ�
-5411,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, JHOOK BODO,121035,BHU�
-5412,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, TRIMIN,121044,BHU�
-5413,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, NUTKANI TAUNSA,121132,BHU�
-5414,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, LITRA,121039,BHU�
-5415,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, TIBBI QASRANI,121083,RHC�
-5416,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, MORE JHANGI,121133,BHU�
-5417,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, DONA,121032,BHU�
-5418,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, NARI,121042,BHU�
-5419,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, ROONGHAN,121024,BHU�
-5420,Punjab,1,D G Khan,121,Tehsil Taunsa,12102,KOT QASRANI,121037,BHU�
-5421,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, MANGROOTHA,121041,BHU�
-5422,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, SOKAR,121043,BHU�
-5423,Punjab,1,D G Khan,121,Tehsil Taunsa,12102,MOHAI,121118,BHU�
-5424,Punjab,1,D G Khan,121,Tehsil Taunsa,12102,MAKWAL KALAN,121040,BHU�
-5425,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, SANJAR SYEDAN,121120,BHU�
-5426,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, HEROO SHARQI,121034,BHU�
-5427,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, TAUNS,121069,THQ�
-5428,Punjab,1,D G Khan,121,Tehsil Tribal,12103,BAWATA,121004,BHU�
-5429,Punjab,1,D G Khan,121,Tehsil Tribal,12103,RAKHI MUNH,121023,BHU�
-5430,Punjab,1,D G Khan,121,Tehsil Tribal,12103, FORT MUNROO,121067,CH�
-5431,Punjab,1,D G Khan,121,Tehsil Tribal,12103, BARTHI,121082,RHC�
-5432,Punjab,1,D G Khan,121,Tehsil Tribal,12103, FAZLA KATCH,121033,BHU�
-5433,Punjab,1,D G Khan,121,Tehsil Tribal,12103, DOMBAR TUMAN BUZDAR II,121134,BHU�
-5434,Punjab,1,D G Khan,121,Tehsil Tribal,12103121007,BHU�
-5435,Punjab,1,D G Khan,121,Tehsil Tribal,12103, LAKHA,121015,BHU�
-5436,Punjab,1,D G Khan,121,Tehsil Tribal,12103, KHAR BUZDAR,121036,BHU�
-5437,Punjab,1,D G Khan,121,Tehsil Tribal,12103, BAROT MUNDWANI,121031,BHU�
+5374,Punjab,1,D G Khan,121,TEHSIL DGK,12101, SHAHDAN LUND,121080,RHC 
+5375,Punjab,1,D G Khan,121,TEHSIL DGK,12101,KALA,121010,BHU 
+5376,Punjab,1,D G Khan,121,TEHSIL DGK,12101,CHAK NOW ABAD,121122,BHU 
+5377,Punjab,1,D G Khan,121,TEHSIL DGK,12101,SHAH SADAR DIN,121079,RHC 
+5378,Punjab,1,D G Khan,121,TEHSIL DGK,12101,KOT MUBARIK,121014,BHU 
+5379,Punjab,1,D G Khan,121,TEHSIL DGK,12101, PIR ADIL,121022,BHU 
+5380,Punjab,1,D G Khan,121,TEHSIL DGK,12101, YAROO,121030,BHU 
+5381,Punjab,1,D G Khan,121,TEHSIL DGK,12101, CHABRI ZARIN,121005,BHU 
+5382,Punjab,1,D G Khan,121,TEHSIL DGK,12101, KOT HAIBAT,121013,BHU 
+5383,Punjab,1,D G Khan,121,TEHSIL DGK,12101,SARWAR WALI,121078,RHC 
+5384,Punjab,1,D G Khan,121,TEHSIL DGK,12101,HAJI GHAZI GHARBI,121008,BHU 
+5385,Punjab,1,D G Khan,121,TEHSIL DGK,12101, SAMINA,121025,BHU 
+5386,Punjab,1,D G Khan,121,TEHSIL DGK,12101,KHAKHI,121011,BHU 
+5387,Punjab,1,D G Khan,121,TEHSIL DGK,12101,WADOOR,121029,BHU 
+5388,Punjab,1,D G Khan,121,TEHSIL DGK,12101, GADAI ,121131,BHU 
+5389,Punjab,1,D G Khan,121,TEHSIL DGK,12101, LOHAR WALA,121016,BHU 
+5390,Punjab,1,D G Khan,121,TEHSIL DGK,12101,AALI WALA,121001,BHU 
+5391,Punjab,1,D G Khan,121,TEHSIL DGK,12101, Ghousabad,121019,BHU 
+5392,Punjab,1,D G Khan,121,TEHSIL DGK,12101, BAIT BAIT WALA,121138,BHU 
+5393,Punjab,1,D G Khan,121,TEHSIL DGK,12101, KOT CHUTTA,121076,RHC 
+5394,Punjab,1,D G Khan,121,TEHSIL DGK,12101, MEMOORI,121020,BHU 
+5395,Punjab,1,D G Khan,121,TEHSIL DGK,12101, SAKHI SARWAR,121053,CH 
+5396,Punjab,1,D G Khan,121,TEHSIL DGK,12101,BASTI JAM,121003,BHU 
+5397,Punjab,1,D G Khan,121,TEHSIL DGK,12101, JHOK UTRA,121009,BHU 
+5398,Punjab,1,D G Khan,121,TEHSIL DGK,12101, ARA JAFAR,121123,BHU 
+5399,Punjab,1,D G Khan,121,TEHSIL DGK,12101, MANA AHMADANI,121018,BHU 
+5400,Punjab,1,D G Khan,121,TEHSIL DGK,12101,SHEROO,121026,BHU 
+5401,Punjab,1,D G Khan,121,TEHSIL DGK,12101, KHANPUR,121012,BHU 
+5402,Punjab,1,D G Khan,121,TEHSIL DGK,12101, THATHA GABOOLAN,121028,BHU 
+5403,Punjab,1,D G Khan,121,TEHSIL DGK,12101, CHOTI ZARIN,121075,RHC 
+5404,Punjab,1,D G Khan,121,TEHSIL DGK,12101, NAWAN SHAHR,121021,BHU 
+5405,Punjab,1,D G Khan,121,TEHSIL DGK,12101, TALPUR,121027,BHU 
+5406,Punjab,1,D G Khan,121,TEHSIL DGK,12101, BAKHAR WAH,121002,BHU 
+5407,Punjab,1,D G Khan,121,TEHSIL DGK,12101, CHOTI BALA,121006,BHU 
+5408,Punjab,1,D G Khan,121,TEHSIL DGK,12101, MAIN PHEROO,121017,BHU 
+5409,Punjab,1,D G Khan,121,TEHSIL DGK,12101, QADIRABAD,121077,RHC 
+5410,Punjab,1,D G Khan,121,TEHSIL DGK,12101,HOSPITAL DG KHAN,121068,DHQ 
+5411,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, JHOOK BODO,121035,BHU 
+5412,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, TRIMIN,121044,BHU 
+5413,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, NUTKANI TAUNSA,121132,BHU 
+5414,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, LITRA,121039,BHU 
+5415,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, TIBBI QASRANI,121083,RHC 
+5416,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, MORE JHANGI,121133,BHU 
+5417,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, DONA,121032,BHU 
+5418,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, NARI,121042,BHU 
+5419,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, ROONGHAN,121024,BHU 
+5420,Punjab,1,D G Khan,121,Tehsil Taunsa,12102,KOT QASRANI,121037,BHU 
+5421,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, MANGROOTHA,121041,BHU 
+5422,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, SOKAR,121043,BHU 
+5423,Punjab,1,D G Khan,121,Tehsil Taunsa,12102,MOHAI,121118,BHU 
+5424,Punjab,1,D G Khan,121,Tehsil Taunsa,12102,MAKWAL KALAN,121040,BHU 
+5425,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, SANJAR SYEDAN,121120,BHU 
+5426,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, HEROO SHARQI,121034,BHU 
+5427,Punjab,1,D G Khan,121,Tehsil Taunsa,12102, TAUNS,121069,THQ 
+5428,Punjab,1,D G Khan,121,Tehsil Tribal,12103,BAWATA,121004,BHU 
+5429,Punjab,1,D G Khan,121,Tehsil Tribal,12103,RAKHI MUNH,121023,BHU 
+5430,Punjab,1,D G Khan,121,Tehsil Tribal,12103, FORT MUNROO,121067,CH 
+5431,Punjab,1,D G Khan,121,Tehsil Tribal,12103, BARTHI,121082,RHC 
+5432,Punjab,1,D G Khan,121,Tehsil Tribal,12103, FAZLA KATCH,121033,BHU 
+5433,Punjab,1,D G Khan,121,Tehsil Tribal,12103, DOMBAR TUMAN BUZDAR II,121134,BHU 
+5434,Punjab,1,D G Khan,121,Tehsil Tribal,12103,,121007,BHU 
+5435,Punjab,1,D G Khan,121,Tehsil Tribal,12103, LAKHA,121015,BHU 
+5436,Punjab,1,D G Khan,121,Tehsil Tribal,12103, KHAR BUZDAR,121036,BHU 
+5437,Punjab,1,D G Khan,121,Tehsil Tribal,12103, BAROT MUNDWANI,121031,BHU 
 10713,Punjab,1,Multan,163,Shujabad,16302,GRD Ganwen,163102,GRD
 10712,Punjab,1,Multan,163,Shujabad,16302,BHU Shah Pur,163052,BHU
 10711,Punjab,1,Multan,163,Shujabad,16302,RHC Matotli,163163,RHC
@@ -2963,13 +2963,15 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 11678,Sindh,2,Dadu,212,Johi,21202,ALLAHYARANI,212015,BHU
 11677,Sindh,2,Dadu,212,Johi,21202,PHULJI VILLAGE DoH,212010,BHU
 11676,Sindh,2,Dadu,212,Johi,21202,SIJAWAL KHAN ALKHANI,202127,CD
+11674,Sindh,2,Dadu,212,Dadu,21201,,,
 11673,Sindh,2,Dadu,212,Dadu,21201,CIVIL HOSPITAL,212070,DHQ
 11672,Sindh,2,Dadu,212,Dadu,21201,PURANO DERO,212065,BHU
 11671,Sindh,2,Dadu,212,Dadu,21201,SITA VILLAGE,212014,BHU
+11669,Sindh,2,Dadu,212,Dadu,21201,,,
 11668,Sindh,2,Dadu,212,Dadu,21201,PIPRI DoH,212012,BHU
 11667,Sindh,2,Dadu,212,Dadu,21201,PIARO GOTH ,212011,BHU
 11666,Sindh,2,Dadu,212,Dadu,21201, PHULJI STATION,212009,BHU
-11664,Sindh,2,Dadu,212,Dadu,21201,
+11664,Sindh,2,Dadu,212,Dadu,21201,,,
 11662,Sindh,2,Dadu,212,Dadu,21201, MOUNDAR,212006,BHU
 11663,Sindh,2,Dadu,212,Dadu,21201, PATT ,212007,BHU
 11661,Sindh,2,Dadu,212,Dadu,21201, MAKHDOOM BILAWAL,212005,BHU
@@ -4155,101 +4157,101 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 8155,Khyber Pakhtunkhwa,3,Charsadda,361,Shabqadar,361003,BHU Panj Pao,361072,BHU
 8156,Khyber Pakhtunkhwa,3,Charsadda,361,Shabqadar,361003,BHU Daulat Pura,361011,BHU
 8157,Khyber Pakhtunkhwa,3,Charsadda,361,Shabqadar,361003,CD Kharaki,361074,CD
-8158,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,DISTT HEALTH OFFICE SKARDU,601001,
-8159,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,DHQ HOSPITAL SKARDU,601068,
-8160,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP HUSSAINABAD,601069,
-8161,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP BASHO,601009,
-8162,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL HOSPTL GAMBA SKARDU,601013,
-8163,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP GOLE,601016,
-8164,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP KACHURA,601023,
-8165,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP KOMRAH,601024,
-8166,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP KOWARDO,601025,
-8167,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP SATPARA,601031,
-8168,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP SERMIK,601032,
-8169,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,CIVIL DISP THORGO,601038,
-8170,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,FIRST AID POST GIAYUL,601047,
-8171,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,FIRST AID POST KATPANA,601051,
-8172,Gilgit-Baltistan,6,SKARDU,601,SKARDU,0,MCH CTR SUNDUS,601082,
-8173,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,BASIC HEALTH UNIT TISSAR,601005,
-8174,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,BASIC HEALTH UNIT ALCHORI,601006,
-8175,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP CHURKA,601010,
-8176,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP CHUTRON,601011,
-8177,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP DASSO,601012,
-8178,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP GULABPUR,601018,
-8179,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP NAR,601028,
-8180,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP WAZIR PUR,601040,
-8181,Gilgit-Baltistan,6,SKARDU,601,SHIGAR,0,RURAL HEALTH CENTER ,601065,
-8182,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,BASIC HEALTH UNIT TORMIK,601004,
-8183,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP HARPOH,601021,
-8184,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP SHOT,601035,
-8185,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP STAK,601036,
-8186,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP TALU,601037,
-8187,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,FIRST AID POST TIRICO,601059,
-8188,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,FIRST AID POST TORMIK,601061,
-8189,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,FIRST AID POST YULBO,601062,
-8190,Gilgit-Baltistan,6,SKARDU,601,ROUNDO,0,CIVIL HOSPITL THOWAR,601066,
-8191,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,BASIC HEALTH UNIT MAYRDO,601003,
-8192,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP MANTHOKHA,601026,
-8193,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP OLDING,601029,
-8194,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP PARI,601030,
-8195,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP TOLTI BROQ,601039,
-8196,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,FIRST AID POST  KHARMNG,601052,
-8197,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,CIVIL HOSPITL MEHDIABAD,601064,
-8198,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,CIVIL HOSPITL TOLTI,601067,
-8199,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,FIRST AID POST KATISHO,601092,
-8200,Gilgit-Baltistan,6,SKARDU,601,KHRMNG,0,FIRST AID POST HILALABAD,601096,
+8158,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,DISTT HEALTH OFFICE SKARDU,601001,
+8159,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,DHQ HOSPITAL SKARDU,601068,
+8160,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP HUSSAINABAD,601069,
+8161,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP BASHO,601009,
+8162,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL HOSPTL GAMBA SKARDU,601013,
+8163,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP GOLE,601016,
+8164,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP KACHURA,601023,
+8165,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP KOMRAH,601024,
+8166,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP KOWARDO,601025,
+8167,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP SATPARA,601031,
+8168,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP SERMIK,601032,
+8169,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,CIVIL DISP THORGO,601038,
+8170,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,FIRST AID POST GIAYUL,601047,
+8171,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,FIRST AID POST KATPANA,601051,
+8172,Gilgit-Balistan,6,SKARDU,601,SKARDU,0,MCH CTR SUNDUS,601082,
+8173,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,BASIC HEALTH UNIT TISSAR,601005,
+8174,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,BASIC HEALTH UNIT ALCHORI,601006,
+8175,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP CHURKA,601010,
+8176,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP CHUTRON,601011,
+8177,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP DASSO,601012,
+8178,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP GULABPUR,601018,
+8179,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP NAR,601028,
+8180,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,CIVIL DISP WAZIR PUR,601040,
+8181,Gilgit-Balistan,6,SKARDU,601,SHIGAR,0,RURAL HEALTH CENTER ,601065,
+8182,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,BASIC HEALTH UNIT TORMIK,601004,
+8183,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP HARPOH,601021,
+8184,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP SHOT,601035,
+8185,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP STAK,601036,
+8186,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,CIVIL DISP TALU,601037,
+8187,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,FIRST AID POST TIRICO,601059,
+8188,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,FIRST AID POST TORMIK,601061,
+8189,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,FIRST AID POST YULBO,601062,
+8190,Gilgit-Balistan,6,SKARDU,601,ROUNDO,0,CIVIL HOSPITL THOWAR,601066,
+8191,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,BASIC HEALTH UNIT MAYRDO,601003,
+8192,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP MANTHOKHA,601026,
+8193,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP OLDING,601029,
+8194,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP PARI,601030,
+8195,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,CIVIL DISP TOLTI BROQ,601039,
+8196,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,FIRST AID POST  KHARMNG,601052,
+8197,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,CIVIL HOSPITL MEHDIABAD,601064,
+8198,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,CIVIL HOSPITL TOLTI,601067,
+8199,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,FIRST AID POST KATISHO,601092,
+8200,Gilgit-Balistan,6,SKARDU,601,KHRMNG,0,FIRST AID POST HILALABAD,601096,
 12972,Khyber Pakhtunkhwa,3,Nowshera,364,Nowshera,36401,Jalozai-3M,364303,IDP 
-8203,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,Civil Hospital Keris,603009,
-8204,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,Civil Hospital Daghoni,603041,
-8205,Gilgit-Baltistan,6,Ghanche,602,Mashabrum,0,Civil Hospital Thagus,603019,
-8206,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,Civil Hospital Siksa,603043,
-8207,Gilgit-Baltistan,6,Ghanche,602,Mashabrum,0,Civil Dispensary Dumsum,603005,
-8208,Gilgit-Baltistan,6,Ghanche,602,Mashabrum,0,Civil Dispensary Gulshan-e-Kabir,603018,
-8209,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,FAP Garbikhor Ghowari,603025,
-8210,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,FAP Gharbochon,603026,
-8211,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,FAP Khaplu,603030,
-8212,Gilgit-Baltistan,6,Ghanche,602,Mashabrum,0,FAP Sino,603036,
-8213,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,FAP Darul Uloom Ghowari,603052,
-8214,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,FAP Balghar,603054,
-8215,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,TB Clinic Khaplu,603067,
-8216,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,Basic Health Unit Bara,603002,
-8217,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,Basic Health Unit Machlu,603003,
-8218,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,Basic Health Unit Thalley,603020,
-8219,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,Civil Dispensary Ghowari,603006,
-8220,Gilgit-Baltistan,6,Ghanche,602,Khaplu,0,Civil Dispensary Kharfaq,603010,
-8221,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,Civil Dispensary Salling,603016,
-8222,Gilgit-Baltistan,6,Ghanche,602,Daghoni,0,FAP Yougo,603040,
-8223,Gilgit-Baltistan,6,Ghanche,602,Mashabrum,0,CD Surmo,603044,
-8224,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,DHQ Hospital Gilgit,605055,
-8225,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,CMH Gilgit,605011,
-8226,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,Aga Khan Health Center Gilgit,605022,
-8227,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,Civil Hospital Jiglot,605051,
-8228,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,City Hospital Kashrote,605033,
-8229,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,BHU Jalalabad,605057,
-8230,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,BHU Nomal,605004,
-8231,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,A class Dispensary Danyor,605032,
-8232,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,Civil Hospital Baseen,605024,
-8233,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,Family Health Hospital Jutial Gilgit,605025,
-8234,Gilgit-Baltistan,6,Gilgit,603,Gilgit,0,Sehat Foundation Danyor,605044,
-8235,Gilgit-Baltistan,6,GHIZER,604,Punial,0,DHQ Hospital Gahkuch,604002,
-8236,Gilgit-Baltistan,6,GHIZER,604,Punial,0,Civil Hospital Singal,604034,
-8237,Gilgit-Baltistan,6,GHIZER,604,Ishkoman,0,Civil Hospital Chatorkhand,604031,
-8238,Gilgit-Baltistan,6,GHIZER,604,Punial,0,Aga Khan Health Center Singal,604011,
-8239,Gilgit-Baltistan,6,GHIZER,604,Gupis,0,Civil Hospital Gupis,604033,
-8240,Gilgit-Baltistan,6,GHIZER,604,Gupis,0,Aga Khan Health Center Gupis,604044,
-8241,Gilgit-Baltistan,6,GHIZER,604,Yasin,0,Civil Hospital Yasin,604035,
-8242,Gilgit-Baltistan,6,GHIZER,604,Gupis,0,BHU Shamaran,604003,
-8243,Gilgit-Baltistan,6,Hunza Nagar   ,605,Nagar-2,0,RHC Chalt Nagar,605010,
-8244,Gilgit-Baltistan,6,Hunza Nagar   ,605,Nagar-1,0,Civil Hospital Nagar,505053,
-8245,Gilgit-Baltistan,6,Hunza Nagar   ,605,Aliabad,0,Civil Hospital Karimabad Hunza,605052,
-8246,Gilgit-Baltistan,6,Hunza Nagar   ,605,Aliabad,0,Civil Hospital Aliabad Hunza,605050,
-8247,Gilgit-Baltistan,6,Hunza Nagar   ,605,Nagar-2,0,Civil Hospital Gulmat Nagar,605013,
-8248,Gilgit-Baltistan,6,Hunza Nagar   ,605,Gojal,0,Civil Hospital Gulmit Gojal,605015,
-8249,Gilgit-Baltistan,6,Hunza Nagar   ,605,Aliabad,0,Agha Khan Extended Family Health  Center Aliabad H,605077,
-8250,Gilgit-Baltistan,6,Hunza Nagar   ,605,Nagar-1,0,BHU Hoper Nagar,605003,
-8251,Gilgit-Baltistan,6,Hunza Nagar   ,605,Aliabad,0,BHU Khanabad Hunza,605058,
-8252,Gilgit-Baltistan,6,Hunza Nagar   ,605,Nagar-2,0,A Class Dispensary Skandarabad Nagar,605027,
-8253,Gilgit-Baltistan,6,Hunza Nagar   ,605,Nagar-1,0,Civil Dispensary Askurdas,605028,
+8203,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,Civil Hospital Keris,603009,
+8204,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,Civil Hospital Daghoni,603041,
+8205,Gilgit-Balistan,6,Ghanche,602,Mashabrum,0,Civil Hospital Thagus,603019,
+8206,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,Civil Hospital Siksa,603043,
+8207,Gilgit-Balistan,6,Ghanche,602,Mashabrum,0,Civil Dispensary Dumsum,603005,
+8208,Gilgit-Balistan,6,Ghanche,602,Mashabrum,0,Civil Dispensary Gulshan-e-Kabir,603018,
+8209,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,FAP Garbikhor Ghowari,603025,
+8210,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,FAP Gharbochon,603026,
+8211,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,FAP Khaplu,603030,
+8212,Gilgit-Balistan,6,Ghanche,602,Mashabrum,0,FAP Sino,603036,
+8213,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,FAP Darul Uloom Ghowari,603052,
+8214,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,FAP Balghar,603054,
+8215,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,TB Clinic Khaplu,603067,
+8216,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,Basic Health Unit Bara,603002,
+8217,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,Basic Health Unit Machlu,603003,
+8218,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,Basic Health Unit Thalley,603020,
+8219,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,Civil Dispensary Ghowari,603006,
+8220,Gilgit-Balistan,6,Ghanche,602,Khaplu,0,Civil Dispensary Kharfaq,603010,
+8221,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,Civil Dispensary Salling,603016,
+8222,Gilgit-Balistan,6,Ghanche,602,Daghoni,0,FAP Yougo,603040,
+8223,Gilgit-Balistan,6,Ghanche,602,Mashabrum,0,CD Surmo,603044,
+8224,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,DHQ Hospital Gilgit,605055,
+8225,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,CMH Gilgit,605011,
+8226,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,Aga Khan Health Center Gilgit,605022,
+8227,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,Civil Hospital Jiglot,605051,
+8228,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,City Hospital Kashrote,605033,
+8229,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,BHU Jalalabad,605057,
+8230,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,BHU Nomal,605004,
+8231,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,A class Dispensary Danyor,605032,
+8232,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,Civil Hospital Baseen,605024,
+8233,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,Family Health Hospital Jutial Gilgit,605025,
+8234,Gilgit-Balistan,6,Gilgit,603,Gilgit,0,Sehat Foundation Danyor,605044,
+8235,Gilgit-Balistan,6,GHIZER,604,Punial,0,DHQ Hospital Gahkuch,604002,
+8236,Gilgit-Balistan,6,GHIZER,604,Punial,0,Civil Hospital Singal,604034,
+8237,Gilgit-Balistan,6,GHIZER,604,Ishkoman,0,Civil Hospital Chatorkhand,604031,
+8238,Gilgit-Balistan,6,GHIZER,604,Punial,0,Aga Khan Health Center Singal,604011,
+8239,Gilgit-Balistan,6,GHIZER,604,Gupis,0,Civil Hospital Gupis,604033,
+8240,Gilgit-Balistan,6,GHIZER,604,Gupis,0,Aga Khan Health Center Gupis,604044,
+8241,Gilgit-Balistan,6,GHIZER,604,Yasin,0,Civil Hospital Yasin,604035,
+8242,Gilgit-Balistan,6,GHIZER,604,Gupis,0,BHU Shamaran,604003,
+8243,Gilgit-Balistan,6,Hunza Nagar   ,605,Nagar-2,0,RHC Chalt Nagar,605010,
+8244,Gilgit-Balistan,6,Hunza Nagar   ,605,Nagar-1,0,Civil Hospital Nagar,505053,
+8245,Gilgit-Balistan,6,Hunza Nagar   ,605,Aliabad,0,Civil Hospital Karimabad Hunza,605052,
+8246,Gilgit-Balistan,6,Hunza Nagar   ,605,Aliabad,0,Civil Hospital Aliabad Hunza,605050,
+8247,Gilgit-Balistan,6,Hunza Nagar   ,605,Nagar-2,0,Civil Hospital Gulmat Nagar,605013,
+8248,Gilgit-Balistan,6,Hunza Nagar   ,605,Gojal,0,Civil Hospital Gulmit Gojal,605015,
+8249,Gilgit-Balistan,6,Hunza Nagar   ,605,Aliabad,0,Agha Khan Extended Family Health  Center Aliabad H,605077,
+8250,Gilgit-Balistan,6,Hunza Nagar   ,605,Nagar-1,0,BHU Hoper Nagar,605003,
+8251,Gilgit-Balistan,6,Hunza Nagar   ,605,Aliabad,0,BHU Khanabad Hunza,605058,
+8252,Gilgit-Balistan,6,Hunza Nagar   ,605,Nagar-2,0,A Class Dispensary Skandarabad Nagar,605027,
+8253,Gilgit-Balistan,6,Hunza Nagar   ,605,Nagar-1,0,Civil Dispensary Askurdas,605028,
 12542,Federal Capital Territory,7,Islamabad1,701,Isb-urban1,7010,Female Dispensary G-7/2,701025,DISP 
 8255,Balochistan,4,Panjgur,422,Panjgur,42201,DHQ Hospital,422025,DHQ 
 8256,Balochistan,4,Panjgur,422,Panjgur,42201,Leprocy Centre,422051,BHU 
@@ -4340,67 +4342,67 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 8363,Balochistan,4,Kalat,411,Kalat,41101,DHQ Hospital,411049,DHQ
 8364,Balochistan,4,Kalat,411,Kalat,41101,Chashma,411051,MCH
 8365,Balochistan,4,Kalat,411,Kalat,41101,Goam,411085,MCH
-8369,Gilgit-Baltistan,6,Astore,60,Shontar,0,BHU Pakorah,606036,BHU
-8370,Gilgit-Baltistan,6,Astore,60,Astore,0,BHU Parishing,606003,BHU
-8371,Gilgit-Baltistan,6,Astore,60,Shontar,0,BHU Dirlay,606046,BHU
-8372,Gilgit-Baltistan,6,Astore,60,Astore,0,CD Gurikot,606028,CD
-8373,Gilgit-Baltistan,6,Astore,60,Astore,0,CD Dashkin,606047,CD
-8374,Gilgit-Baltistan,6,Astore,60,Astore,0,CD Ramkha,606016,CD
-8375,Gilgit-Baltistan,6,Astore,60,Shontar,0,CD Rattu,606017,CD
-8376,Gilgit-Baltistan,6,Astore,60,Shontar,0,CD Gudai,606010,CD
-8377,Gilgit-Baltistan,6,Astore,60,Shontar,0,CD Rehmanpure,606018,CD
-8378,Gilgit-Baltistan,6,Astore,60,Shontar,0,CD Dashkharam,606007,CD
-8379,Gilgit-Baltistan,6,Astore,60,Shontar,0,CD Minimarg,606013,CD
-8380,Gilgit-Baltistan,6,Astore,60,Astore,0,FAP Hercho,606030,FAP
-8381,Gilgit-Baltistan,6,Astore,60,Shontar,0,FAP Meer Malik,606034,FAP
+8369,Gilgit-Balistan,6,Astore,60,Shontar,0,BHU Pakorah,606036,BHU
+8370,Gilgit-Balistan,6,Astore,60,Astore,0,BHU Parishing,606003,BHU
+8371,Gilgit-Balistan,6,Astore,60,Shontar,0,BHU Dirlay,606046,BHU
+8372,Gilgit-Balistan,6,Astore,60,Astore,0,CD Gurikot,606028,CD
+8373,Gilgit-Balistan,6,Astore,60,Astore,0,CD Dashkin,606047,CD
+8374,Gilgit-Balistan,6,Astore,60,Astore,0,CD Ramkha,606016,CD
+8375,Gilgit-Balistan,6,Astore,60,Shontar,0,CD Rattu,606017,CD
+8376,Gilgit-Balistan,6,Astore,60,Shontar,0,CD Gudai,606010,CD
+8377,Gilgit-Balistan,6,Astore,60,Shontar,0,CD Rehmanpure,606018,CD
+8378,Gilgit-Balistan,6,Astore,60,Shontar,0,CD Dashkharam,606007,CD
+8379,Gilgit-Balistan,6,Astore,60,Shontar,0,CD Minimarg,606013,CD
+8380,Gilgit-Balistan,6,Astore,60,Astore,0,FAP Hercho,606030,FAP
+8381,Gilgit-Balistan,6,Astore,60,Shontar,0,FAP Meer Malik,606034,FAP
 12589,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CD Chora,803016,CD
 12590,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CD Lala China,803017,CD
 12579,Khyber Pakhtunkhwa,8,Khyber Agency,803,Landikotal,803001,BHU Allacha,803033,BHU
 12580,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CD Qadam,803013,CD
 12578,Khyber Pakhtunkhwa,8,Khyber Agency,803,Landikotal,803001,BHU Karamna,803032,BHU
-8389,Gilgit-Baltistan,6,Diamer,20,Chilas,0,CD Gonerform,602029,CD
+8389,Gilgit-Balistan,6,Diamer,20,Chilas,0,CD Gonerform,602029,CD
 12581,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CD Jabba,803014,CD
-8392,Gilgit-Baltistan,6,Diamer,20,Chilas,0,FAP Botogah,602020,FAP
-8393,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,FAP Gayal,602027,FAP
+8392,Gilgit-Balistan,6,Diamer,20,Chilas,0,FAP Botogah,602020,FAP
+8393,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,FAP Gayal,602027,FAP
 12585,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,BHU Kambila,803030,BHU
 12586,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CH Jamrud,803011,CH
 12587,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CH Lowara Mina,803012,CH
 12588,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CD Chappari,803015,CD
-8399,Gilgit-Baltistan,6,Diamer,20,Chilas,0,DHQ Hospital Chilas,602045,DHQ
-8400,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,CH Darrel,602043,CH
-8401,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,CH Tangir,602044,CH
-8402,Gilgit-Baltistan,6,Diamer,20,Chilas,0,BHU Thore,602004,BHU
-8403,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,BHU Dabaz,602050,BHU
-8404,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,BHU Khanbary,602002,BHU
-8405,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,CD Goharabad,602009,CD
+8399,Gilgit-Balistan,6,Diamer,20,Chilas,0,DHQ Hospital Chilas,602045,DHQ
+8400,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,CH Darrel,602043,CH
+8401,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,CH Tangir,602044,CH
+8402,Gilgit-Balistan,6,Diamer,20,Chilas,0,BHU Thore,602004,BHU
+8403,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,BHU Dabaz,602050,BHU
+8404,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,BHU Khanbary,602002,BHU
+8405,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,CD Goharabad,602009,CD
 12584,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,BHU Ali Masjid,803029,BHU
-8407,Gilgit-Baltistan,6,Diamer,20,Chilas,0,CD Jal,602011,CD
-8408,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,CD Phurully,602014,CD
+8407,Gilgit-Balistan,6,Diamer,20,Chilas,0,CD Jal,602011,CD
+8408,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,CD Phurully,602014,CD
 12582,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,CD Pindi Lalma,803018,CD
 12583,Khyber Pakhtunkhwa,8,Khyber Agency,803,Jamrud,803002,BHU Mia Morcha,803022,BHU
-8411,Gilgit-Baltistan,6,Diamer,20,Chilas,0,FAP Hudur,602031,FAP
-8412,Gilgit-Baltistan,6,Diamer,20,Chilas,0,FAP Khiner,602032,FAP
-8413,Gilgit-Baltistan,6,Diamer,20,Chilas,0,FAP Konkoy Niat,602066,FAP
-8414,Gilgit-Baltistan,6,Diamer,20,Darrel-Tangir,0,FAP Diamer Tangir,602076,FAP
-8415,Gilgit-Baltistan,6,Diamer,20,Chilas,0,FAP Loshi,602070,FAP
+8411,Gilgit-Balistan,6,Diamer,20,Chilas,0,FAP Hudur,602031,FAP
+8412,Gilgit-Balistan,6,Diamer,20,Chilas,0,FAP Khiner,602032,FAP
+8413,Gilgit-Balistan,6,Diamer,20,Chilas,0,FAP Konkoy Niat,602066,FAP
+8414,Gilgit-Balistan,6,Diamer,20,Darrel-Tangir,0,FAP Diamer Tangir,602076,FAP
+8415,Gilgit-Balistan,6,Diamer,20,Chilas,0,FAP Loshi,602070,FAP
 12630,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,RHC Dewanbaba,342018,RHC 
-8452,Punjab,1,Mianwali,830,Mianwali,2, CHIDRU,183014,BHU�
-8453,Punjab,1,Mianwali,830,Mianwali,2, ABBA KHEL,183007,BHU�
-8454,Punjab,1,Mianwali,830,Mianwali,2, LALU KHEL,183023,BHU�
-8456,Punjab,1,Mianwali,830,Mianwali,2,CHAK NO 27DB,183114,BHU�
-8457,Punjab,1,Mianwali,830,Mianwali,2, MUZAFFARPUR,183026,BHU�
-8458,Punjab,1,Mianwali,830,Mianwali,2, SHADIA,183032,BHU�
+8452,Punjab,1,Mianwali,830,Mianwali,2, CHIDRU,183014,BHU 
+8453,Punjab,1,Mianwali,830,Mianwali,2, ABBA KHEL,183007,BHU 
+8454,Punjab,1,Mianwali,830,Mianwali,2, LALU KHEL,183023,BHU 
+8456,Punjab,1,Mianwali,830,Mianwali,2,CHAK NO 27DB,183114,BHU 
+8457,Punjab,1,Mianwali,830,Mianwali,2, MUZAFFARPUR,183026,BHU 
+8458,Punjab,1,Mianwali,830,Mianwali,2, SHADIA,183032,BHU 
 12638,Khyber Pakhtunkhwa,3,Buner,42,Chagharzai ,4204,BHU Topai,342009,BHU 
 12614,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,DHQ Hospital Daggar,342030,DHQ 
 12615,Khyber Pakhtunkhwa,3,Buner,42,Dagar,4201,CH Pachakalay,342031,CH 
-8462,Punjab,1,Mianwali,830,Piplan,99,DOAABA,183018,BHU�
-8463,Punjab,1,Mianwali,830,Piplan,99, NASEER WALA,183027,BHU�
-8465,Punjab,1,Mianwali,830,Piplan,99,KUNDIAN RURAL,183022,BHU�
-8466,Punjab,1,Mianwali,830,Piplan,99,SANDAN WALA,183031,BHU�
-8468,Punjab,1,Mianwali,830,Piplan,99,BALA,183009,BHU�
+8462,Punjab,1,Mianwali,830,Piplan,99,DOAABA,183018,BHU 
+8463,Punjab,1,Mianwali,830,Piplan,99, NASEER WALA,183027,BHU 
+8465,Punjab,1,Mianwali,830,Piplan,99,KUNDIAN RURAL,183022,BHU 
+8466,Punjab,1,Mianwali,830,Piplan,99,SANDAN WALA,183031,BHU 
+8468,Punjab,1,Mianwali,830,Piplan,99,BALA,183009,BHU 
 12631,Khyber Pakhtunkhwa,3,Buner,42,Gagra,4203,BHU Gagra,342019,BHU 
-8470,Punjab,1,Mianwali,830,Piplan,99, HAFIZWALA,183067,RHC�
-8471,Punjab,1,Mianwali,830,Piplan,99, TIBA GAMA SHAH,183034,BHU�
+8470,Punjab,1,Mianwali,830,Piplan,99, HAFIZWALA,183067,RHC 
+8471,Punjab,1,Mianwali,830,Piplan,99, TIBA GAMA SHAH,183034,BHU 
 11122,Sindh,2,Khairpur,241,Kingri,24104,BHU Kot Mir Mohammad,241073,BHU
 11121,Sindh,2,Khairpur,241,Faiz Gunj,24101,BHU Ghulam Nabi Rajpur,241072,BHU
 11120,Sindh,2,Khairpur,241,Kotdiji,24105,GD Khair Muhammad Pato    ,241071,GD
@@ -4888,142 +4890,142 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 10346,Balochistan,4,Ziarat,454,Sinjavi,45402,Baghaw,454030,BHU 
 10347,Balochistan,4,Ziarat,454,Sinjavi,45402,Shinlez,454032,BHU 
 10348,Balochistan,4,Ziarat,454,Sinjavi,45402,Regura,454044,CD 
-10349,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 1,332201,BHU� 
-10350,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 2,332202,BHU� 
-10351,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 3,332203,BHU� 
-10352,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 4,332204,BHU� 
-10353,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 5,332205,BHU� 
-10354,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 6,332206,BHU� 
+10349,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 1,332201,BHU  
+10350,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 2,332202,BHU  
+10351,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 3,332203,BHU  
+10352,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 4,332204,BHU  
+10353,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 5,332205,BHU  
+10354,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC 6,332206,BHU  
 10355,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,STC Kallinger,332207,RHC 
 10356,Khyber Pakhtunkhwa,3,Haripur,322,Haripur,322001,DHQ Haripur,332208,DHQ 
-10357,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,Civil Branch Disp:,312047,CD�
-10358,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,Police Hospital DIK,312117,CH�
-10359,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,MCH Center Islamia Colony,312096,MCH�
-10360,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Khidmat Gara Wala,312119,CD�
-10361,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,DHQ Teaching Hospital DIKhan,312001,DHQ�
-10362,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Din pur,312061,CD�
-10363,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Muryali,312021,BHU�
-10364,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,MMM Teaching Hospital DIKhan,312002,DHQ�
-10365,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Arra,312121,CD�
-10366,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Saggu,312027,BHU�
-10367,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Dayyal,312124,CD�
-10368,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Budhani,312008,BHU�
-10369,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Jabar Wala,312013,BHU�
-10370,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Jock Kanara,312014,BHU�
-10371,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Mandra kalan,312058,CD�
-10372,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Budh,312007,BHU�
-10373,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD YARIK,312065,CD�
-10374,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Giloty,312011,BHU�
-10375,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Bahadri,312118,CD�
-10376,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Muazam,312122,CD�
-10377,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Shore Kot,312029,BHU�
-10378,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Ratta kulachi,312062,CD�
-10379,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Zafar Abad,312031,BHU�
-10380,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Pota,312023,BHU�
-10381,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Fatha,312010,BHU�
-10382,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Shero kona,312028,BHU�
-10383,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Mangal,312040,BHU�
-10384,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,RHC Karri Shamozi,312106,RHC�
-10385,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,SHC Buzdar,312107,SHC�
-10386,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Ramak,312024,BHU�
-10387,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Rashid,312025,BHU�
-10388,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Roda,312026,BHU�
-10389,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Miran,312059,CD�
-10390,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Moharra,312022,BHU�
-10391,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,RHC Paroa,312104,RHC�
-10392,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Draban Khurd,312009,BHU�
-10393,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Naiwala,312060,CD�
-10394,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Noor Pur Pilar,312120,CD�
-10395,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Basti Lal,312123,CD�
-10396,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Solanr,312125,CD�
-10397,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Gomal University,312012,BHU�
-10398,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Malana,312020,BHU�
-10399,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Gara Madda,312036,BHU�
-10400,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Jandi Babar,312037,BHU�
-10401,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,THQ Hospital Kulachi,312094,THQ�
-10402,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,MCH Center Kulachi,312102,MCH�
-10403,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,UD Kulachi,312109,CD�
-10404,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Mirbazi,312042,BHU�
-10405,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Rori,312044,BHU�
-10406,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Takwara,312045,BHU�
-10407,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Mohabat,312081,CD�
-10408,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Hattala,312082,CD�
-10409,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Maddi,312039,BHU�
-10410,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Loni,312018,CD�
-10411,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Bakhtar,312077,CD�
-10412,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Matt,312041,BHU�
-10413,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,Civil Hospital Choudwan,312092,CH�
-10414,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,MCH Center Choudwan,312101,MCH�
-10415,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,SHC Kot Tiga,312108,SHC�
-10416,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Kot Isa khan,312038,BHU�
-10417,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Musazai Sharif,312043,BHU�
-10418,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,Civil Hospital Draban Kalan,312093,CH�
-10419,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Gandi Umar Khan,312034,BHU�
-10420,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Gara Isa khan,312035,BHU�
-10421,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Band kurrai,312006,BHU�
-10422,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Wanda Madat,312030,BHU�
-10423,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,Civil Hospital Panyala,312085,CH�
-10424,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,MCH Center Panyala,312098,MCH�
-10425,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Madi Khel,312019,BHU�
-10426,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Karri Khaisor,312054,CD�
-10427,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Kotla Lodhan,312015,BHU�
-10428,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Bilot Sharif,312049,CD�
-10429,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Umar khel,312064,CD�
-10430,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Dakki,312115,CD�
-10431,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Kot Gar,312055,CD�
-10432,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,RHC Sidalian at Kot Joi,312105,RHC�
-10433,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Lar,312017,BHU�
-10434,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,MCH Center Pahar Pur,312097,MCH�
-10435,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,RHC Pahar Pur,312103,RHC�
-10436,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Awan,312004,BHU�
-10437,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Bagi Qammar,312005,BHU�
-10438,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Abdul khel,312003,BHU�
-10439,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Katta khel,312052,CD�
-10440,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Lohani,312057,CD�
-10441,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Rahmani khel,312063,CD�
-10442,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Billitang,332021,BHU�
-10443,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,Police Hospital Kohat,332003,OTHER�
-10444,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Behzadi Chikarkot,332050,CD�
-10445,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,Women & Children Liaqat Memorial Hosptial Kohat,332002,HOSP�
-10446,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Garhi Mawaz Khan,332053,CD�
-10447,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Jungle Khel,332054,CD�
-10448,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,MCH Jungle Khel,332081,MCH�
-10449,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,District Headquarter Hosptial KDA Kohat,332001,DHQ�
-10450,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Mir Ahmed Khel,332064,CD�
-10451,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Kharmatoo,332055,CD�
-10452,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Mohammad Zai,332029,BHU�
-10453,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Dhoda,332023,BHU�
-10454,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Kamal Khel,332042,BHU�
-10455,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Shadi Khel,332056,CD�
-10456,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Togh Bala,332037,BHU�
-10457,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,SHC Surgul,332095,SHC�
-10458,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Bazid Khel,332100,BHU�
-10459,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Kachai,332026,BHU�
-10460,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,MCH Usterzai,332082,MCH�
-10461,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,RHC UsterzaI,332090,RHC�
-10462,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Marray Payan,332028,BHU�
-10463,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Sherkot,332045,BHU�
-10464,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Zairat Shiekh Allahdad,332039,BHU�
-10465,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Shadi Pur,332057,CD�
-10466,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Suleman Talab,332035,BHU�
-10467,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Toolang,332038,BHU�
-10468,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,RHC Gumbat,332087,RHC�
-10469,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,RHC Chorlakki,332086,RHC�
-10470,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Nakband,332030,BHU�
-10471,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Pershai,332031,BHU�
-10472,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Barh,332101,BHU�
-10473,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,Urban Dispensary Lachi,332065,CD�
-10474,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,RHC Lachi,332088,RHC�
-10475,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Shawaki,332033,BHU�
-10476,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,SHC Darmalak,332096,SHC�
-10477,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Ali Kach,332099,BHU�
-10478,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,CH Shakardara,332070,HOSP�
-10479,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Gabbari,332024,BHU�
-10480,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Duli Banda,332041,BHU�
-10481,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,CD Dartappi,332052,CD�
-10482,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,SHC Sudal,332097,SHC�
-10483,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Khadderkhel,332027,BHU�
-10484,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Sumary Payan,332036,BHU�
+10357,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,Civil Branch Disp:,312047,CD 
+10358,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,Police Hospital DIK,312117,CH 
+10359,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,MCH Center Islamia Colony,312096,MCH 
+10360,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Khidmat Gara Wala,312119,CD 
+10361,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,DHQ Teaching Hospital DIKhan,312001,DHQ 
+10362,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Din pur,312061,CD 
+10363,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Muryali,312021,BHU 
+10364,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,MMM Teaching Hospital DIKhan,312002,DHQ 
+10365,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Arra,312121,CD 
+10366,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Saggu,312027,BHU 
+10367,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Dayyal,312124,CD 
+10368,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Budhani,312008,BHU 
+10369,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Jabar Wala,312013,BHU 
+10370,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Jock Kanara,312014,BHU 
+10371,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Mandra kalan,312058,CD 
+10372,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Budh,312007,BHU 
+10373,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD YARIK,312065,CD 
+10374,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Giloty,312011,BHU 
+10375,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Bahadri,312118,CD 
+10376,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Muazam,312122,CD 
+10377,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Shore Kot,312029,BHU 
+10378,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,CD Ratta kulachi,312062,CD 
+10379,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Zafar Abad,312031,BHU 
+10380,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Pota,312023,BHU 
+10381,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Fatha,312010,BHU 
+10382,Khyber Pakhtunkhwa,3,DI Khan,312,DI Khan,312001,BHU Shero kona,312028,BHU 
+10383,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Mangal,312040,BHU 
+10384,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,RHC Karri Shamozi,312106,RHC 
+10385,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,SHC Buzdar,312107,SHC 
+10386,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Ramak,312024,BHU 
+10387,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Rashid,312025,BHU 
+10388,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Roda,312026,BHU 
+10389,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Miran,312059,CD 
+10390,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Moharra,312022,BHU 
+10391,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,RHC Paroa,312104,RHC 
+10392,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Draban Khurd,312009,BHU 
+10393,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Naiwala,312060,CD 
+10394,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Noor Pur Pilar,312120,CD 
+10395,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Basti Lal,312123,CD 
+10396,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,CD Solanr,312125,CD 
+10397,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Gomal University,312012,BHU 
+10398,Khyber Pakhtunkhwa,3,DI Khan,312,Paroa,312002,BHU Malana,312020,BHU 
+10399,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Gara Madda,312036,BHU 
+10400,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Jandi Babar,312037,BHU 
+10401,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,THQ Hospital Kulachi,312094,THQ 
+10402,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,MCH Center Kulachi,312102,MCH 
+10403,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,UD Kulachi,312109,CD 
+10404,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Mirbazi,312042,BHU 
+10405,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Rori,312044,BHU 
+10406,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Takwara,312045,BHU 
+10407,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Mohabat,312081,CD 
+10408,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Hattala,312082,CD 
+10409,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,BHU Maddi,312039,BHU 
+10410,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Loni,312018,CD 
+10411,Khyber Pakhtunkhwa,3,DI Khan,312,Kulachi,312003,CD Bakhtar,312077,CD 
+10412,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Matt,312041,BHU 
+10413,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,Civil Hospital Choudwan,312092,CH 
+10414,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,MCH Center Choudwan,312101,MCH 
+10415,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,SHC Kot Tiga,312108,SHC 
+10416,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Kot Isa khan,312038,BHU 
+10417,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Musazai Sharif,312043,BHU 
+10418,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,Civil Hospital Draban Kalan,312093,CH 
+10419,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Gandi Umar Khan,312034,BHU 
+10420,Khyber Pakhtunkhwa,3,DI Khan,312,Draban Kalan,312004,BHU Gara Isa khan,312035,BHU 
+10421,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Band kurrai,312006,BHU 
+10422,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Wanda Madat,312030,BHU 
+10423,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,Civil Hospital Panyala,312085,CH 
+10424,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,MCH Center Panyala,312098,MCH 
+10425,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Madi Khel,312019,BHU 
+10426,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Karri Khaisor,312054,CD 
+10427,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Kotla Lodhan,312015,BHU 
+10428,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Bilot Sharif,312049,CD 
+10429,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Umar khel,312064,CD 
+10430,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Dakki,312115,CD 
+10431,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Kot Gar,312055,CD 
+10432,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,RHC Sidalian at Kot Joi,312105,RHC 
+10433,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Lar,312017,BHU 
+10434,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,MCH Center Pahar Pur,312097,MCH 
+10435,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,RHC Pahar Pur,312103,RHC 
+10436,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Awan,312004,BHU 
+10437,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Bagi Qammar,312005,BHU 
+10438,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,BHU Abdul khel,312003,BHU 
+10439,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Katta khel,312052,CD 
+10440,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Lohani,312057,CD 
+10441,Khyber Pakhtunkhwa,3,DI Khan,312,Pahar Pur,312005,CD Rahmani khel,312063,CD 
+10442,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Billitang,332021,BHU 
+10443,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,Police Hospital Kohat,332003,OTHER 
+10444,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Behzadi Chikarkot,332050,CD 
+10445,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,Women & Children Liaqat Memorial Hosptial Kohat,332002,HOSP 
+10446,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Garhi Mawaz Khan,332053,CD 
+10447,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Jungle Khel,332054,CD 
+10448,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,MCH Jungle Khel,332081,MCH 
+10449,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,District Headquarter Hosptial KDA Kohat,332001,DHQ 
+10450,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Mir Ahmed Khel,332064,CD 
+10451,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Kharmatoo,332055,CD 
+10452,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Mohammad Zai,332029,BHU 
+10453,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Dhoda,332023,BHU 
+10454,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Kamal Khel,332042,BHU 
+10455,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Shadi Khel,332056,CD 
+10456,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Togh Bala,332037,BHU 
+10457,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,SHC Surgul,332095,SHC 
+10458,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Bazid Khel,332100,BHU 
+10459,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Kachai,332026,BHU 
+10460,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,MCH Usterzai,332082,MCH 
+10461,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,RHC UsterzaI,332090,RHC 
+10462,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Marray Payan,332028,BHU 
+10463,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Sherkot,332045,BHU 
+10464,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Zairat Shiekh Allahdad,332039,BHU 
+10465,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,CD Shadi Pur,332057,CD 
+10466,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Suleman Talab,332035,BHU 
+10467,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Toolang,332038,BHU 
+10468,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,RHC Gumbat,332087,RHC 
+10469,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,RHC Chorlakki,332086,RHC 
+10470,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Nakband,332030,BHU 
+10471,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Pershai,332031,BHU 
+10472,Khyber Pakhtunkhwa,3,Kohat,332,Kohat,332001,BHU Barh,332101,BHU 
+10473,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,Urban Dispensary Lachi,332065,CD 
+10474,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,RHC Lachi,332088,RHC 
+10475,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Shawaki,332033,BHU 
+10476,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,SHC Darmalak,332096,SHC 
+10477,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Ali Kach,332099,BHU 
+10478,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,CH Shakardara,332070,HOSP 
+10479,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Gabbari,332024,BHU 
+10480,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Duli Banda,332041,BHU 
+10481,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,CD Dartappi,332052,CD 
+10482,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,SHC Sudal,332097,SHC 
+10483,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Khadderkhel,332027,BHU 
+10484,Khyber Pakhtunkhwa,3,Kohat,332,Lachi,332002,BHU Sumary Payan,332036,BHU 
 12969,Sindh,2,Khairpur,241,Kingri,24104,DCD Keti mir Muhammad,241188,GD
 12967,Sindh,2,Khairpur,241,Gambat,24102,BHU Kharalabad,241189,BHU
 12968,Sindh,2,Khairpur,241,Gambat,24102,MCH Khuhra,241191,MCH
@@ -5127,59 +5129,59 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 10583,Khyber Pakhtunkhwa,3,Malakand,345,Swat Ranizai,345001,CD Nul,345024,CD
 10584,Khyber Pakhtunkhwa,3,Malakand,345,Swat Ranizai,345001,CD Jalala,345030,CD
 10585,Khyber Pakhtunkhwa,3,Malakand,345,Swat Ranizai,345001,TB Hospital Rungmala,345036,TBH
-10586,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,DHQ Hospital Dir,347001,DHQ�
-10587,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,Leprocy Center Dir,347005,OTHER�
-10588,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Qulandi,347017,BHU�
-10589,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Dobando,347019,BHU�
-10590,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Ganorei,347006,BHU�
-10591,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Hatan Dara,347007,BHU�
+10586,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,DHQ Hospital Dir,347001,DHQ 
+10587,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,Leprocy Center Dir,347005,OTHER 
+10588,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Qulandi,347017,BHU 
+10589,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Dobando,347019,BHU 
+10590,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Ganorei,347006,BHU 
+10591,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Hatan Dara,347007,BHU 
 10592,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Bibyaware,347008,RHC
-10593,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Kir Dara,347009,BHU�
-10594,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Darora,347010,BHU�
-10595,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Gandigar,347022,CD�
-10596,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,SHC Darora,347024,SHC�
-10597,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Jabar,347013,BHU�
-10598,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Samkoot,347021,CD�
-10599,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Tar-pa-Tar,347012,RHC�
-10600,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Usheri,347023,CD�
-10601,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Battal,347011,BHU�
-10602,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Sawni,347014,BHU�
-10603,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Ganshal,347016,BHU�
-10604,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Sheringal,347015,RHC�
-10605,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Doug Mina,347018,BHU�
-10606,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Hyagay,347020,CD�
-10607,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,Cat D Hospital Barawal,347002,THQ�
-10608,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,CD Sundrawal,347029,CD�
-10609,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Bilachand,347026,BHU�
-10610,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Janbatti,347025,BHU�
-10611,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Shahi Kot,347027,BHU�
-10612,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Bin Payeen,347028,BHU�
-10613,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,Cat D Hospital Patrak,347003,THQ�
-10614,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,Leprocy Center Patrak,347030,OTHER�
-10615,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,CD Beyar,347035,CD�
-10616,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Gwaldi,347034,BHU�
-10617,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Barikot,347031,BHU�
-10618,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Kalkot,347032,BHU�
-10619,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Thall,347033,BHU�
-10620,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,Cat D Hospital Wari,347004,CH�
-10621,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,Leprocy Center Wari,347036,OTHER�
-10622,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Kakad,347042,BHU�
-10623,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Dislawar,347037,BHU�
-10624,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Daskore Bala,347039,BHU�
-10625,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Bara Dara,347038,BHU�
-10626,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Jillare,347043,BHU�
-10627,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,SHC Sahib Abad,347053,SHC�
-10628,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Pataw,347040,BHU�
-10629,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Nasir Abad,347044,BHU�
-10630,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Sundal,347045,BHU�
-10631,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Nehag Bandi,347046,BHU�
-10632,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Shalgah,347049,CD�
-10633,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Badali,347051,CD�
-10634,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Akhgram,347048,BHU�
-10635,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Malanga,347047,BHU�
-10636,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Jatgram,347052,CD�
-10637,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Karo Dara Pashta,347041,BHU�
-10638,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Shinkyari,347050,CD�
+10593,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Kir Dara,347009,BHU 
+10594,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Darora,347010,BHU 
+10595,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Gandigar,347022,CD 
+10596,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,SHC Darora,347024,SHC 
+10597,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Jabar,347013,BHU 
+10598,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Samkoot,347021,CD 
+10599,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Tar-pa-Tar,347012,RHC 
+10600,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Usheri,347023,CD 
+10601,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Battal,347011,BHU 
+10602,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Sawni,347014,BHU 
+10603,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Ganshal,347016,BHU 
+10604,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Sheringal,347015,RHC 
+10605,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,BHU Doug Mina,347018,BHU 
+10606,Khyber Pakhtunkhwa,3,Upper Dir,347,Dir,347001,CD Hyagay,347020,CD 
+10607,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,Cat D Hospital Barawal,347002,THQ 
+10608,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,CD Sundrawal,347029,CD 
+10609,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Bilachand,347026,BHU 
+10610,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Janbatti,347025,BHU 
+10611,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Shahi Kot,347027,BHU 
+10612,Khyber Pakhtunkhwa,3,Upper Dir,347,Barawal,347002,BHU Bin Payeen,347028,BHU 
+10613,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,Cat D Hospital Patrak,347003,THQ 
+10614,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,Leprocy Center Patrak,347030,OTHER 
+10615,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,CD Beyar,347035,CD 
+10616,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Gwaldi,347034,BHU 
+10617,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Barikot,347031,BHU 
+10618,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Kalkot,347032,BHU 
+10619,Khyber Pakhtunkhwa,3,Upper Dir,347,Kalkot,347003,BHU Thall,347033,BHU 
+10620,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,Cat D Hospital Wari,347004,CH 
+10621,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,Leprocy Center Wari,347036,OTHER 
+10622,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Kakad,347042,BHU 
+10623,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Dislawar,347037,BHU 
+10624,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Daskore Bala,347039,BHU 
+10625,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Bara Dara,347038,BHU 
+10626,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Jillare,347043,BHU 
+10627,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,SHC Sahib Abad,347053,SHC 
+10628,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Pataw,347040,BHU 
+10629,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Nasir Abad,347044,BHU 
+10630,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Sundal,347045,BHU 
+10631,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Nehag Bandi,347046,BHU 
+10632,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Shalgah,347049,CD 
+10633,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Badali,347051,CD 
+10634,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Akhgram,347048,BHU 
+10635,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Malanga,347047,BHU 
+10636,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Jatgram,347052,CD 
+10637,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,BHU Karo Dara Pashta,347041,BHU 
+10638,Khyber Pakhtunkhwa,3,Upper Dir,347,Wari,347004,CD Shinkyari,347050,CD 
 10714,Punjab,1,Multan,163,Shujabad,16302,THQ Hospital Shujabad,163121,THQ
 10715,Punjab,1,Multan,163,JalalPur Peer Wala,16303,BHU Ali Pur Saddat,163001,BHU
 10716,Punjab,1,Multan,163,JalalPur Peer Wala,16303,BHU Bahadar Pur,163002,BHU
@@ -5238,157 +5240,157 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 10770,Balochistan,4,Gwadr,421,Pasni,42104,CD Hurbellor,421019,CD 
 10771,Balochistan,4,Gwadr,421,Pasni,42104,RHC Pasani,421037,RHC 
 10772,Balochistan,4,Gwadr,421,Pasni,42104,MCH Pisani,421035,MCH 
-12329,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Mian Khan �,351026,Hosp
-12330,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Kot Ismailzai �,351021,Hosp
-12331,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Kot Jungara �,351041,Hosp
-12332,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,Civil Hospital Lund Khwar �,351080,Hosp
-12333,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,Govt; MCH Center Lund Khwar �,351087,Hosp
-12334,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Machi �,351022,Hosp
-12335,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Akbar Abad �,351034,Hosp
-12336,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Manga �,351023,Hosp
-12337,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Mayar �,351024,Hosp
-12338,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Mian Essa �,351025,Hosp
-12339,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Miangano Kalli �,351044,Hosp
-12340,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Lund Khwar �at Kalu Shah,351042,Hosp
-12341,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Muhabat Abad �,351027,Hosp
-12342,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Shiekh Maltoon �,351072,Hosp
-12343,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Muhib Banda �,351028,Hosp
-12344,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Mian Kalli �,351043,Hosp
-12345,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Palo Dheri �,351056,Hosp
-12346,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Zor Abad Palo Dheri �,351060,Hosp
-12347,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Parkho Dheri �,351045,Hosp
-12348,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,SHC Parkho Dheri �,351075,Hosp
-12349,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Pir Saddo �,351046,Hosp
-12350,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,CD Qasmi �,351062,Hosp
-12351,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,Civil Hospital Rustam �,351076,Hosp
-12352,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Jamra �,351039,BHU
-12353,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Sawal Dher �,351033,BHU
-12354,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Sehri Behlol �,351047,BHU
-12355,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Toru �,351091,RHC
-12356,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Shamat Pur �,351031,BHU
-12357,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Shamozai �,351048,BHU
-12358,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,RHC Shergarh �,351049,RHC
-12359,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Takkar �,351050,BHU
-12360,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Baghicha Dheri �,351003,BHU
-12361,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Bughdada �,351053,CD
-12362,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,DHQ Hospital Mardan �,351077,DHQ
-12363,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,TB Clinic Mardan �,351099,TBC
-12364,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,Leprosy Clinic Mardan �,351081,Leprosy
-12365,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Bijli Ghar �,351071,CD
-12366,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Guli Bagh �,351058,CD
-12367,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Khan Kotey �,351074,CD
-12368,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Kas Koroona �,351059,CD
-12369,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Daga Piran �,351054,CD
-12370,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Par Hoti �,351061,CD
-12371,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,Govt; MCH Center Hoti Mardan �,351082,MCH
-12372,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Sikandari �,351073,CD
-12373,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bagh Bandi,321123,BHU�
-12374,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bagnotar,321124,BHU�
-12375,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kund Kalan,321078,CD�
-12376,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bakote,321127,BHU�
-12377,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mangal,321031,BHU�
-12378,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bandi Dhundan,321061,CD�
-12379,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Hazeera,321074,CD�
-12380,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Tarnawai,321094,CD�
-12381,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Banda Pir Khan,321128,BHU�
-12382,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Beerangali,321119,BHU�
-12383,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bunj,321133,CD�
-12384,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Berote,321009,BHU�
-12385,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mohra,321130,BHU�
-12386,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sarhan,321035,BHU�
-12387,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mohri,321090,CD�
-12388,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Boi,321101,CH�
-12389,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Ghori,321018,BHU�
-12390,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Dalola,321013,BHU�
-12391,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Dhamtour,321016,BHU�
-12392,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Akhreela,321143,CD�
-12393,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kakul,321021,BHU�
-12394,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kothwal,321080,CD�
-12395,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kalapani,321112,RHC�
-12396,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kokmang,321026,BHU�
-12397,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kanthiali,321075,CD�
-12398,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Plair Bazar,321135,CD�
-12399,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kothiala,321027,BHU�
-12400,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mirpur,321032,BHU�
-12401,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Moolia,321036,BHU�
-12402,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sumunder Katha,321053,BHU�
-12403,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Dakhan Tatreela,321068,CD�
-12404,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Danna Tatreela,321069,CD�
-12405,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nagri Bala,321136,CD�
-12406,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kasala,321141,CD�
-12407,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nambal,321039,BHU�
-12408,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Tearch,321057,BHU�
-12409,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Namli Maira,321085,CD�
-12410,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bagan,321064,CD�
-12411,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nathia Gali,321103,CH�
-12412,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Toheed Abad,321118,CD�
-12413,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Donga Gali,321070,CD�
-12414,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nawan Shehr,321041,BHU�
-12415,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,MCH Nawansher,321108,MCH�
-12416,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Malkot,321030,BHU�
-12417,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Palak,321042,BHU�
-12418,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Ghora Dhaka,321071,CD�
-12419,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Khaira Gali,321077,CH�
-12420,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Khanaspur Ayubia,321102,CH�
-12421,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Solal Bandi,321047,BHU�
-12422,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bandi Sarara,321063,CD�
-12423,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Chamiali,321011,BHU�
-12424,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pattan Kalan,321043,BHU�
-12425,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sialkot,321092,CD�
-12426,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pando Thana,321012,BHU�
-12427,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mochi Kot,321033,BHU�
-12428,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bandi Phullain,321062,CD�
-12429,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pawa,321086,CD�
-12430,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Richh Behan,321088,CD�
-12431,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Phal Kot,321044,BHU�
-12432,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Lakhala,321081,CD�
-12433,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pind Kargu Khan,321131,BHU�
-12434,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Jabbrian,321020,BHU�
-12435,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Harno,321019,BHU�
-12436,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Khanna,321149,CD�
-12437,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Shekul Bandi,321051,BHU�
-12438,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kangar Bala,321024,BHU�
-12439,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Thathi Ahmed Khan,321055,BHU�
-12440,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sherwan,321091,CH�
-12441,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Police Hospital,321106,CH�
-12442,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Chehr,321067,CD�
-12443,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Majath,321008,BHU�
-12444,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Harlan,321104,BHU�
-12445,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Mohri Betbhen,321114,RHC�
-12446,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Hari Khater,321150,CD�
-12447,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Rajoya,321046,BHU�
-12448,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Takia Sheikhan,321056,BHU�
-12449,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Summa Karaga,321052,BHU�
-12450,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kholian Bala,321151,CD�
-12451,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,UD Havelian,321073,CD�
-12452,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Havelian,321111,RHC�
-12453,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kalu Maira,321023,BHU�
-12454,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Salwala,321048,BHU�
-12455,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Noshera,321147,CD�
-12456,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kokal Barseen,321079,BHU�
-12457,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Bharwal,321129,BHU�
-12458,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kayala Payeen,321076,CD�
-12459,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Langrial,321028,BHU�
-12460,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Leerain,321082,CD�
-12461,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Lora,321113,RHC�
-12462,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Bodla,321010,BHU�
-12463,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Chandu Maira,321065,CD�
-12464,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Hajia Gali,321072,CD�
-12465,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Majahun,321084,CD�
-12466,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Nagri Totial,321038,BHU�
-12467,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Tarror,321142,CD�
-12468,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Channali,321145,CD�
-12469,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Nara,321040,BHU�
-12470,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Satora,321049,BHU�
-12471,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Maira Bala,321144,CD�
-12472,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Phallah,321045,BHU�
-12473,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Rahi,321146,CD�
-12474,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Dakhan Passr,321148,CD�
-12475,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Maira Rommal,321029,BHU�
-12476,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Ziarat Masoom,321058,BHU�
-12477,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Changla Gali,321066,CD�
-12478,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Seer,321115,SHC�
-12479,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Tajwal,321054,BHU�
+12329,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Mian Khan  ,351026,Hosp
+12330,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Kot Ismailzai  ,351021,Hosp
+12331,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Kot Jungara  ,351041,Hosp
+12332,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,Civil Hospital Lund Khwar  ,351080,Hosp
+12333,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,Govt; MCH Center Lund Khwar  ,351087,Hosp
+12334,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Machi  ,351022,Hosp
+12335,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Akbar Abad  ,351034,Hosp
+12336,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Manga  ,351023,Hosp
+12337,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Mayar  ,351024,Hosp
+12338,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Mian Essa  ,351025,Hosp
+12339,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Miangano Kalli  ,351044,Hosp
+12340,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Lund Khwar  at Kalu Shah,351042,Hosp
+12341,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Muhabat Abad  ,351027,Hosp
+12342,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Shiekh Maltoon  ,351072,Hosp
+12343,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Muhib Banda  ,351028,Hosp
+12344,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Mian Kalli  ,351043,Hosp
+12345,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Palo Dheri  ,351056,Hosp
+12346,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Zor Abad Palo Dheri  ,351060,Hosp
+12347,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Parkho Dheri  ,351045,Hosp
+12348,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,SHC Parkho Dheri  ,351075,Hosp
+12349,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Pir Saddo  ,351046,Hosp
+12350,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,CD Qasmi  ,351062,Hosp
+12351,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,Civil Hospital Rustam  ,351076,Hosp
+12352,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Jamra  ,351039,BHU
+12353,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Sawal Dher  ,351033,BHU
+12354,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Sehri Behlol  ,351047,BHU
+12355,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,RHC Toru  ,351091,RHC
+12356,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Shamat Pur  ,351031,BHU
+12357,Khyber Pakhtunkhwa,3,Mardan,51,Katlang,3,BHU Shamozai  ,351048,BHU
+12358,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,RHC Shergarh  ,351049,RHC
+12359,Khyber Pakhtunkhwa,3,Mardan,51,Takht Bhai,2,BHU Takkar  ,351050,BHU
+12360,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,BHU Baghicha Dheri  ,351003,BHU
+12361,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Bughdada  ,351053,CD
+12362,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,DHQ Hospital Mardan  ,351077,DHQ
+12363,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,TB Clinic Mardan  ,351099,TBC
+12364,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,Leprosy Clinic Mardan  ,351081,Leprosy
+12365,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Bijli Ghar  ,351071,CD
+12366,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Guli Bagh  ,351058,CD
+12367,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Khan Kotey  ,351074,CD
+12368,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Kas Koroona  ,351059,CD
+12369,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Daga Piran  ,351054,CD
+12370,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Par Hoti  ,351061,CD
+12371,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,Govt; MCH Center Hoti Mardan  ,351082,MCH
+12372,Khyber Pakhtunkhwa,3,Mardan,51,Mardan,1,CD Sikandari  ,351073,CD
+12373,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bagh Bandi,321123,BHU 
+12374,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bagnotar,321124,BHU 
+12375,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kund Kalan,321078,CD 
+12376,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bakote,321127,BHU 
+12377,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mangal,321031,BHU 
+12378,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bandi Dhundan,321061,CD 
+12379,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Hazeera,321074,CD 
+12380,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Tarnawai,321094,CD 
+12381,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Banda Pir Khan,321128,BHU 
+12382,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Beerangali,321119,BHU 
+12383,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bunj,321133,CD 
+12384,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Berote,321009,BHU 
+12385,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mohra,321130,BHU 
+12386,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sarhan,321035,BHU 
+12387,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mohri,321090,CD 
+12388,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Boi,321101,CH 
+12389,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Ghori,321018,BHU 
+12390,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Dalola,321013,BHU 
+12391,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Dhamtour,321016,BHU 
+12392,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Akhreela,321143,CD 
+12393,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kakul,321021,BHU 
+12394,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kothwal,321080,CD 
+12395,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kalapani,321112,RHC 
+12396,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kokmang,321026,BHU 
+12397,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kanthiali,321075,CD 
+12398,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Plair Bazar,321135,CD 
+12399,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kothiala,321027,BHU 
+12400,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mirpur,321032,BHU 
+12401,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Moolia,321036,BHU 
+12402,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sumunder Katha,321053,BHU 
+12403,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Dakhan Tatreela,321068,CD 
+12404,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Danna Tatreela,321069,CD 
+12405,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nagri Bala,321136,CD 
+12406,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kasala,321141,CD 
+12407,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nambal,321039,BHU 
+12408,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Tearch,321057,BHU 
+12409,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Namli Maira,321085,CD 
+12410,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bagan,321064,CD 
+12411,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nathia Gali,321103,CH 
+12412,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Toheed Abad,321118,CD 
+12413,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Donga Gali,321070,CD 
+12414,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Nawan Shehr,321041,BHU 
+12415,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,MCH Nawansher,321108,MCH 
+12416,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Malkot,321030,BHU 
+12417,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Palak,321042,BHU 
+12418,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Ghora Dhaka,321071,CD 
+12419,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Khaira Gali,321077,CH 
+12420,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Khanaspur Ayubia,321102,CH 
+12421,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Solal Bandi,321047,BHU 
+12422,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bandi Sarara,321063,CD 
+12423,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Chamiali,321011,BHU 
+12424,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pattan Kalan,321043,BHU 
+12425,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sialkot,321092,CD 
+12426,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pando Thana,321012,BHU 
+12427,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Mochi Kot,321033,BHU 
+12428,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Bandi Phullain,321062,CD 
+12429,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pawa,321086,CD 
+12430,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Richh Behan,321088,CD 
+12431,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Phal Kot,321044,BHU 
+12432,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Lakhala,321081,CD 
+12433,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Pind Kargu Khan,321131,BHU 
+12434,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Jabbrian,321020,BHU 
+12435,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Harno,321019,BHU 
+12436,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Khanna,321149,CD 
+12437,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Shekul Bandi,321051,BHU 
+12438,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Kangar Bala,321024,BHU 
+12439,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Thathi Ahmed Khan,321055,BHU 
+12440,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Sherwan,321091,CH 
+12441,Khyber Pakhtunkhwa,3,Abbottabad,321,Abbottabad,321001,Police Hospital,321106,CH 
+12442,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Chehr,321067,CD 
+12443,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Majath,321008,BHU 
+12444,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Harlan,321104,BHU 
+12445,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Mohri Betbhen,321114,RHC 
+12446,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Hari Khater,321150,CD 
+12447,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Rajoya,321046,BHU 
+12448,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Takia Sheikhan,321056,BHU 
+12449,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Summa Karaga,321052,BHU 
+12450,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kholian Bala,321151,CD 
+12451,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,UD Havelian,321073,CD 
+12452,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Havelian,321111,RHC 
+12453,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kalu Maira,321023,BHU 
+12454,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Salwala,321048,BHU 
+12455,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Noshera,321147,CD 
+12456,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kokal Barseen,321079,BHU 
+12457,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Bharwal,321129,BHU 
+12458,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Kayala Payeen,321076,CD 
+12459,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Langrial,321028,BHU 
+12460,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Leerain,321082,CD 
+12461,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Lora,321113,RHC 
+12462,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Bodla,321010,BHU 
+12463,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Chandu Maira,321065,CD 
+12464,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Hajia Gali,321072,CD 
+12465,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Majahun,321084,CD 
+12466,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Nagri Totial,321038,BHU 
+12467,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Tarror,321142,CD 
+12468,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Channali,321145,CD 
+12469,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Nara,321040,BHU 
+12470,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Satora,321049,BHU 
+12471,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Maira Bala,321144,CD 
+12472,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Phallah,321045,BHU 
+12473,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Rahi,321146,CD 
+12474,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Dakhan Passr,321148,CD 
+12475,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Maira Rommal,321029,BHU 
+12476,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Ziarat Masoom,321058,BHU 
+12477,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Changla Gali,321066,CD 
+12478,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Seer,321115,SHC 
+12479,Khyber Pakhtunkhwa,3,Abbottabad,321,Havallian,321002,Tajwal,321054,BHU 
 12525,Khyber Pakhtunkhwa,3,Dir Lower,344,Munda,344005,Khazana,34405119,SHC 
 12526,Khyber Pakhtunkhwa,3,Dir Lower,344,Munda,344005,Makhai,34405022,BHU 
 12527,Khyber Pakhtunkhwa,3,Dir Lower,344,Munda,344005,Mian Kalay,34405137,BHU 
@@ -5440,9 +5442,9 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 12657,Sindh,2,Thatta,217,Sujawal,21708,Shah Nawaz Leghari,217045,BHU
 12658,Sindh,2,Thatta,217,Ghorabari,21709,Var,217075,RHC
 12659,Sindh,2,Jacobabad,231,Jacobabad,23102,RHC Qadirpur,231045,RHC
-12660,Azad Kashmir,5,Sudhnooti,506,TrarkhalCD Qillan,506026,CD
-12661,Azad Kashmir,5,Sudhnooti,506,MongBHU Pattan Sher Khan,506025,BHU
-12662,Azad Kashmir,5,Bagh,502,BaghRHC Chattar 2,501065,RHC
+12660,Azad Kashmir,5,Sudhnooti,506,Trarkhal,,CD Qillan,506026,CD
+12661,Azad Kashmir,5,Sudhnooti,506,Mong,,BHU Pattan Sher Khan,506025,BHU
+12662,Azad Kashmir,5,Bagh,502,Bagh,,RHC Chattar 2,501065,RHC
 12663,Khyber Pakhtunkhwa,3,Buner,42,Mandan,4202,BHU ARC Koga,342101,BHU
 12664,Sindh,2,Sanghar,252,KHIPRO ,25202,MALOOK MAHAR,252017,BHU
 12665,Sindh,2,Sanghar,252,SANGHAR,25203,CIVIL HOSPITAL,252050,DHQ
@@ -5546,11 +5548,11 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 12771,Khyber Pakhtunkhwa,3,Peshawar,365,Peshawar,365001,Sarband,365047,BHU
 12772,Khyber Pakhtunkhwa,3,Peshawar,365,Peshawar,365001,Sango,365219,BHU
 12773,Khyber Pakhtunkhwa,3,Peshawar,365,Peshawar,365001,Jhagra,365023,BHU
-12774,Azad Kashmir,5,Kotli,512,KotliFAP SARHOTA NO-2,512080,FAP
-12775,Azad Kashmir,5,Kotli,512,KotliFAP BANDLI DURBAR,512100,FAP
-12776,Azad Kashmir,5,Mirpurkhas,503,MirpurkhasBHU JATLAN,503048,BHU
-12777,Azad Kashmir,5,Mirpurkhas,503,MirpurkhasRHC CHAKSWARI,503045,RHC
-12778,Azad Kashmir,5,Bhimber,511,BhimberDHQ HOSPITAL BHIMBER,511001,DHQ
+12774,Azad Kashmir,5,Kotli,512,Kotli,,FAP SARHOTA NO-2,512080,FAP
+12775,Azad Kashmir,5,Kotli,512,Kotli,,FAP BANDLI DURBAR,512100,FAP
+12776,Azad Kashmir,5,Mirpurkhas,503,Mirpurkhas,,BHU JATLAN,503048,BHU
+12777,Azad Kashmir,5,Mirpurkhas,503,Mirpurkhas,,RHC CHAKSWARI,503045,RHC
+12778,Azad Kashmir,5,Bhimber,511,Bhimber,,DHQ HOSPITAL BHIMBER,511001,DHQ
 12780,Sindh,2,Badin,211,BADIN TALUKA,21101,Bahdami,211003,BHU
 12781,Sindh,2,Badin,211,BADIN TALUKA,21101,Muhammad Khan Janwari,211027,Dispensary
 12782,Sindh,2,Badin,211,BADIN TALUKA,21101,Taluka Hospital Shaheed Fazal Rahu,211035,THQ
@@ -5613,72 +5615,72 @@ ID,Admin 1,Province PCode,Admin 2,District PCode,Admin 3,Tehsil PCode,Facility,H
 12839,Khyber Pakhtunkhwa,3,Hangu,335,Thall,33502,BHU Shna wari,335005,BHU 
 12840,Khyber Pakhtunkhwa,3,Hangu,335,Thall,33502,CD Khwaja khel,335020,CD 
 12841,Khyber Pakhtunkhwa,3,Hangu,335,Thall,33502,BHU Dallan,335016,BHU 
-12842,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Fatma Khel,311002,BHU�
-12843,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Kot Daim,311041,CD�
-12844,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Fatma Khel Kotka Razak,311042,CD�
-12845,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Hinjal,311003,BHU�
-12846,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Khwaja Mad Mandan,311004,BHU�
-12847,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Khujari Khas Killa,311005,BHU�
-12848,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Asad Khujari,311126,CD�
-12849,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Amandi,311006,BHU�
-12850,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Lalozai,311007,BHU�
-12851,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Torka,311044,CD�
-12852,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Mando Zai Surani,311114,CD�
-12853,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Nizam Bazar,311008,BHU�
-12854,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Norar,311009,BHU�
-12855,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Seru Bada Khel,311010,BHU�
-12856,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Shah Baz Azmat Khel,311011,BHU�
-12857,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Jando Khel,311012,BHU�
-12858,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Shamsi Khel,311013,BHU�
-12859,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Khalifa Gul Nawaz,311014,BHU�
-12860,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Babo Jan Killa Degan Shadi Khan,311125,CD�
-12861,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Zargar Mama Khel,311015,BHU�
-12862,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Azim Killa,311016,BHU�
-12863,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Kotka Mohammad Khan,311029,BHU�
-12864,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Landi Jalandher Bakhta Baz,311091,BHU�
-12865,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Landi Jalander SZKoroona,311092,BHU�
-12866,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Bizen Khel,311017,BHU�
-12867,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Bada Mir Abbas,311018,BHU�
-12868,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD New Bada,311134,CD�
-12869,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Joji Killa Khurshid,311135,CD�
-12870,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Hakim Bharat,311019,BHU�
-12871,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Zalim Mandan,311113,CD�
-12872,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD M.Arif Kalan Tughal Khel,311122,CD�
-12873,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Gul Akram Killa,311022,BHU�
-12874,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Musa Khel Walgai,311033,BHU�
-12875,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Murghali,311043,CD�
-12876,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Haved,311026,BHU�
-12877,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Lewan Dardaris,311093,BHU�
-12878,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Saeed Rehman Landi Dak,311123,CD�
-12879,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Aslam Dardaraiz,311124,CD�
-12880,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khawaja Mad Landi Dak Mir Baz,311130,CD�
-12881,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Mohammad Khel Wazir,311032,BHU�
-12882,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Daud Shah,311034,BHU�
-12883,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Ismail Khel,311037,BHU�
-12884,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khujram Khel Baran Killa,311121,CD�
-12885,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Mamash Khel,311094,BHU�
-12886,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,MCH Mamash Khel,311104,MCH�
-12887,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Mandew,311095,BHU�
-12888,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Sardad Mandew,311127,CD�
-12889,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Dalasa Mandew,311128,CD�
-12890,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Nar Jafar,311096,BHU�
-12891,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Aklim Khan Killa,311040,CD�
-12892,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,RHC Domel,311086,RHC�
-12893,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Patool Khel,311097,BHU�
-12894,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Manik Khel,311098,BHU�
-12895,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Nar Shuker Ullah,311111,BHU�
-12896,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,RHC Kakki,311088,RHC�
-12897,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,MCH Kakki,311105,MCH�
-12898,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,Police & F.C Hospital Bannu,311115,HOSP�
-12899,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Chandni Chowk,311039,CD�
-12900,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khan Suba Mita Khel,311119,CD�
-12901,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Karim Khan Baist Khel,311120,CD�
-12902,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Samand Mitha Khel Farid,311133,CD�
-12903,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,TB Clinic,311089,TBC�
-12904,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Mira Khel Taji Killa,311129,CD�
-12905,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khan Zaman Sperka Wazir,311131,CD�
-12906,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Koti Sadat,311132,CD�
-12907,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Ghoriwala,311106,BHU�
+12842,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Fatma Khel,311002,BHU 
+12843,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Kot Daim,311041,CD 
+12844,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Fatma Khel Kotka Razak,311042,CD 
+12845,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Hinjal,311003,BHU 
+12846,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Khwaja Mad Mandan,311004,BHU 
+12847,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Khujari Khas Killa,311005,BHU 
+12848,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Asad Khujari,311126,CD 
+12849,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Amandi,311006,BHU 
+12850,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Lalozai,311007,BHU 
+12851,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Torka,311044,CD 
+12852,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Mando Zai Surani,311114,CD 
+12853,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Nizam Bazar,311008,BHU 
+12854,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Norar,311009,BHU 
+12855,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Seru Bada Khel,311010,BHU 
+12856,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Shah Baz Azmat Khel,311011,BHU 
+12857,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Jando Khel,311012,BHU 
+12858,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Shamsi Khel,311013,BHU 
+12859,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Khalifa Gul Nawaz,311014,BHU 
+12860,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Babo Jan Killa Degan Shadi Khan,311125,CD 
+12861,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Zargar Mama Khel,311015,BHU 
+12862,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Azim Killa,311016,BHU 
+12863,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Kotka Mohammad Khan,311029,BHU 
+12864,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Landi Jalandher Bakhta Baz,311091,BHU 
+12865,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Landi Jalander SZKoroona,311092,BHU 
+12866,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Bizen Khel,311017,BHU 
+12867,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Bada Mir Abbas,311018,BHU 
+12868,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD New Bada,311134,CD 
+12869,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Joji Killa Khurshid,311135,CD 
+12870,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Hakim Bharat,311019,BHU 
+12871,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Zalim Mandan,311113,CD 
+12872,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD M.Arif Kalan Tughal Khel,311122,CD 
+12873,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Gul Akram Killa,311022,BHU 
+12874,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Musa Khel Walgai,311033,BHU 
+12875,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Murghali,311043,CD 
+12876,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Haved,311026,BHU 
+12877,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Lewan Dardaris,311093,BHU 
+12878,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Saeed Rehman Landi Dak,311123,CD 
+12879,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Aslam Dardaraiz,311124,CD 
+12880,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khawaja Mad Landi Dak Mir Baz,311130,CD 
+12881,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Mohammad Khel Wazir,311032,BHU 
+12882,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Daud Shah,311034,BHU 
+12883,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Ismail Khel,311037,BHU 
+12884,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khujram Khel Baran Killa,311121,CD 
+12885,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Mamash Khel,311094,BHU 
+12886,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,MCH Mamash Khel,311104,MCH 
+12887,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Mandew,311095,BHU 
+12888,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Sardad Mandew,311127,CD 
+12889,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Dalasa Mandew,311128,CD 
+12890,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Nar Jafar,311096,BHU 
+12891,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Aklim Khan Killa,311040,CD 
+12892,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,RHC Domel,311086,RHC 
+12893,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Patool Khel,311097,BHU 
+12894,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Manik Khel,311098,BHU 
+12895,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Nar Shuker Ullah,311111,BHU 
+12896,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,RHC Kakki,311088,RHC 
+12897,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,MCH Kakki,311105,MCH 
+12898,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,Police & F.C Hospital Bannu,311115,HOSP 
+12899,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Chandni Chowk,311039,CD 
+12900,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khan Suba Mita Khel,311119,CD 
+12901,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Karim Khan Baist Khel,311120,CD 
+12902,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Samand Mitha Khel Farid,311133,CD 
+12903,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,TB Clinic,311089,TBC 
+12904,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Mira Khel Taji Killa,311129,CD 
+12905,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Khan Zaman Sperka Wazir,311131,CD 
+12906,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,CD Koti Sadat,311132,CD 
+12907,Khyber Pakhtunkhwa,3,Bannu,311,Bannu,311001,BHU Ghoriwala,311106,BHU 
 12973,Khyber Pakhtunkhwa,3,Nowshera,364,Nowshera,36401,Jalozai-4M,364304,IDP 
 12974,Khyber Pakhtunkhwa,3,Nowshera,364,Nowshera,36401,Jalozai-1CO,364305,IDP 
 12975,Khyber Pakhtunkhwa,3,Nowshera,364,Nowshera,36401,Jalozai-2CO,364306,IDP 

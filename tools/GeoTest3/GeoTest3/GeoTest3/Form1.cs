@@ -77,10 +77,14 @@ namespace GeoTest3 {
 
         private void OnLoadCsv(object sender, EventArgs e) {
             this.csvTable1 = LoadCsvTable();
-            int col = csvTable1.LookupColumn("Admin 1");
-            string[] unique = csvTable1.dataColumns[col].UniqueElements();
-            DisplayTextFile(unique, this.textBox2, 100);
-            this.toolStripFileLabel2.Text = "CSV File: " + Utilities.TruncateString(this.csvTable1.FilePath, 70);
+            if (this.csvTable1 != null) {
+                int col = csvTable1.LookupColumn("Admin 1");
+                if (col != -1) {
+                    string[] unique = csvTable1.dataColumns[col].UniqueElements();
+                    DisplayTextFile(unique, this.textBox2, 100);
+                    this.toolStripFileLabel2.Text = "CSV File: " + Utilities.TruncateString(this.csvTable1.FilePath, 70);
+                }
+            }
         }
 
         private void OnSubstituteClick(object sender, EventArgs e) {

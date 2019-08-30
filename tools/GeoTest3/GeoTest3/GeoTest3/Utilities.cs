@@ -16,7 +16,14 @@ namespace GeoTest3 {
             Regex reg_exp = new Regex(pattern);
             string result = reg_exp.Replace(str, "");
             
-            return str;
+            return result;
+        }
+
+        public static string QuoteIfNeeded(string str) {
+            string str1 = str.Replace("\"", "\"\"");
+            if (str1.Contains(",") ||str1.Contains("\"") || str1.Contains("\n"))
+                str1 = "\"" + str1 + "\"";
+            return str1;
         }
 
     }
