@@ -7,20 +7,23 @@ using System.Windows.Forms;
 using System.IO;
 using CsvHelper;
 using System.Data;
+using System.Globalization;
 
 
 namespace GeoTest3 {
     public class CsvTable {
-        string[] textDocument;
+ //       string[] textDocument;
         string[] headers;
         string filePath;
         int columns;
         int rows;
+        int adminLevels;
+        string defaultLevel0;
 
         public CsvColumn[] dataColumns; 
 
-        public CsvTable() {
-
+        public CsvTable(string country) {
+            defaultLevel0 = country;
         }
 
         public void Load(string filePath) {
@@ -37,11 +40,11 @@ namespace GeoTest3 {
 
             var record0 = dataRecords[0];
             int cols = record0.Count;
-            this.headers = new string[cols];
+            headers = new string[cols];
 
             int i = 0;
             foreach (var property in record0.Keys) {
-                this.headers[i] = property;
+                headers[i] = property;
                 i++;
             }
 
@@ -51,32 +54,46 @@ namespace GeoTest3 {
 
             foreach (var record in dataRecords) {
                 for (i = 0; i < cols; i++) {
-                    string str = (string)record[this.headers[i]];
+                    string str = (string)record[headers[i]];
                     cLists[i].Add(Utilities.CleanString(str));
                 }
             }
 
-            this.columns = cols;
-            this.rows = cLists[0].Count;
+            columns = cols;
+            rows = cLists[0].Count;
 
-            this.dataColumns = new CsvColumn[cols];
+            dataColumns = new CsvColumn[cols];
             for (i = 0; i < cols; i++)
-                this.dataColumns[i] = new CsvColumn(cLists[i], this.headers[i]);
+                dataColumns[i] = new CsvColumn(cLists[i], headers[i]);
 
-            createTextDocument();
+//            createTextDocument();
+            setAdminLevels();
 
         }
 
+        public void setAdminLevels() {
+            int levels = -1;
+            string levelString;
+
+            do {
+                levels++;
+                levelString = "Admin " + (levels + 1);
+            } while (LookupColumn(levelString) != -1);
+            adminLevels = levels;
+        }
+
+        /*
         private void createTextDocument() {
-            this.textDocument = new string[this.rows + 1];
-            this.textDocument[0] = headerString();
-            for (int i = 0; i < this.rows; i++)
-                this.textDocument[i + 1] = this.rowString(i);
+            textDocument = new string[rows + 1];
+            textDocument[0] = headerString();
+            for (int i = 0; i < rows; i++)
+                textDocument[i + 1] = rowString(i);
 
         }
         public string[] TextDocument {
             get { return textDocument; }
         }
+        */
 
         public string[] Headers {
             get { return headers; }
@@ -95,8 +112,21 @@ namespace GeoTest3 {
             set { filePath = value; }
         }
 
+        public List<string> GetAdminPath(int row) {
+            List<string> path = new List<string>();
+            path.Add(defaultLevel0);
+            for (int i = 1; i <= adminLevels; i++) {
+                int col = LookupColumn("Admin " + i);
+                if (col == -1)
+                    throw new Exception("Admin Column missing in GetAdminPath");
+                path.Add(dataColumns[col].StringAt(row));
+            }
+
+            return path;
+        }
+
         public int LookupColumn(string str) {
-            for (int i = 0; i < this.columns; i++)
+            for (int i = 0; i < columns; i++)
                 if (headers[i].Equals(str))
                     return i;
             return -1;
@@ -121,9 +151,9 @@ namespace GeoTest3 {
         private string headerString() {
             string rowString = "";
 
-            for (int i = 0; i < this.columns; i++) {
-                rowString += Utilities.QuoteIfNeeded(this.headers[i]);
-                if (i < this.columns - 1)
+            for (int i = 0; i < columns; i++) {
+                rowString += Utilities.QuoteIfNeeded(headers[i]);
+                if (i < columns - 1)
                     rowString += ",";
             }
 
@@ -133,9 +163,9 @@ namespace GeoTest3 {
 
         private string rowString(int row) {
             string str = "";
-            for (int i = 0; i < this.columns; i++) {  
-                str += Utilities.QuoteIfNeeded(this.dataColumns[i].StringAt(row));
-                if (i < this.columns - 1)
+            for (int i = 0; i < columns; i++) {  
+                str += Utilities.QuoteIfNeeded(dataColumns[i].StringAt(row));
+                if (i < columns - 1)
                     str += ",";
             }
             return str;
@@ -190,6 +220,17 @@ namespace GeoTest3 {
             for (int i = 0; i < sData.Length; i++)
                 if (sData[i].Equals(oldText))
                     sData[i] = newText;
+        }
+
+        public void Capitalize() {
+            TextInfo textInfo = new CultureInfo("en-US",false).TextInfo;
+
+            for (int i = 0; i < sData.Length; i++) {
+                string str1 = textInfo.ToLower(sData[i]);
+                string str2 = textInfo.ToTitleCase(str1);
+                sData[i] = str2;
+            }
+
         }
     }
 }

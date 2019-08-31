@@ -28,6 +28,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadDistrictsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.csvReaderTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,18 +42,22 @@
             this.oldTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.csvReaderTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.treeView2 = new System.Windows.Forms.TreeView();
+            this.columnComboBox = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.capitalizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(25, 79);
+            this.textBox1.Location = new System.Drawing.Point(12, 79);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(563, 613);
+            this.textBox1.Size = new System.Drawing.Size(538, 189);
             this.textBox1.TabIndex = 1;
             // 
             // menuStrip1
@@ -62,7 +67,7 @@
             this.toolsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1252, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1285, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,7 +88,7 @@
             // 
             this.loadDistrictsToolStripMenuItem.Name = "loadDistrictsToolStripMenuItem";
             this.loadDistrictsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.loadDistrictsToolStripMenuItem.Text = "Load Districts";
+            this.loadDistrictsToolStripMenuItem.Text = "Load Admin";
             this.loadDistrictsToolStripMenuItem.Click += new System.EventHandler(this.OnDistrictLoad);
             // 
             // loadCSVToolStripMenuItem
@@ -92,6 +97,13 @@
             this.loadCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadCSVToolStripMenuItem.Text = "Load CSV";
             this.loadCSVToolStripMenuItem.Click += new System.EventHandler(this.OnLoadCsv);
+            // 
+            // csvReaderTestToolStripMenuItem
+            // 
+            this.csvReaderTestToolStripMenuItem.Name = "csvReaderTestToolStripMenuItem";
+            this.csvReaderTestToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.csvReaderTestToolStripMenuItem.Text = "CsvReader Test";
+            this.csvReaderTestToolStripMenuItem.Click += new System.EventHandler(this.OnCsvReaderClick);
             // 
             // saveCSVToolStripMenuItem
             // 
@@ -115,7 +127,8 @@
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.substituteToolStripMenuItem});
+            this.substituteToolStripMenuItem,
+            this.capitalizeToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
@@ -135,7 +148,7 @@
             this.toolStripFileLabel2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 712);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1252, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1285, 25);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -151,11 +164,11 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(683, 79);
+            this.textBox2.Location = new System.Drawing.Point(567, 79);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(546, 613);
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox2.Size = new System.Drawing.Size(706, 613);
             this.textBox2.TabIndex = 4;
             // 
             // newTextBox
@@ -190,18 +203,54 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "New Text";
             // 
-            // csvReaderTestToolStripMenuItem
+            // treeView1
             // 
-            this.csvReaderTestToolStripMenuItem.Name = "csvReaderTestToolStripMenuItem";
-            this.csvReaderTestToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.csvReaderTestToolStripMenuItem.Text = "CsvReader Test";
-            this.csvReaderTestToolStripMenuItem.Click += new System.EventHandler(this.OnCsvReaderClick);
+            this.treeView1.Location = new System.Drawing.Point(12, 274);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(268, 418);
+            this.treeView1.TabIndex = 9;
+            // 
+            // treeView2
+            // 
+            this.treeView2.Location = new System.Drawing.Point(286, 274);
+            this.treeView2.Name = "treeView2";
+            this.treeView2.Size = new System.Drawing.Size(264, 418);
+            this.treeView2.TabIndex = 10;
+            // 
+            // columnComboBox
+            // 
+            this.columnComboBox.FormattingEnabled = true;
+            this.columnComboBox.Location = new System.Drawing.Point(74, 25);
+            this.columnComboBox.Name = "columnComboBox";
+            this.columnComboBox.Size = new System.Drawing.Size(121, 21);
+            this.columnComboBox.TabIndex = 11;
+            this.columnComboBox.SelectedIndexChanged += new System.EventHandler(this.OnColumnSelected);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(21, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Columns";
+            // 
+            // capitalizeToolStripMenuItem
+            // 
+            this.capitalizeToolStripMenuItem.Name = "capitalizeToolStripMenuItem";
+            this.capitalizeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.capitalizeToolStripMenuItem.Text = "Capitalize";
+            this.capitalizeToolStripMenuItem.Click += new System.EventHandler(this.OnCapitalizeClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1252, 737);
+            this.ClientSize = new System.Drawing.Size(1285, 737);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.columnComboBox);
+            this.Controls.Add(this.treeView2);
+            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.oldTextBox);
@@ -242,6 +291,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem saveCSVToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem csvReaderTestToolStripMenuItem;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TreeView treeView2;
+        private System.Windows.Forms.ComboBox columnComboBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem capitalizeToolStripMenuItem;
     }
 }
 
