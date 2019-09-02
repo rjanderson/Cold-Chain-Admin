@@ -25,6 +25,17 @@ namespace GeoTest3 {
             treeView.EndUpdate();
 
         }
+
+        public void AddFacilityNodes(CsvTable table) {
+            int col = table.LookupColumn("Facility");
+            if (col == -1)
+                return;
+            for (int row = 0; row < table.Rows; row++) {
+                List<string> adminPath = table.GetAdminPath(row);
+                root.AddFacility(adminPath, 1, table.dataColumns[col].StringAt(row));
+            }
+
+        }
     }
 
     public class AdminTreeNode {
@@ -88,6 +99,20 @@ namespace GeoTest3 {
             return node;
 
         }
+
+        public void AddFacility(List<string> adminPath, int level, string facility) {
+
+            if (level < adminPath.Count) {
+                string region = adminPath[level];
+                int index = children.IndexOfKey(region);
+                children[index].AddFacility(adminPath, level + 1, facility);
+            } else {
+                FacilityNode facilityNode = new FacilityNode(facility);
+                facilityNode.parent = this;
+                int pos = children.InsertPosition(facility);
+                children.Insert(pos, facilityNode);
+            }
+        }
     }
 
     public class AdminNodeCollection : List<AdminTreeNode> {
@@ -96,6 +121,17 @@ namespace GeoTest3 {
                 if (this[i].Name.Equals(region))
                     return i;
             return -1;
+        }
+
+        public int InsertPosition(string facility) {
+            int pos = 0;
+            for (int i = 0; i < this.Count; i++) {
+                if (facility.CompareTo(this[i].Name) < 0)
+                    break;
+                pos++;
+            }
+
+            return pos;
         }
     }
 

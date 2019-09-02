@@ -95,6 +95,8 @@ namespace GeoTest3 {
                 LoadHeaderComboBox(csvTable1.Headers);
 
                 this.admin2 = new AdminTree(this.csvTable1, country);
+                this.admin2.AddFacilityNodes(this.csvTable1);
+
                 this.admin2.BuildTreeView(this.treeView2);
             }
         }
