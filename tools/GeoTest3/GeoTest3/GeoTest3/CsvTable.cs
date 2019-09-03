@@ -24,6 +24,7 @@ namespace GeoTest3 {
 
         public CsvTable(string country) {
             defaultLevel0 = country;
+            filePath = "";
         }
 
         public void Load(string filePath) {
@@ -223,14 +224,8 @@ namespace GeoTest3 {
         }
 
         public void Capitalize() {
-            TextInfo textInfo = new CultureInfo("en-US",false).TextInfo;
-
-            for (int i = 0; i < sData.Length; i++) {
-                string str1 = textInfo.ToLower(sData[i]);
-                string str2 = textInfo.ToTitleCase(str1);
-                sData[i] = str2;
-            }
-
+            for (int i = 0; i < sData.Length; i++)
+                sData[i] = Utilities.Capitalize(sData[i]);
         }
     }
 }
