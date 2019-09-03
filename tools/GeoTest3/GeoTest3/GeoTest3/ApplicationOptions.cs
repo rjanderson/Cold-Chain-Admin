@@ -20,7 +20,7 @@ namespace GeoTest3 {
         }
         public ApplicationOptions() {
             this.inlcudeFacilities = false;
-            this.matchingAlgorithm = NameSet.Algorithm.Basic;
+            this.matchingAlgorithm = NameSet.Algorithm.LCS;
 
         }
     }

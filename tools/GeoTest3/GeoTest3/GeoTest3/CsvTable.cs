@@ -133,10 +133,32 @@ namespace GeoTest3 {
             return -1;
         }
 
-        public void Substitute(string newText, string oldText, int col) {
-            dataColumns[col].Substitute(newText, oldText );
-
+        public void Substitute(List<string> parentPath, string columnName, string oldValue, string newValue) {
+            int col = LookupColumn(columnName);
+            for(int i = 0; i < Rows; i++) {
+                if (AdminMatch(parentPath, i)) {
+                    if (dataColumns[col].StringAt(i).Equals(oldValue))
+                        dataColumns[col].Assign(i, newValue);
+                        
+                }
+            }
         }
+
+        public bool AdminMatch(List<string> path, int row) {
+            for(int i = 1; i < path.Count; i++) {
+                int col = LookupColumn("Admin " + i);
+                if (col == -1)
+                    throw new Exception("Admin Column missing in Substitute");
+                if (!path[i].Equals(dataColumns[col].StringAt(row)))
+                    return false;
+            }
+            return true;
+        }
+
+   //     public void Substitute(string newText, string oldText, int col) {
+   //         dataColumns[col].Substitute(newText, oldText );
+   //
+   //     }
 
         public string[] CsvFile() {
             List<string> strings = new List<string>();

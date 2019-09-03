@@ -30,15 +30,17 @@
             this.loadCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.csvReaderTestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveCSV2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveCSV2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.matchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.substituteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capitalizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.includeFacilitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editDistianceMatchingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripFileLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -55,8 +57,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.matchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editDistianceMatchingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.matchButton = new System.Windows.Forms.Button();
+            this.applyButton = new System.Windows.Forms.Button();
+            this.applySubstitutionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +71,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(268, 332);
+            this.textBox1.Size = new System.Drawing.Size(245, 332);
             this.textBox1.TabIndex = 1;
             // 
             // menuStrip1
@@ -123,6 +127,13 @@
             this.saveCSVToolStripMenuItem.Text = "Save CSV 1";
             this.saveCSVToolStripMenuItem.Click += new System.EventHandler(this.OnSaveCsvOne);
             // 
+            // saveCSV2ToolStripMenuItem
+            // 
+            this.saveCSV2ToolStripMenuItem.Name = "saveCSV2ToolStripMenuItem";
+            this.saveCSV2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveCSV2ToolStripMenuItem.Text = "Save CSV 2";
+            this.saveCSV2ToolStripMenuItem.Click += new System.EventHandler(this.OnSaveCsvTwo);
+            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -135,44 +146,45 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExit);
             // 
-            // saveCSV2ToolStripMenuItem
-            // 
-            this.saveCSV2ToolStripMenuItem.Name = "saveCSV2ToolStripMenuItem";
-            this.saveCSV2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saveCSV2ToolStripMenuItem.Text = "Save CSV 2";
-            this.saveCSV2ToolStripMenuItem.Click += new System.EventHandler(this.OnSaveCsvTwo);
-            // 
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.matchToolStripMenuItem,
+            this.applySubstitutionToolStripMenuItem,
             this.substituteToolStripMenuItem,
             this.capitalizeToolStripMenuItem,
             this.toolStripSeparator3,
             this.optionsToolStripMenuItem,
             this.toolStripSeparator2});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
+            // 
+            // matchToolStripMenuItem
+            // 
+            this.matchToolStripMenuItem.Name = "matchToolStripMenuItem";
+            this.matchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.matchToolStripMenuItem.Text = "Match Names";
+            this.matchToolStripMenuItem.Click += new System.EventHandler(this.OnMatchNames);
             // 
             // substituteToolStripMenuItem
             // 
             this.substituteToolStripMenuItem.Name = "substituteToolStripMenuItem";
-            this.substituteToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.substituteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.substituteToolStripMenuItem.Text = "Substitute";
             this.substituteToolStripMenuItem.Click += new System.EventHandler(this.OnSubstituteClick);
             // 
             // capitalizeToolStripMenuItem
             // 
             this.capitalizeToolStripMenuItem.Name = "capitalizeToolStripMenuItem";
-            this.capitalizeToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.capitalizeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.capitalizeToolStripMenuItem.Text = "Capitalize";
             this.capitalizeToolStripMenuItem.Click += new System.EventHandler(this.OnCapitalizeClick);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(124, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // optionsToolStripMenuItem
             // 
@@ -186,14 +198,23 @@
             // includeFacilitiesToolStripMenuItem
             // 
             this.includeFacilitiesToolStripMenuItem.Name = "includeFacilitiesToolStripMenuItem";
-            this.includeFacilitiesToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.includeFacilitiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.includeFacilitiesToolStripMenuItem.Text = "Include Facilities";
             this.includeFacilitiesToolStripMenuItem.Click += new System.EventHandler(this.OnIncludeFacilitiesClick);
+            // 
+            // editDistianceMatchingToolStripMenuItem
+            // 
+            this.editDistianceMatchingToolStripMenuItem.Checked = true;
+            this.editDistianceMatchingToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.editDistianceMatchingToolStripMenuItem.Name = "editDistianceMatchingToolStripMenuItem";
+            this.editDistianceMatchingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editDistianceMatchingToolStripMenuItem.Text = "LCS Matching";
+            this.editDistianceMatchingToolStripMenuItem.Click += new System.EventHandler(this.OnEditDistanceMatching);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(124, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // toolStrip1
             // 
@@ -219,7 +240,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(286, 79);
+            this.textBox2.Location = new System.Drawing.Point(263, 79);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -228,14 +249,14 @@
             // 
             // newTextBox
             // 
-            this.newTextBox.Location = new System.Drawing.Point(1073, 45);
+            this.newTextBox.Location = new System.Drawing.Point(1264, 45);
             this.newTextBox.Name = "newTextBox";
             this.newTextBox.Size = new System.Drawing.Size(126, 20);
             this.newTextBox.TabIndex = 5;
             // 
             // oldTextBox
             // 
-            this.oldTextBox.Location = new System.Drawing.Point(806, 45);
+            this.oldTextBox.Location = new System.Drawing.Point(1049, 45);
             this.oldTextBox.Name = "oldTextBox";
             this.oldTextBox.Size = new System.Drawing.Size(128, 20);
             this.oldTextBox.TabIndex = 6;
@@ -243,7 +264,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(731, 45);
+            this.label1.Location = new System.Drawing.Point(974, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 13);
             this.label1.TabIndex = 7;
@@ -252,7 +273,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(999, 48);
+            this.label2.Location = new System.Drawing.Point(1190, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 8;
@@ -262,13 +283,13 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(12, 430);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(268, 397);
+            this.treeView1.Size = new System.Drawing.Size(245, 397);
             this.treeView1.TabIndex = 9;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.OnTreeOneSelect);
             // 
             // treeView2
             // 
-            this.treeView2.Location = new System.Drawing.Point(286, 430);
+            this.treeView2.Location = new System.Drawing.Point(263, 430);
             this.treeView2.Name = "treeView2";
             this.treeView2.Size = new System.Drawing.Size(264, 397);
             this.treeView2.TabIndex = 10;
@@ -277,7 +298,7 @@
             // columnComboBox
             // 
             this.columnComboBox.FormattingEnabled = true;
-            this.columnComboBox.Location = new System.Drawing.Point(74, 25);
+            this.columnComboBox.Location = new System.Drawing.Point(835, 42);
             this.columnComboBox.Name = "columnComboBox";
             this.columnComboBox.Size = new System.Drawing.Size(121, 21);
             this.columnComboBox.TabIndex = 11;
@@ -286,7 +307,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 28);
+            this.label3.Location = new System.Drawing.Point(782, 42);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 12;
@@ -295,7 +316,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(293, 414);
+            this.label4.Location = new System.Drawing.Point(269, 414);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 13;
@@ -312,32 +333,57 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(594, 79);
+            this.textBox3.Location = new System.Drawing.Point(775, 79);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox3.Size = new System.Drawing.Size(803, 748);
+            this.textBox3.Size = new System.Drawing.Size(622, 748);
             this.textBox3.TabIndex = 15;
             // 
-            // matchToolStripMenuItem
+            // listBox1
             // 
-            this.matchToolStripMenuItem.Name = "matchToolStripMenuItem";
-            this.matchToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.matchToolStripMenuItem.Text = "Match Names";
-            this.matchToolStripMenuItem.Click += new System.EventHandler(this.OnMatchNames);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(543, 79);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.listBox1.Size = new System.Drawing.Size(211, 342);
+            this.listBox1.TabIndex = 16;
             // 
-            // editDistianceMatchingToolStripMenuItem
+            // matchButton
             // 
-            this.editDistianceMatchingToolStripMenuItem.Name = "editDistianceMatchingToolStripMenuItem";
-            this.editDistianceMatchingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.editDistianceMatchingToolStripMenuItem.Text = "LCS Matching";
-            this.editDistianceMatchingToolStripMenuItem.Click += new System.EventHandler(this.OnEditDistanceMatching);
+            this.matchButton.Location = new System.Drawing.Point(12, 27);
+            this.matchButton.Name = "matchButton";
+            this.matchButton.Size = new System.Drawing.Size(89, 23);
+            this.matchButton.TabIndex = 17;
+            this.matchButton.Text = "Match Names";
+            this.matchButton.UseVisualStyleBackColor = true;
+            this.matchButton.Click += new System.EventHandler(this.OnMatchNames);
+            // 
+            // applyButton
+            // 
+            this.applyButton.Location = new System.Drawing.Point(119, 27);
+            this.applyButton.Name = "applyButton";
+            this.applyButton.Size = new System.Drawing.Size(75, 23);
+            this.applyButton.TabIndex = 18;
+            this.applyButton.Text = "Apply ";
+            this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.OnApplySubstitution);
+            // 
+            // applySubstitutionToolStripMenuItem
+            // 
+            this.applySubstitutionToolStripMenuItem.Name = "applySubstitutionToolStripMenuItem";
+            this.applySubstitutionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.applySubstitutionToolStripMenuItem.Text = "Apply Substitution";
+            this.applySubstitutionToolStripMenuItem.Click += new System.EventHandler(this.OnApplySubstitution);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1409, 855);
+            this.Controls.Add(this.applyButton);
+            this.Controls.Add(this.matchButton);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -400,6 +446,10 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ToolStripMenuItem matchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editDistianceMatchingToolStripMenuItem;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button matchButton;
+        private System.Windows.Forms.Button applyButton;
+        private System.Windows.Forms.ToolStripMenuItem applySubstitutionToolStripMenuItem;
     }
 }
 

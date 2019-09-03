@@ -97,6 +97,15 @@ namespace GeoTest3 {
 
         }
 
+        public List<string> ExtractPath {
+            get {
+                char[] separator = new char[] { '\\' };
+                string[] result = fullPath.Split(separator);
+
+                return new List<string>(result);
+            }
+        }
+
 
     }
 
@@ -120,9 +129,21 @@ namespace GeoTest3 {
         public override string ToString() {
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < this.source.Count; i++)
-                sb.Append(this.source[i] + ": " + this.best[i] + " -- " + this.score[i] + "\r\n");
+                sb.Append(ItemString(i) + "\r\n");
 
             return sb.ToString();
+        }
+
+        string ItemString(int i) {
+            return this.source[i] + "\\" + this.best[i] + "\\ -- " + this.score[i];
+
+        }
+
+        public void AddToListBox(ListBox listBox) {
+            listBox.Items.Clear();
+            for (int i = 0; i < this.source.Count; i++)
+                listBox.Items.Add(ItemString(i));
+            listBox.ClearSelected();
         }
     }
 }

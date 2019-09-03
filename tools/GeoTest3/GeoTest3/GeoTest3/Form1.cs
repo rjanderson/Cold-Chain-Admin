@@ -119,7 +119,7 @@ namespace GeoTest3 {
         }
 
         private void OnSubstituteClick(object sender, EventArgs e) {
-            string oldText = this.oldTextBox.Text;
+ /*           string oldText = this.oldTextBox.Text;
             string newText = this.newTextBox.Text;
 
             if (oldText.Equals("") || newText.Equals(""))
@@ -129,7 +129,7 @@ namespace GeoTest3 {
             this.csvTable2.Substitute(newText, oldText, col);
 
             string[] unique = csvTable2.dataColumns[col].UniqueElements();
-            DisplayTextFile(unique, this.textBox3, 100);
+            DisplayTextFile(unique, this.textBox3, 100);  */
         }
 
         private void OnCsvReaderClick(object sender, EventArgs e) {
@@ -207,6 +207,7 @@ namespace GeoTest3 {
             }
             MatchResult result1 = this.nameSet1.CompareNames(nameSet2, this.appOptions.MatchingAlgorithm);
             this.textBox1.Text = result1.ToString();
+            result1.AddToListBox(this.listBox1);
             MatchResult result2 = this.nameSet2.CompareNames(nameSet1, this.appOptions.MatchingAlgorithm);
             this.textBox2.Text = result2.ToString();
         }
@@ -219,6 +220,20 @@ namespace GeoTest3 {
             else {
                 this.appOptions.MatchingAlgorithm = NameSet.Algorithm.Basic;
                 this.editDistianceMatchingToolStripMenuItem.Checked = false;
+            }
+        }
+
+        private void OnApplySubstitution(object sender, EventArgs e) {
+            List<string> path = this.nameSet1.ExtractPath;
+            string columnName = "Admin " + path.Count;
+
+            foreach (int i in this.listBox1.SelectedIndices) {
+                string str = this.listBox1.Items[i].ToString();
+                char[] separator = new char[] { '\\' };
+                string[] values = str.Split(separator);
+                string oldValue = values[1];
+                string newValue = values[0];
+                this.csvTable2.Substitute(path, columnName, oldValue, newValue);
             }
         }
     }
