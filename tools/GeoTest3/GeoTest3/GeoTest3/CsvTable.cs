@@ -18,6 +18,8 @@ namespace GeoTest3 {
         int columns;
         int rows;
         int adminLevels;
+        int maxAdminLevels;
+
         string defaultLevel0;
 
         public CsvColumn[] dataColumns; 
@@ -81,6 +83,7 @@ namespace GeoTest3 {
                 levelString = "Admin " + (levels + 1);
             } while (LookupColumn(levelString) != -1);
             adminLevels = levels;
+            maxAdminLevels = levels;
         }
 
         /*
@@ -96,6 +99,10 @@ namespace GeoTest3 {
         }
         */
 
+        public int MaxAdminLevels {
+            get { return maxAdminLevels; }
+            set { maxAdminLevels = Math.Min(value, adminLevels); }
+        }
         public string[] Headers {
             get { return headers; }
         }
@@ -116,7 +123,7 @@ namespace GeoTest3 {
         public List<string> GetAdminPath(int row) {
             List<string> path = new List<string>();
             path.Add(defaultLevel0);
-            for (int i = 1; i <= adminLevels; i++) {
+            for (int i = 1; i <= maxAdminLevels; i++) {
                 int col = LookupColumn("Admin " + i);
                 if (col == -1)
                     throw new Exception("Admin Column missing in GetAdminPath");
@@ -155,10 +162,10 @@ namespace GeoTest3 {
             return true;
         }
 
-   //     public void Substitute(string newText, string oldText, int col) {
-   //         dataColumns[col].Substitute(newText, oldText );
-   //
-   //     }
+        public void ReplaceText(string newText, string oldText, int col) {
+            dataColumns[col].ReplaceText(newText, oldText);
+
+        }
 
         public string[] CsvFile() {
             List<string> strings = new List<string>();
@@ -193,6 +200,27 @@ namespace GeoTest3 {
             }
             return str;
 
+        }
+
+        public void ExtractTypes(string[] facilityTypes) {
+            int facilityColumn = LookupColumn("Facility");
+            int typeColumn = LookupColumn("Facility Type");
+            if (facilityColumn == -1 || typeColumn == -1)
+                return;
+
+            foreach (string facilityType in facilityTypes) {
+                for (int row = 0; row < Rows; row++) {
+                    string facilityName = dataColumns[facilityColumn].StringAt(row);
+                    if (facilityName.StartsWith(facilityType + " ")) {
+                        string str = facilityName.Substring(facilityType.Length).Trim();
+                        dataColumns[facilityColumn].Assign(row, str);
+                        dataColumns[typeColumn].Assign(row, facilityType);
+                    }
+
+                }
+
+
+            }
         }
     }
 
@@ -239,7 +267,7 @@ namespace GeoTest3 {
             return uniqueStrings.ToArray();
         }
 
-        public void Substitute(string newText, string oldText) {
+        public void ReplaceText(string newText, string oldText) {
             for (int i = 0; i < sData.Length; i++)
                 if (sData[i].Equals(oldText))
                     sData[i] = newText;
