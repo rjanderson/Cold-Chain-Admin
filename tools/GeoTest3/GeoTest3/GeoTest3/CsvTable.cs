@@ -214,11 +214,30 @@ namespace GeoTest3 {
                     if (facilityName.StartsWith(facilityType + " ")) {
                         string str = facilityName.Substring(facilityType.Length).Trim();
                         dataColumns[facilityColumn].Assign(row, str);
-                        dataColumns[typeColumn].Assign(row, facilityType);
+                        string type = dataColumns[typeColumn].StringAt(row);
+                        if (type.Equals("x"))
+                            dataColumns[typeColumn].Assign(row, facilityType);
                     }
                 }
             }
         }
+
+        public void RemoveSuffixes(string[] suffixes) {
+            int facilityColumn = LookupColumn("Facility");
+            if (facilityColumn == -1)
+                return;
+
+            foreach (string suf in suffixes) {
+                for (int row = 0; row < Rows; row++) {
+                    string facilityName = dataColumns[facilityColumn].StringAt(row);
+                    if (facilityName.EndsWith(" "+suf) || facilityName.EndsWith("-" + suf) ){
+                        string str = facilityName.Substring(0, facilityName.Length - suf.Length -1).Trim();
+                        dataColumns[facilityColumn].Assign(row, str);
+                    }
+                }
+            }
+        }
+
 
         public void FilterRows(string columnName, string remove) {
             int col = LookupColumn(columnName);

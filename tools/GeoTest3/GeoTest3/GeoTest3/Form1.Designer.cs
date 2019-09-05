@@ -39,6 +39,7 @@
             this.substituteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capitalizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.extractFaciltiyTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.includeFacilitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,7 +63,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.matchButton = new System.Windows.Forms.Button();
             this.applyButton = new System.Windows.Forms.Button();
-            this.filterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.removeSuffixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -104,47 +105,47 @@
             // loadDistrictsToolStripMenuItem
             // 
             this.loadDistrictsToolStripMenuItem.Name = "loadDistrictsToolStripMenuItem";
-            this.loadDistrictsToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.loadDistrictsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadDistrictsToolStripMenuItem.Text = "Load CSV 1";
             this.loadDistrictsToolStripMenuItem.Click += new System.EventHandler(this.OnCsvOneLoad);
             // 
             // loadCSVToolStripMenuItem
             // 
             this.loadCSVToolStripMenuItem.Name = "loadCSVToolStripMenuItem";
-            this.loadCSVToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.loadCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadCSVToolStripMenuItem.Text = "Load CSV 2";
             this.loadCSVToolStripMenuItem.Click += new System.EventHandler(this.OnLoadCsvTwo);
             // 
             // csvReaderTestToolStripMenuItem
             // 
             this.csvReaderTestToolStripMenuItem.Name = "csvReaderTestToolStripMenuItem";
-            this.csvReaderTestToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.csvReaderTestToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.csvReaderTestToolStripMenuItem.Text = "CsvReader Test";
             this.csvReaderTestToolStripMenuItem.Click += new System.EventHandler(this.OnCsvReaderClick);
             // 
             // saveCSVToolStripMenuItem
             // 
             this.saveCSVToolStripMenuItem.Name = "saveCSVToolStripMenuItem";
-            this.saveCSVToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.saveCSVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveCSVToolStripMenuItem.Text = "Save CSV 1";
             this.saveCSVToolStripMenuItem.Click += new System.EventHandler(this.OnSaveCsvOne);
             // 
             // saveCSV2ToolStripMenuItem
             // 
             this.saveCSV2ToolStripMenuItem.Name = "saveCSV2ToolStripMenuItem";
-            this.saveCSV2ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.saveCSV2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveCSV2ToolStripMenuItem.Text = "Save CSV 2";
             this.saveCSV2ToolStripMenuItem.Click += new System.EventHandler(this.OnSaveCsvTwo);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(150, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnExit);
             // 
@@ -156,12 +157,13 @@
             this.substituteToolStripMenuItem,
             this.capitalizeToolStripMenuItem,
             this.extractFaciltiyTypesToolStripMenuItem,
+            this.removeSuffixToolStripMenuItem,
             this.filterToolStripMenuItem,
             this.toolStripSeparator3,
             this.optionsToolStripMenuItem,
             this.toolStripSeparator2});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // matchToolStripMenuItem
@@ -198,6 +200,13 @@
             this.extractFaciltiyTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.extractFaciltiyTypesToolStripMenuItem.Text = "Extract Faciltiy Types";
             this.extractFaciltiyTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractTypes);
+            // 
+            // filterToolStripMenuItem
+            // 
+            this.filterToolStripMenuItem.Name = "filterToolStripMenuItem";
+            this.filterToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.filterToolStripMenuItem.Text = "Filter Rows";
+            this.filterToolStripMenuItem.Click += new System.EventHandler(this.OnFilterRowClick);
             // 
             // toolStripSeparator3
             // 
@@ -387,12 +396,12 @@
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.OnApplySubstitution);
             // 
-            // filterToolStripMenuItem
+            // removeSuffixToolStripMenuItem
             // 
-            this.filterToolStripMenuItem.Name = "filterToolStripMenuItem";
-            this.filterToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.filterToolStripMenuItem.Text = "Filter Rows";
-            this.filterToolStripMenuItem.Click += new System.EventHandler(this.OnFilterRowClick);
+            this.removeSuffixToolStripMenuItem.Name = "removeSuffixToolStripMenuItem";
+            this.removeSuffixToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.removeSuffixToolStripMenuItem.Text = "Remove Suffices";
+            this.removeSuffixToolStripMenuItem.Click += new System.EventHandler(this.OnRemoveSuffixClick);
             // 
             // Form1
             // 
@@ -470,6 +479,7 @@
         private System.Windows.Forms.ToolStripMenuItem applySubstitutionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractFaciltiyTypesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem filterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem removeSuffixToolStripMenuItem;
     }
 }
 

@@ -21,7 +21,10 @@ namespace GeoTest3 {
         ApplicationOptions appOptions;
 
         string country = "Pakistan";
-        string[] countryFacilities = { "Bhu", "Cd", "Fap", "Rhc" };
+        string[] countryFacilities = { "Bhu", "Cd", "Fap", "Rhc", "Ch", "Chak", "Chc", "Civil Hosp", "Dhq Hosp", "Dhq", "Disp", "Epi Center", "Epi Centre",
+                                        "Epi", "Gd", "Govt Disp", "Mch Center", "Mch", "Thq Hosp", "Thq" };
+        string[] countrySuffixes = { "Fap", "Cd", "Rhc", "Bhu", "Basic Health Unit", "Basic Health Unit." };
+        
 
         public Form1() {
             InitializeComponent();
@@ -83,6 +86,7 @@ namespace GeoTest3 {
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK) {
                     filePath = openFileDialog.FileName;
+
                     var fileStream = openFileDialog.OpenFile();
                     try {
                         csvTable.Load(filePath);
@@ -255,6 +259,12 @@ namespace GeoTest3 {
                 this.csvTable2.FilterRows(columnName, removeString);
             }
 
+        }
+
+        private void OnRemoveSuffixClick(object sender, EventArgs e) {
+            if (this.csvTable2 != null) {
+                this.csvTable2.RemoveSuffixes(this.countrySuffixes);
+            }
         }
     }
 }
