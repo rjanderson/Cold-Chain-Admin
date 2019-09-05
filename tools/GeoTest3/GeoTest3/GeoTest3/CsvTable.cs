@@ -216,11 +216,22 @@ namespace GeoTest3 {
                         dataColumns[facilityColumn].Assign(row, str);
                         dataColumns[typeColumn].Assign(row, facilityType);
                     }
-
                 }
-
-
             }
+        }
+
+        public void FilterRows(string columnName, string remove) {
+            int col = LookupColumn(columnName);
+            if (col == -1)
+                return;
+
+            bool[] cv = dataColumns[col].CharacteristicVector(x => x.Equals(remove));
+
+            for (int i = 0; i < Columns; i++)
+                dataColumns[i] = dataColumns[i].RemoveRows(cv);
+
+            rows = dataColumns[0].Length;
+
         }
     }
 
@@ -231,6 +242,10 @@ namespace GeoTest3 {
         public CsvColumn(List<string> data, string header) {
             this.header = header;
             sData = data.ToArray();            
+        }
+
+        public int Length {
+            get { return sData.Length; }
         }
 
         public void Assign(int row, string str) {
@@ -276,6 +291,24 @@ namespace GeoTest3 {
         public void Capitalize() {
             for (int i = 0; i < sData.Length; i++)
                 sData[i] = Utilities.Capitalize(sData[i]);
+        }
+
+        public bool[] CharacteristicVector(Func<string,bool> func) {
+            bool[] cv = new bool[sData.Length];
+            for (int i = 0; i < sData.Length; i++)
+                cv[i] = func(sData[i]);
+
+            return cv;
+        }
+
+        public CsvColumn RemoveRows(bool[] cv) {
+            List<string> strings = new List<string>();
+
+            for (int i = 0; i < sData.Length; i++)
+                if (cv[i] == false)
+                    strings.Add(sData[i]);
+
+            return new CsvColumn(strings, header);
         }
     }
 }

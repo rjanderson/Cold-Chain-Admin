@@ -247,5 +247,14 @@ namespace GeoTest3 {
                 this.csvTable2.ExtractTypes(this.countryFacilities);
             }
         }
+
+        private void OnFilterRowClick(object sender, EventArgs e) {
+            if (this.csvTable2 != null) {
+                string columnName = this.columnComboBox.Text;
+                string removeString = this.oldTextBox.Text;
+                this.csvTable2.FilterRows(columnName, removeString);
+            }
+
+        }
     }
 }

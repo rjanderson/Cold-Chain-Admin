@@ -38,6 +38,7 @@
             this.applySubstitutionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.substituteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capitalizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.extractFaciltiyTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.includeFacilitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +62,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.matchButton = new System.Windows.Forms.Button();
             this.applyButton = new System.Windows.Forms.Button();
-            this.extractFaciltiyTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -155,6 +156,7 @@
             this.substituteToolStripMenuItem,
             this.capitalizeToolStripMenuItem,
             this.extractFaciltiyTypesToolStripMenuItem,
+            this.filterToolStripMenuItem,
             this.toolStripSeparator3,
             this.optionsToolStripMenuItem,
             this.toolStripSeparator2});
@@ -189,6 +191,13 @@
             this.capitalizeToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.capitalizeToolStripMenuItem.Text = "Capitalize";
             this.capitalizeToolStripMenuItem.Click += new System.EventHandler(this.OnCapitalizeClick);
+            // 
+            // extractFaciltiyTypesToolStripMenuItem
+            // 
+            this.extractFaciltiyTypesToolStripMenuItem.Name = "extractFaciltiyTypesToolStripMenuItem";
+            this.extractFaciltiyTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.extractFaciltiyTypesToolStripMenuItem.Text = "Extract Faciltiy Types";
+            this.extractFaciltiyTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractTypes);
             // 
             // toolStripSeparator3
             // 
@@ -378,12 +387,12 @@
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.OnApplySubstitution);
             // 
-            // extractFaciltiyTypesToolStripMenuItem
+            // filterToolStripMenuItem
             // 
-            this.extractFaciltiyTypesToolStripMenuItem.Name = "extractFaciltiyTypesToolStripMenuItem";
-            this.extractFaciltiyTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.extractFaciltiyTypesToolStripMenuItem.Text = "Extract Faciltiy Types";
-            this.extractFaciltiyTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractTypes);
+            this.filterToolStripMenuItem.Name = "filterToolStripMenuItem";
+            this.filterToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.filterToolStripMenuItem.Text = "Filter Rows";
+            this.filterToolStripMenuItem.Click += new System.EventHandler(this.OnFilterRowClick);
             // 
             // Form1
             // 
@@ -460,6 +469,7 @@
         private System.Windows.Forms.Button applyButton;
         private System.Windows.Forms.ToolStripMenuItem applySubstitutionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractFaciltiyTypesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filterToolStripMenuItem;
     }
 }
 
