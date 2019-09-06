@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace GeoTest3 {
     public class AdminTree {
@@ -144,6 +145,35 @@ namespace GeoTest3 {
         public AdminLevelNode (string name) : base(name) {
 
         }
-
     }
+
+    public class RegionIterator : IEnumerator<AdminTreeNode> {
+
+        Stack<AdminTreeNode> nodeStack;
+
+        public RegionIterator (AdminTree admin) {
+            nodeStack = new Stack<AdminTreeNode>();
+
+
+        }
+
+        public bool MoveNext() {
+            return true;
+        }
+
+        public void Reset() {
+        }
+
+
+        public AdminTreeNode Current {
+            get { return null; }
+        }
+
+        object IEnumerator.Current  {
+            get { return Current; }
+        }
+
+        void IDisposable.Dispose() { }
+    }
+
 }

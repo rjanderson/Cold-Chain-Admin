@@ -253,7 +253,7 @@ namespace GeoTest3 {
         }
 
         private void OnMatchAllFacilities(object sender, EventArgs e) {
-
+            this.facilityManager.MatchAllFacilities(this.csvTable1, this.csvTable2);
         }
     }
 }

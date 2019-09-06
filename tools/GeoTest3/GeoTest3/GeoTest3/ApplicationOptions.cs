@@ -13,15 +13,22 @@ namespace GeoTest3 {
             set { this.inlcudeFacilities = value; }
         }
 
-        public NameSet.Algorithm matchingAlgorithm;
+        private NameSet.Algorithm matchingAlgorithm;
         public NameSet.Algorithm MatchingAlgorithm {
             get { return this.matchingAlgorithm; }
             set { this.matchingAlgorithm = value; }
         }
+
+        private string country;
+        public string Country {
+            get { return this.country; }
+            set { this.country = value; }
+        }
+            
         public ApplicationOptions() {
             this.inlcudeFacilities = false;
             this.matchingAlgorithm = NameSet.Algorithm.LCS;
-
+            this.country = "Pakistan";
         }
     }
 }
