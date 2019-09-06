@@ -47,7 +47,7 @@ namespace GeoTest3 {
                 return;
             AdminTree admin1 = new AdminTree(csv1, applicationOptions.Country);
             AdminTree admin2 = new AdminTree(csv2, applicationOptions.Country);
-            RegionEnumerator adminRegions = new RegionEnumerator(admin1);
+            AdminIterator adminNodes = new AdminIterator(admin1);
 
             // foreach region r1 in csv1
             //    if there is a matching r2 in csv2

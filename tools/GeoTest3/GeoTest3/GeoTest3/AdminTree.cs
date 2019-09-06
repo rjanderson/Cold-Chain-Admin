@@ -17,6 +17,9 @@ namespace GeoTest3 {
             }
         }
 
+        public AdminTreeNode Root {
+            get { return root; }
+        }
         AdminTreeNode root;
 
         public void BuildTreeView(TreeView treeView) {
@@ -147,26 +150,35 @@ namespace GeoTest3 {
         }
     }
 
-    public class RegionIterator : IEnumerator<AdminTreeNode> {
+    public class AdminIterator : IEnumerator<AdminTreeNode> {
 
         Stack<AdminTreeNode> nodeStack;
+        AdminTree adminTree;
 
-        public RegionIterator (AdminTree admin) {
-            nodeStack = new Stack<AdminTreeNode>();
-
-
+        public AdminIterator (AdminTree at) {
+            adminTree = at;
+            nodeStack = null;
         }
 
         public bool MoveNext() {
-            return true;
+            if (nodeStack == null) {
+                nodeStack = new Stack<AdminTreeNode>();
+                nodeStack.Push(adminTree.Root);
+                return true;
+            } else if (nodeStack.Count == 0) {
+                return false;
+            } else {
+                return true;
+            }          
         }
 
         public void Reset() {
+            throw new NotSupportedException();
         }
 
 
         public AdminTreeNode Current {
-            get { return null; }
+            get { return nodeStack.Peek(); }
         }
 
         object IEnumerator.Current  {
