@@ -20,6 +20,11 @@ namespace GeoTest3 {
         AdminTree admin2;
         ApplicationOptions appOptions;
 
+        DisplayManager displayManager;
+        DataCleaner dataCleaner;
+        FacilityManager facilityManager;
+
+
         string country = "Pakistan";
         string[] countryFacilities = { "Bhu", "Cd", "Fap", "Rhc", "Ch", "Chak", "Chc", "Civil Hosp", "Dhq Hosp", "Dhq", "Disp", "Epi Center", "Epi Centre",
                                         "Epi", "Gd", "Govt Disp", "Mch Center", "Mch", "Thq Hosp", "Thq" };
@@ -38,9 +43,19 @@ namespace GeoTest3 {
             this.nameSet2 = new NameSet();
 
             this.appOptions = new ApplicationOptions();
+            this.displayManager = new DisplayManager(this.textBox1, this.textBox2, this.textBox3, this.listBox1, this.treeView1, this.treeView2);
+
+            this.dataCleaner = new DataCleaner(this.displayManager);
+            this.facilityManager = new FacilityManager(this.displayManager, this.appOptions);
+        }
+
+        private void OnExit(object sender, EventArgs e) {
+            Application.Exit();
         }
 
 
+
+        // *** File Management ***
         private void OnCsvOneLoad(object sender, EventArgs e) {
             this.csvTable1 = LoadCsvTable();
             if (this.csvTable1 != null) {
@@ -61,7 +76,7 @@ namespace GeoTest3 {
             if (this.csvTable2 != null) {
 
                 this.csvTable2.MaxAdminLevels = 2;
-                DisplayTextFile(this.csvTable2.CsvFile(), this.textBox3, 100);
+                this.displayManager.DisplayTextFile(this.csvTable2.CsvFile());
                 LoadHeaderComboBox(csvTable2.Headers);
 
                 this.admin2 = new AdminTree(this.csvTable2, country);
@@ -74,8 +89,9 @@ namespace GeoTest3 {
             }
         }
 
+
         private CsvTable LoadCsvTable() {
-             
+
             string filePath = string.Empty;
             CsvTable csvTable = new CsvTable(country);
             using (OpenFileDialog openFileDialog = new OpenFileDialog()) {
@@ -101,78 +117,6 @@ namespace GeoTest3 {
             }
         }
 
-        private void DisplayTextFile(string[] lines, TextBox textBox, int maxLines) {
-            StringBuilder sb = new StringBuilder();
-
-            int max = (lines.Length < maxLines) ? lines.Length : maxLines;
-
-            for (int i = 0; i < max; i++)
-                sb.Append(lines[i] + "\r\n");
-
-            textBox.Text = sb.ToString();
-        }
-
-
-
-        private void OnExit(object sender, EventArgs e) {
-            Application.Exit();
-        }
-
-        
-
-        private void LoadHeaderComboBox(string[] headers) {
-            this.columnComboBox.Items.Clear();
-            for (int i = 0; i < headers.Length; i++)
-                this.columnComboBox.Items.Add(headers[i]);
-        }
-
-        private void OnSubstituteClick(object sender, EventArgs e) {
-           string oldText = this.oldTextBox.Text;
-            string newText = this.newTextBox.Text;
-
-            if (oldText.Equals("") || newText.Equals(""))
-                return;
-
-            int col = this.csvTable2.LookupColumn("Admin 1");
-            this.csvTable2.ReplaceText(newText, oldText, col);
-
-            string[] unique = csvTable2.dataColumns[col].UniqueElements();
-            DisplayTextFile(unique, this.textBox3, 100);   
-        }
-
-        private void OnCsvReaderClick(object sender, EventArgs e) {
-            this.csvTable2 = LoadCsvTable();
-            DisplayTextFile(this.csvTable2.CsvFile(), this.textBox3, 100);
-            this.toolStripFileLabel2.Text = "CSV File: " + Utilities.TruncateString(this.csvTable2.FilePath, 70);
-        }
-
-        private void OnColumnSelected(object sender, EventArgs e) {
-            string header = this.columnComboBox.Text;
-            int column = this.csvTable2.LookupColumn(header);
-            DisplayTextFile(this.csvTable2.dataColumns[column].UniqueElements(), this.textBox3, 20000);
-
-        }
-
-        private void OnCapitalizeClick(object sender, EventArgs e) {
-            string columnName = this.columnComboBox.Text;
-            int column = this.csvTable2.LookupColumn(columnName);
-
-            if (column != -1) {
-                this.csvTable2.dataColumns[column].Capitalize();
-                DisplayTextFile(this.csvTable2.dataColumns[column].UniqueElements(), this.textBox3, 1000);
-            }
-        }
-
-        private void OnIncludeFacilitiesClick(object sender, EventArgs e) {
-            if (this.appOptions.IncludeFacilities) {
-                this.appOptions.IncludeFacilities = false;
-                this.includeFacilitiesToolStripMenuItem.Checked = false;
-            }
-            else {
-                this.appOptions.IncludeFacilities = true;
-                this.includeFacilitiesToolStripMenuItem.Checked = true;
-            }
-        }
 
         private void OnSaveCsvOne(object sender, EventArgs e) {
             SaveCsv(this.csvTable1);
@@ -197,8 +141,44 @@ namespace GeoTest3 {
             }
         }
 
+
+
+
+        // *** Interface Management ***
+        
+
+        private void LoadHeaderComboBox(string[] headers) {
+            this.columnComboBox.Items.Clear();
+            for (int i = 0; i < headers.Length; i++)
+                this.columnComboBox.Items.Add(headers[i]);
+        }
+
+
+
+
+        private void OnColumnSelected(object sender, EventArgs e) {
+            string header = this.columnComboBox.Text;
+            int column = this.csvTable2.LookupColumn(header);
+            this.displayManager.DisplayTextFile(this.csvTable2.dataColumns[column].UniqueElements(), 20000);
+
+        }
+
+  
+
+        private void OnIncludeFacilitiesClick(object sender, EventArgs e) {
+            if (this.appOptions.IncludeFacilities) {
+                this.appOptions.IncludeFacilities = false;
+                this.includeFacilitiesToolStripMenuItem.Checked = false;
+            }
+            else {
+                this.appOptions.IncludeFacilities = true;
+                this.includeFacilitiesToolStripMenuItem.Checked = true;
+            }
+        }
+
         private void OnTreeOneSelect(object sender, TreeViewEventArgs e) {
             this.nameSet1 = new NameSet(this.treeView1.SelectedNode);
+            this.treeView1.SelectedNode.BackColor = Color.PowderBlue;
             this.textBox1.Text = this.nameSet1.ToString();
 
         }
@@ -208,18 +188,7 @@ namespace GeoTest3 {
             this.textBox2.Text = this.nameSet2.ToString();
         }
 
-        private void OnMatchNames(object sender, EventArgs e) {
-            if (!this.nameSet1.FullPath.Equals(this.nameSet2.FullPath)) {
-                MessageBox.Show("Paths do not match for OnMatchNames");
-                return;
-            }
-            MatchResult result1 = this.nameSet1.CompareNames(nameSet2, this.appOptions.MatchingAlgorithm);
-            this.textBox1.Text = result1.ToString();
-
-            MatchResult result2 = this.nameSet2.CompareNames(nameSet1, this.appOptions.MatchingAlgorithm);
-            this.textBox2.Text = result2.ToString();
-            result2.AddToListBox(this.listBox1);
-        }
+ 
 
         private void OnEditDistanceMatching(object sender, EventArgs e) {
             if (this.appOptions.MatchingAlgorithm == NameSet.Algorithm.Basic) {
@@ -232,18 +201,24 @@ namespace GeoTest3 {
             }
         }
 
-        private void OnApplySubstitution(object sender, EventArgs e) {
-            List<string> path = this.nameSet2.ExtractPath;
-            string columnName = "Admin " + path.Count;
+        // *** Data Cleaning ***
 
-            foreach (int i in this.listBox1.SelectedIndices) {
-                string str = this.listBox1.Items[i].ToString();
-                char[] separator = new char[] { '\\' };
-                string[] values = str.Split(separator);
-                string oldValue = values[0];
-                string newValue = values[1];
-                this.csvTable2.Substitute(path, columnName, oldValue, newValue);
-            }
+        private void OnCapitalizeClick(object sender, EventArgs e) {
+            this.dataCleaner.CapitalizeColumn(this.csvTable2, this.columnComboBox.Text);
+        }
+
+        private void OnSubstituteClick(object sender, EventArgs e) {
+            string oldText = this.oldTextBox.Text;
+            string newText = this.newTextBox.Text;
+
+            if (oldText.Equals("") || newText.Equals(""))
+                return;
+
+            int col = this.csvTable2.LookupColumn("Admin 1");
+            this.csvTable2.ReplaceText(newText, oldText, col);
+
+            string[] unique = csvTable2.dataColumns[col].UniqueElements();
+            this.displayManager.DisplayTextFile(unique);
         }
 
         private void OnExtractTypes(object sender, EventArgs e) {
@@ -265,6 +240,20 @@ namespace GeoTest3 {
             if (this.csvTable2 != null) {
                 this.csvTable2.RemoveSuffixes(this.countrySuffixes);
             }
+        }
+
+        // *** FACILITY MANAGEMENT ***
+
+        private void OnMatchNames(object sender, EventArgs e) {
+            this.facilityManager.MatchNames(this.nameSet1, this.nameSet2);
+        }
+
+        private void OnApplySubstitution(object sender, EventArgs e) {
+            this.facilityManager.ApplyNameSubstitutions(this.nameSet2, this.csvTable2, this.listBox1);
+        }
+
+        private void OnMatchAllFacilities(object sender, EventArgs e) {
+
         }
     }
 }

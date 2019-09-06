@@ -54,6 +54,9 @@
     <Compile Include="AdminTree.cs" />
     <Compile Include="ApplicationOptions.cs" />
     <Compile Include="CsvTable.cs" />
+    <Compile Include="DataCleaner.cs" />
+    <Compile Include="DisplayManager.cs" />
+    <Compile Include="FacilityManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
