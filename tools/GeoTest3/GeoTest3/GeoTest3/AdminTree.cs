@@ -44,6 +44,10 @@ namespace GeoTest3 {
 
     public class AdminTreeNode {
         AdminTreeNode parent;
+
+        public AdminNodeCollection Children {
+            get { return children; }
+        }
         AdminNodeCollection children;
 
         public AdminTreeNode() {
@@ -150,7 +154,7 @@ namespace GeoTest3 {
         }
     }
 
-    public class AdminIterator : IEnumerator<AdminTreeNode> {
+    public class AdminIterator : IEnumerator<AdminTreeNode>, IEnumerable<AdminTreeNode> {
 
         Stack<AdminTreeNode> nodeStack;
         AdminTree adminTree;
@@ -168,6 +172,9 @@ namespace GeoTest3 {
             } else if (nodeStack.Count == 0) {
                 return false;
             } else {
+                AdminTreeNode current = nodeStack.Pop();
+                foreach (AdminTreeNode child in current.Children)
+                    nodeStack.Push(child);
                 return true;
             }          
         }
@@ -186,6 +193,14 @@ namespace GeoTest3 {
         }
 
         void IDisposable.Dispose() { }
+
+        IEnumerator IEnumerable.GetEnumerator() {
+            return (IEnumerator<AdminTreeNode>)GetEnumerator();
+        }
+
+        public AdminIterator GetEnumerator() {
+            return new AdminIterator(adminTree);
+        }
     }
 
 }

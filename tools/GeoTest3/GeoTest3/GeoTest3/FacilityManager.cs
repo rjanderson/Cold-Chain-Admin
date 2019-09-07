@@ -48,10 +48,19 @@ namespace GeoTest3 {
             AdminTree admin1 = new AdminTree(csv1, applicationOptions.Country);
             AdminTree admin2 = new AdminTree(csv2, applicationOptions.Country);
             AdminIterator adminNodes = new AdminIterator(admin1);
+            IteratorTest(adminNodes);
 
             // foreach region r1 in csv1
             //    if there is a matching r2 in csv2
             //    Build Name Sets
+        }
+
+        private void IteratorTest(AdminIterator adminNodes) {
+            List<string> strings = new List<string>();
+
+            foreach (AdminTreeNode node in adminNodes) {
+
+            }
         }
     }
 }
