@@ -26,7 +26,7 @@ namespace GeoTest3 {
         }
             
         public ApplicationOptions() {
-            this.inlcudeFacilities = false;
+            this.inlcudeFacilities = true;
             this.matchingAlgorithm = NameSet.Algorithm.LCS;
             this.country = "Pakistan";
         }

@@ -46,9 +46,13 @@ namespace GeoTest3 {
             int max = (lines.Length < maxLines) ? lines.Length : maxLines;
 
             for (int i = 0; i < max; i++)
-                sb.Append(lines[i] + "\r\n");
+                sb.Append(i + ": " + lines[i] + "\r\n");
 
             this.textBox3.Text = sb.ToString();
+        }
+
+        public void DisplayTextFile(List<string> lines, int maxLines = 100) {
+            DisplayTextFile(lines.ToArray(), maxLines);
         }
 
     }

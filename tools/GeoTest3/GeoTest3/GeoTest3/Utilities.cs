@@ -55,6 +55,12 @@ namespace GeoTest3 {
             return lcs[str1.Length, str2.Length];
         }
 
+        public static List<string> PathStringToList(string pathString) {
+            char[] separator = new char[] { '\\' };
+            string[] result = pathString.Split(separator);
+            return new List<string>(result);
+        }
+
 
     }
 }

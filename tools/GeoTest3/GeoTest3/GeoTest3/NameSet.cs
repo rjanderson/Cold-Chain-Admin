@@ -20,8 +20,8 @@ namespace GeoTest3 {
             get { return this.names; }
         }
 
-        public NameSet() {
-            this.fullPath = "";
+        public NameSet(string path = "") {
+            this.fullPath = path;
             this.names = new List<string>();
         }
         public NameSet(TreeNode treeNode) {
@@ -40,10 +40,14 @@ namespace GeoTest3 {
             return sb.ToString();
         }
 
+        public void AddName(string name) {
+            this.names.Add(name);
+        }
 
 
-        public MatchResult CompareNames(NameSet target, Algorithm alg = Algorithm.Basic) {
-            MatchResult result = null;
+
+        public MatchResultSet CompareNames(NameSet target, Algorithm alg = Algorithm.Basic) {
+            MatchResultSet result = null;
 
             switch (alg) {
                 case Algorithm.Basic:
@@ -59,8 +63,8 @@ namespace GeoTest3 {
             return result;
         }
 
-        MatchResult Basic(NameSet target) {
-            MatchResult result = new MatchResult();
+        MatchResultSet Basic(NameSet target) {
+            MatchResultSet result = new MatchResultSet();
 
             foreach (string str1 in this.names) {
                 int index = target.Names.IndexOf(str1);
@@ -72,8 +76,8 @@ namespace GeoTest3 {
             return result;
         }
 
-        MatchResult LongestCommonSubsequence(NameSet target) {
-            MatchResult result = new MatchResult();
+        MatchResultSet LongestCommonSubsequence(NameSet target) {
+            MatchResultSet result = new MatchResultSet();
 
             foreach (string str1 in this.names) {
                 int index = target.Names.IndexOf(str1);
@@ -97,24 +101,38 @@ namespace GeoTest3 {
 
         }
 
-        public List<string> ExtractPath {
-            get {
-                char[] separator = new char[] { '\\' };
-                string[] result = fullPath.Split(separator);
-
-                return new List<string>(result);
+        public MatchResult FindBestMatch(string name) {
+            string best = "";
+            int score = 0;
+            foreach (string str in this.Names) {
+                if (name == str) {
+                    best = str;
+                    score = 100;
+                } else {
+                    int lcs = Utilities.LcsLength(name, str);
+                    if (lcs > score) {
+                        score = lcs;
+                        best = str;
+                    }
+                }
             }
+
+            return new MatchResult(name, best, score);
+        }
+
+        public List<string> ExtractPath {
+            get {  return Utilities.PathStringToList(fullPath);  }
         }
 
 
     }
 
-    public class MatchResult {
+    public class MatchResultSet {
         List<string> source;
         List<string> best;
         List<int> score;
 
-        public MatchResult() {
+        public MatchResultSet() {
             this.source = new List<string>();
             this.best = new List<string>();
             this.score = new List<int>();
@@ -146,4 +164,34 @@ namespace GeoTest3 {
             listBox.ClearSelected();
         }
     }
+
+    public class MatchResult {
+        string source;
+        string best;
+        int score;
+
+        public string Source {
+            get { return source; }
+        }
+
+        public string Best {
+            get { return best; }
+        }
+
+        public int Score {
+            get { return score; }
+        }
+
+        public MatchResult(string source, string best, int score) {
+            this.source = source;
+            this.best = best;
+            this.score = score;
+        }
+
+        public override string ToString() {
+            return source  + " : " + best + "\\ -- " + score;
+        }
+    }
+
+
 }
