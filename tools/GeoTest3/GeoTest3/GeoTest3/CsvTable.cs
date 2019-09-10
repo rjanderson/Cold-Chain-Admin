@@ -86,19 +86,6 @@ namespace GeoTest3 {
             maxAdminLevels = levels;
         }
 
-        /*
-        private void createTextDocument() {
-            textDocument = new string[rows + 1];
-            textDocument[0] = headerString();
-            for (int i = 0; i < rows; i++)
-                textDocument[i + 1] = rowString(i);
-
-        }
-        public string[] TextDocument {
-            get { return textDocument; }
-        }
-        */
-
         public int MaxAdminLevels {
             get { return maxAdminLevels; }
             set { maxAdminLevels = Math.Min(value, adminLevels); }
@@ -138,6 +125,34 @@ namespace GeoTest3 {
                 if (headers[i].Equals(str))
                     return i;
             return -1;
+        }
+
+        public string StringAt(string column, int row) {
+            int col = LookupColumn(column);
+            if (col == -1)
+                return "";
+            else
+                return dataColumns[col].StringAt(row);
+        }
+
+        public void Assign(string column, int row, string val) {
+            int col = LookupColumn(column);
+            if (col == -1)
+                return;
+            else
+                dataColumns[col].Assign(row, val);
+        }
+
+        public List<int> LookupFacilities(string pathString, string name) {
+            List<int> indices = new List<int>();
+            List<string> pathList = Utilities.PathStringToList(pathString);
+            int facilityColumn = LookupColumn("Facility");
+
+            for (int i = 0; i < Rows; i++)
+                if (AdminMatch(pathList, i) && dataColumns[facilityColumn].StringAt(i) == name)
+                    indices.Add(i);
+
+            return indices;
         }
 
         public void Substitute(List<string> parentPath, string columnName, string oldValue, string newValue) {

@@ -40,6 +40,8 @@
             this.substituteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capitalizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.extractFaciltiyTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.extractSuffixTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.removePrefixesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removeSuffixToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -65,8 +67,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.matchButton = new System.Windows.Forms.Button();
             this.applyButton = new System.Windows.Forms.Button();
-            this.removePrefixesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.extractSuffixTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facilityJoinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -148,6 +149,7 @@
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.matchAllFacilitiesToolStripMenuItem,
+            this.facilityJoinToolStripMenuItem,
             this.matchToolStripMenuItem,
             this.applySubstitutionToolStripMenuItem,
             this.toolStripSeparator4,
@@ -162,7 +164,7 @@
             this.optionsToolStripMenuItem,
             this.toolStripSeparator2});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // matchAllFacilitiesToolStripMenuItem
@@ -211,6 +213,20 @@
             this.extractFaciltiyTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.extractFaciltiyTypesToolStripMenuItem.Text = "Extract Faciltiy Types";
             this.extractFaciltiyTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractTypes);
+            // 
+            // extractSuffixTypesToolStripMenuItem
+            // 
+            this.extractSuffixTypesToolStripMenuItem.Name = "extractSuffixTypesToolStripMenuItem";
+            this.extractSuffixTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.extractSuffixTypesToolStripMenuItem.Text = "Extract Suffix Types";
+            this.extractSuffixTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractSuffixTypes);
+            // 
+            // removePrefixesToolStripMenuItem
+            // 
+            this.removePrefixesToolStripMenuItem.Name = "removePrefixesToolStripMenuItem";
+            this.removePrefixesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.removePrefixesToolStripMenuItem.Text = "Remove Prefixes";
+            this.removePrefixesToolStripMenuItem.Click += new System.EventHandler(this.OnRemovePrefixes);
             // 
             // removeSuffixToolStripMenuItem
             // 
@@ -416,19 +432,12 @@
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.OnApplySubstitution);
             // 
-            // removePrefixesToolStripMenuItem
+            // facilityJoinToolStripMenuItem
             // 
-            this.removePrefixesToolStripMenuItem.Name = "removePrefixesToolStripMenuItem";
-            this.removePrefixesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.removePrefixesToolStripMenuItem.Text = "Remove Prefixes";
-            this.removePrefixesToolStripMenuItem.Click += new System.EventHandler(this.OnRemovePrefixes);
-            // 
-            // extractSuffixTypesToolStripMenuItem
-            // 
-            this.extractSuffixTypesToolStripMenuItem.Name = "extractSuffixTypesToolStripMenuItem";
-            this.extractSuffixTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.extractSuffixTypesToolStripMenuItem.Text = "Extract Suffix Types";
-            this.extractSuffixTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractSuffixTypes);
+            this.facilityJoinToolStripMenuItem.Name = "facilityJoinToolStripMenuItem";
+            this.facilityJoinToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.facilityJoinToolStripMenuItem.Text = "Facility Join";
+            this.facilityJoinToolStripMenuItem.Click += new System.EventHandler(this.OnFacilityJoin);
             // 
             // Form1
             // 
@@ -510,6 +519,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem removePrefixesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractSuffixTypesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facilityJoinToolStripMenuItem;
     }
 }
 

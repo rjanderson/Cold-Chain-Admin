@@ -128,39 +128,39 @@ namespace GeoTest3 {
     }
 
     public class MatchResultSet {
-        List<string> source;
-        List<string> best;
-        List<int> score;
-
+        List<MatchResult>  results;
+        public List<MatchResult> Results {
+            get { return results; }
+        }
+       
         public MatchResultSet() {
-            this.source = new List<string>();
-            this.best = new List<string>();
-            this.score = new List<int>();
+            this.results = new List<MatchResult>();
         }
 
         public void Add(string s, string b, int i) {
-            this.source.Add(s);
-            this.best.Add(b);
-            this.score.Add(i);
+            this.results.Add(new MatchResult(s, b, i));
+        }
+
+        public void Add(MatchResult result) {
+            this.results.Add(result);
         }
 
         public override string ToString() {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < this.source.Count; i++)
-                sb.Append(ItemString(i) + "\r\n");
-
+            foreach (MatchResult result in results)
+                sb.Append(result.ToString() + "\r\n");
             return sb.ToString();
         }
 
         string ItemString(int i) {
-            return this.source[i] + "\\" + this.best[i] + "\\ -- " + this.score[i];
+            return this.results[i].ToString();
 
         }
 
         public void AddToListBox(ListBox listBox) {
             listBox.Items.Clear();
-            for (int i = 0; i < this.source.Count; i++)
-                listBox.Items.Add(ItemString(i));
+            foreach (MatchResult result in results)
+                listBox.Items.Add(result.ToString());
             listBox.ClearSelected();
         }
     }
@@ -169,6 +169,11 @@ namespace GeoTest3 {
         string source;
         string best;
         int score;
+        string fullPath;
+        public string FullPath {
+            get { return fullPath; }
+            set { fullPath = value; }
+        }
 
         public string Source {
             get { return source; }

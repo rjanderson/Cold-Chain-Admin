@@ -20,6 +20,8 @@ namespace GeoTest3 {
         AdminTree admin2;
         ApplicationOptions appOptions;
 
+        MatchResultSet matchResults;
+
         DisplayManager displayManager;
         DataCleaner dataCleaner;
         FacilityManager facilityManager;
@@ -35,7 +37,7 @@ namespace GeoTest3 {
         string[] countryPrefixes1 = { "Civil Disp", "Civil Dispensary", "Civil Hospital", "Dhq Hospital", "Dhq", "Dispensary", "First Aid Post", "Govt. Dispensary", "Govt. Hospital",
                                         "Govt. Mch Center", "Govt. Mch Centre", "Govt Mch Ctr", "Govt. Rural Dispensary", "Maternal & Child Health Centre", "Mch Center", "Mch Centre", "Shc",
                                         "Thq Hospital"};
-        string[] countrySuffixes2 = { "Civil Hospital", "Mch Ctr", "Govt. Mch Ctr" };
+        string[] countrySuffixes2 = { "Civil Hospital", "Mch Ctr", "Govt. Mch Ctr", "Dispensary" };
 
 
 
@@ -273,9 +275,11 @@ namespace GeoTest3 {
         }
 
         private void OnMatchAllFacilities(object sender, EventArgs e) {
-            this.facilityManager.MatchAllFacilities(this.csvTable1, this.csvTable2);
+            this.matchResults = this.facilityManager.MatchAllFacilities(this.csvTable1, this.csvTable2);
         }
 
-  
+        private void OnFacilityJoin(object sender, EventArgs e) {
+            this.facilityManager.FacilityJoin(this.matchResults, this.csvTable1, this.csvTable2);
+        }
     }
 }
