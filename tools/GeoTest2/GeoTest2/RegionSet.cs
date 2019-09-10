@@ -36,7 +36,7 @@ namespace GeoTest2 {
         }
 
         public string[] Names() {
-                 string[] names = new string[this.Count];
+                string[] names = new string[this.Count];
                 for (int i = 0; i < this.Count; i++)
                     names[i] = this[i].ToString();           
 
@@ -60,7 +60,8 @@ namespace GeoTest2 {
 
                 int levels = Levels;
                 for (int i = 0; i <= levels; i++)
-                    str += "Admin Level " + i + ",";
+                    str += "Admin " + i + ",";
+                str += "Latitude,Longitude";
 
                 return str;
             }

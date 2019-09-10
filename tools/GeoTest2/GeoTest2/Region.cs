@@ -60,10 +60,9 @@ namespace GeoTest2 {
             string result = "";
 
             for (int i = 0; i <= levels; i++) {
-                result += adminNames[i];
-                if (i < levels)
-                    result += ",";
+                result += adminNames[i] + ",";
             }
+            result += Center.Y.ToString() + "," + Center.X.ToString();   // Latitude,  Longitude
             return result;
         }
 
@@ -122,9 +121,17 @@ namespace GeoTest2 {
             boundary.Display(g, scale, translate);
         }
 
-        public RectangleF Bounds
-        {
+        public RectangleF Bounds {  
             get { return boundary.Bounds; }
+        }
+
+        public PointF Center {
+            get {
+                double midX = boundary.Bounds.X + boundary.Bounds.Width / 2.0;
+                double midY = boundary.Bounds.Y + boundary.Bounds.Height / 2.0;
+
+                return new PointF((float) midX, (float) midY);
+            }
         }
 
   
