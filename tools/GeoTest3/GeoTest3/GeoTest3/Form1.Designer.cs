@@ -65,6 +65,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.matchButton = new System.Windows.Forms.Button();
             this.applyButton = new System.Windows.Forms.Button();
+            this.removePrefixesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.extractSuffixTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -152,6 +154,8 @@
             this.substituteToolStripMenuItem,
             this.capitalizeToolStripMenuItem,
             this.extractFaciltiyTypesToolStripMenuItem,
+            this.extractSuffixTypesToolStripMenuItem,
+            this.removePrefixesToolStripMenuItem,
             this.removeSuffixToolStripMenuItem,
             this.filterToolStripMenuItem,
             this.toolStripSeparator3,
@@ -241,7 +245,7 @@
             this.includeFacilitiesToolStripMenuItem.Checked = true;
             this.includeFacilitiesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.includeFacilitiesToolStripMenuItem.Name = "includeFacilitiesToolStripMenuItem";
-            this.includeFacilitiesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.includeFacilitiesToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.includeFacilitiesToolStripMenuItem.Text = "Include Facilities";
             this.includeFacilitiesToolStripMenuItem.Click += new System.EventHandler(this.OnIncludeFacilitiesClick);
             // 
@@ -250,7 +254,7 @@
             this.editDistianceMatchingToolStripMenuItem.Checked = true;
             this.editDistianceMatchingToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.editDistianceMatchingToolStripMenuItem.Name = "editDistianceMatchingToolStripMenuItem";
-            this.editDistianceMatchingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editDistianceMatchingToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.editDistianceMatchingToolStripMenuItem.Text = "LCS Matching";
             this.editDistianceMatchingToolStripMenuItem.Click += new System.EventHandler(this.OnEditDistanceMatching);
             // 
@@ -412,6 +416,20 @@
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.OnApplySubstitution);
             // 
+            // removePrefixesToolStripMenuItem
+            // 
+            this.removePrefixesToolStripMenuItem.Name = "removePrefixesToolStripMenuItem";
+            this.removePrefixesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.removePrefixesToolStripMenuItem.Text = "Remove Prefixes";
+            this.removePrefixesToolStripMenuItem.Click += new System.EventHandler(this.OnRemovePrefixes);
+            // 
+            // extractSuffixTypesToolStripMenuItem
+            // 
+            this.extractSuffixTypesToolStripMenuItem.Name = "extractSuffixTypesToolStripMenuItem";
+            this.extractSuffixTypesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.extractSuffixTypesToolStripMenuItem.Text = "Extract Suffix Types";
+            this.extractSuffixTypesToolStripMenuItem.Click += new System.EventHandler(this.OnExtractSuffixTypes);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -490,6 +508,8 @@
         private System.Windows.Forms.ToolStripMenuItem removeSuffixToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem matchAllFacilitiesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripMenuItem removePrefixesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem extractSuffixTypesToolStripMenuItem;
     }
 }
 

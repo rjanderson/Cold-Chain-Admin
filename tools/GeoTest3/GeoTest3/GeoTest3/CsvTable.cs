@@ -222,6 +222,26 @@ namespace GeoTest3 {
             }
         }
 
+        public void ExtractSuffixTypes(string[] facilityTypes) {
+            int facilityColumn = LookupColumn("Facility");
+            int typeColumn = LookupColumn("Facility Type");
+            if (facilityColumn == -1 || typeColumn == -1)
+                return;
+
+            foreach (string facilityType in facilityTypes) {
+                for (int row = 0; row < Rows; row++) {
+                    string facilityName = dataColumns[facilityColumn].StringAt(row);
+                    if (facilityName.EndsWith(" " + facilityType)) {
+                        string str = facilityName.Substring(0, facilityName.Length - facilityType.Length -1).Trim();
+                        dataColumns[facilityColumn].Assign(row, str);
+                        string type = dataColumns[typeColumn].StringAt(row);
+                        if (type.Equals("x"))
+                            dataColumns[typeColumn].Assign(row, facilityType);
+                    }
+                }
+            }
+        }
+
         public void RemoveSuffixes(string[] suffixes) {
             int facilityColumn = LookupColumn("Facility");
             if (facilityColumn == -1)
@@ -232,6 +252,22 @@ namespace GeoTest3 {
                     string facilityName = dataColumns[facilityColumn].StringAt(row);
                     if (facilityName.EndsWith(" "+suf) || facilityName.EndsWith("-" + suf) ){
                         string str = facilityName.Substring(0, facilityName.Length - suf.Length -1).Trim();
+                        dataColumns[facilityColumn].Assign(row, str);
+                    }
+                }
+            }
+        }
+
+        public void RemovePrefixes(string[] prefixes) {
+            int facilityColumn = LookupColumn("Facility");
+            if (facilityColumn == -1)
+                return;
+
+            foreach (string pre in prefixes) {
+                for (int row = 0; row < Rows; row++) {
+                    string facilityName = dataColumns[facilityColumn].StringAt(row);
+                    if (facilityName.StartsWith(pre + " ") || facilityName.StartsWith(pre + ".")  || facilityName.StartsWith(pre + "-")) {
+                        string str = facilityName.Substring(pre.Length + 1).Trim();
                         dataColumns[facilityColumn].Assign(row, str);
                     }
                 }

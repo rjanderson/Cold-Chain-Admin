@@ -27,9 +27,17 @@ namespace GeoTest3 {
 
         string country = "Pakistan";
         string[] countryFacilities = { "Bhu", "Cd", "Fap", "Rhc", "Ch", "Chak", "Chc", "Civil Hosp", "Dhq Hosp", "Dhq", "Disp", "Epi Center", "Epi Centre",
-                                        "Epi", "Gd", "Govt Disp", "Mch Center", "Mch", "Thq Hosp", "Thq" };
+                                        "Epi", "Gd", "Govt Disp", "Mch Center", "Mch", "Thq Hosp", "Thq", "Tehsil Store" };
+        string[] countrySuffixFacilities = { "District Store", "Province Store" };
         string[] countrySuffixes = { "Fap", "Cd", "Rhc", "Bhu", "Basic Health Unit", "Basic Health Unit." };
-        
+        string[] countryPrefixes = { "Mch Centre", "Mnch Centre",  "Govt Disp", "C. D", "G. D" };
+        string[] countrySuffixes1 = { "Civil Hospital", "Mch Ctr", "Govt. Mch Ctr" };
+        string[] countryPrefixes1 = { "Civil Disp", "Civil Dispensary", "Civil Hospital", "Dhq Hospital", "Dhq", "Dispensary", "First Aid Post", "Govt. Dispensary", "Govt. Hospital",
+                                        "Govt. Mch Center", "Govt. Mch Centre", "Govt Mch Ctr", "Govt. Rural Dispensary", "Maternal & Child Health Centre", "Mch Center", "Mch Centre", "Shc",
+                                        "Thq Hospital"};
+        string[] countrySuffixes2 = { "Civil Hospital", "Mch Ctr", "Govt. Mch Ctr" };
+
+
 
         public Form1() {
             InitializeComponent();
@@ -227,6 +235,12 @@ namespace GeoTest3 {
             }
         }
 
+        private void OnExtractSuffixTypes(object sender, EventArgs e) {
+            if (this.csvTable2 != null) {
+                this.csvTable2.ExtractSuffixTypes(this.countrySuffixFacilities);
+            }
+        }
+
         private void OnFilterRowClick(object sender, EventArgs e) {
             if (this.csvTable2 != null) {
                 string columnName = this.columnComboBox.Text;
@@ -238,7 +252,13 @@ namespace GeoTest3 {
 
         private void OnRemoveSuffixClick(object sender, EventArgs e) {
             if (this.csvTable2 != null) {
-                this.csvTable2.RemoveSuffixes(this.countrySuffixes);
+                this.csvTable2.RemoveSuffixes(this.countrySuffixes2);
+            }
+        }
+
+        private void OnRemovePrefixes(object sender, EventArgs e) {
+            if (this.csvTable2 != null) {
+                this.csvTable2.RemovePrefixes(this.countryPrefixes1);
             }
         }
 
@@ -255,5 +275,7 @@ namespace GeoTest3 {
         private void OnMatchAllFacilities(object sender, EventArgs e) {
             this.facilityManager.MatchAllFacilities(this.csvTable1, this.csvTable2);
         }
+
+  
     }
 }
