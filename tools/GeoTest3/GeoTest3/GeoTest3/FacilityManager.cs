@@ -79,7 +79,7 @@ namespace GeoTest3 {
             if (result.Score == 100)
                 return true;
 
-            if (result.Score >= name.Length -2)
+            if (result.Score >= name.Length - 2)
                 return true;
 
             return false;
@@ -98,7 +98,7 @@ namespace GeoTest3 {
                 List<int> indices2 = csv2.LookupFacilities(path, fac2);
                 foreach (int row1 in indices1) {
                     foreach (int row2 in indices2) {
-                        UpdateColumns(row1, csv1, row2, csv2); 
+                        UpdateColumns(row1, csv1, row2, csv2);
                     }
                 }
 
@@ -116,11 +116,32 @@ namespace GeoTest3 {
                 csv1.Assign("Link", row1, uid2);
                 csv1.Assign("Match", row1, fac2);
                 csv1.Assign("Latitude", row1, lat2);
-                csv1.Assign("Longitude", row1, long2);            
+                csv1.Assign("Longitude", row1, long2);
 
             }
-            
+
         }
-   
-    }
+
+        // Fill in missing coordinates in Table 1 using district information from Table 2
+        public void AddDistrictCoords(CsvTable csv1, CsvTable csv2) {
+            if (csv1 == null || csv2 == null)
+                return;
+
+            for (int row1 = 0; row1 < csv1.Rows; row1++) {
+                if (csv1.StringAt("Match", row1) == "x") {
+                    for (int row2 = 0; row2 < csv2.Rows; row2++) {
+                        if (csv1.StringAt("Admin 1", row1) == csv2.StringAt("Admin 1", row2) &&
+                            csv1.StringAt("Admin 2", row1) == csv2.StringAt("Admin 2", row2)) {
+                            string lat2 = csv2.StringAt("Latitude", row2);
+                            string long2 = csv2.StringAt("Longitude", row2);
+                            csv1.Assign("Latitude", row1, lat2);
+                            csv1.Assign("Longitude", row1, long2);
+                            csv1.Assign("Match", row1, "District");
+                        }
+                    }
+                }
+            }
+        }
+
+    }    
 }

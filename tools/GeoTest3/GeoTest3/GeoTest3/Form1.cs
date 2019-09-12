@@ -281,5 +281,9 @@ namespace GeoTest3 {
         private void OnFacilityJoin(object sender, EventArgs e) {
             this.facilityManager.FacilityJoin(this.matchResults, this.csvTable1, this.csvTable2);
         }
+
+        private void OnAddDistrictCoords(object sender, EventArgs e) {
+            this.facilityManager.AddDistrictCoords(this.csvTable1, this.csvTable2);
+        }
     }
 }

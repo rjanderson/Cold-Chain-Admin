@@ -34,6 +34,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.matchAllFacilitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facilityJoinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.matchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.applySubstitutionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
@@ -67,7 +68,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.matchButton = new System.Windows.Forms.Button();
             this.applyButton = new System.Windows.Forms.Button();
-            this.facilityJoinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addDistrictCoordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -150,6 +151,7 @@
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.matchAllFacilitiesToolStripMenuItem,
             this.facilityJoinToolStripMenuItem,
+            this.addDistrictCoordsToolStripMenuItem,
             this.matchToolStripMenuItem,
             this.applySubstitutionToolStripMenuItem,
             this.toolStripSeparator4,
@@ -173,6 +175,13 @@
             this.matchAllFacilitiesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.matchAllFacilitiesToolStripMenuItem.Text = "Match All Facilities";
             this.matchAllFacilitiesToolStripMenuItem.Click += new System.EventHandler(this.OnMatchAllFacilities);
+            // 
+            // facilityJoinToolStripMenuItem
+            // 
+            this.facilityJoinToolStripMenuItem.Name = "facilityJoinToolStripMenuItem";
+            this.facilityJoinToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.facilityJoinToolStripMenuItem.Text = "Facility Join";
+            this.facilityJoinToolStripMenuItem.Click += new System.EventHandler(this.OnFacilityJoin);
             // 
             // matchToolStripMenuItem
             // 
@@ -432,12 +441,12 @@
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.OnApplySubstitution);
             // 
-            // facilityJoinToolStripMenuItem
+            // addDistrictCoordsToolStripMenuItem
             // 
-            this.facilityJoinToolStripMenuItem.Name = "facilityJoinToolStripMenuItem";
-            this.facilityJoinToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.facilityJoinToolStripMenuItem.Text = "Facility Join";
-            this.facilityJoinToolStripMenuItem.Click += new System.EventHandler(this.OnFacilityJoin);
+            this.addDistrictCoordsToolStripMenuItem.Name = "addDistrictCoordsToolStripMenuItem";
+            this.addDistrictCoordsToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.addDistrictCoordsToolStripMenuItem.Text = "Add District Coords";
+            this.addDistrictCoordsToolStripMenuItem.Click += new System.EventHandler(this.OnAddDistrictCoords);
             // 
             // Form1
             // 
@@ -520,6 +529,7 @@
         private System.Windows.Forms.ToolStripMenuItem removePrefixesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractSuffixTypesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem facilityJoinToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addDistrictCoordsToolStripMenuItem;
     }
 }
 
